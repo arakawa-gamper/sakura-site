@@ -1,0 +1,33 @@
+---
+import Base from '../layouts/Base.astro';
+import PageHead from '../components/PageHead.astro';
+import site from '../data/site.json';
+import { t, type Lang } from '../lib/i18n';
+const { lang } = Astro.props as { lang: Lang };
+const d = t(lang);
+const r = d.reserve;
+---
+<Base lang={lang} page="reserve" title={d.seo.reserve.title} description={d.seo.reserve.description}>
+  <PageHead title={r.title} lead={r.lead} />
+  <section class="section">
+    <div class="wrap">
+      <div class="reserve-grid">
+        <div>
+          <h2>{r.onlineTitle}</h2>
+          <p>{r.onlineBody}</p>
+          <a class="btn btn-primary" href={site.reservationUrl} target="_blank" rel="noopener">{d.ui.reserve}</a>
+        </div>
+        <div>
+          <h2>{r.phoneTitle}</h2>
+          <p>{r.phoneBody}</p>
+          <a class="tel-big" href={`tel:${site.phoneIntl}`}>{site.phone}</a>
+          {lang !== 'ja' && <span class="tel-intl">International: {site.phoneIntlDisplay}</span>}
+        </div>
+      </div>
+      <div class="note-box">
+        <h3>{r.notesTitle}</h3>
+        <ul class="plain-list">{r.notes.map((n) => <li>{n}</li>)}</ul>
+      </div>
+    </div>
+  </section>
+</Base>

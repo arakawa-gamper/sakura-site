@@ -1,0 +1,166 @@
+---
+import Base from '../layouts/Base.astro';
+import CourseRow from '../components/CourseRow.astro';
+import InfoList from '../components/InfoList.astro';
+import TaxiCard from '../components/TaxiCard.astro';
+import MapLinks from '../components/MapLinks.astro';
+import site from '../data/site.json';
+import menu from '../data/menu.json';
+import { t, pagePath, withBase, pick, type Lang } from '../lib/i18n';
+
+const { lang } = Astro.props as { lang: Lang };
+const d = t(lang);
+const h = d.home;
+const featured = menu.items.filter((i) => i.featured).slice(0, 3);
+const prices = menu.items.filter((i) => i.category !== 'alacarte').map((i) => i.price);
+
+const jsonLd = {
+  '@context': 'https://schema.org',
+  '@type': 'Restaurant',
+  name: pick(site.name, lang),
+  alternateName: [site.name.ja, site.name.en],
+  url: new URL(pagePath(lang, 'home'), Astro.site).href,
+  image: new URL(withBase('images/hero.jpg'), Astro.site).href,
+  telephone: site.phoneIntlDisplay,
+  servesCuisine: ['Japanese', 'Sukiyaki', 'Shabu-shabu', 'Wagyu'],
+  priceRange: site.priceRange,
+  acceptsReservations: true,
+  address: {
+    '@type': 'PostalAddress',
+    streetAddress: site.streetAddressEn,
+    addressLocality: site.locality,
+    addressRegion: site.region,
+    postalCode: site.postalCode,
+    addressCountry: 'JP',
+  },
+  geo: { '@type': 'GeoCoordinates', latitude: site.geo.lat, longitude: site.geo.lng },
+  openingHoursSpecification: site.openingHoursSpec.map((o) => ({ '@type': 'OpeningHoursSpecification', ...o })),
+  hasMenu: new URL(pagePath(lang, 'menu'), Astro.site).href,
+  paymentAccepted: site.payments.join(', '),
+  currenciesAccepted: 'JPY',
+  makesOffer: { '@type': 'AggregateOffer', priceCurrency: 'JPY', lowPrice: Math.min(...prices), highPrice: Math.max(...prices) },
+};
+---
+<Base lang={lang} page="home" title={d.seo.home.title} description={d.seo.home.description} jsonLd={jsonLd}>
+  <section class="hero on-dark" aria-labelledby="hero-title">
+    <div class="hero-media">
+      <img src={withBase('images/hero.jpg')} alt="" width="1800" height="1200" fetchpriority="high" decoding="async" />
+    </div>
+    <div class="hero-band" lang="ja" aria-hidden="true">
+      <span class="band-main">和牛すき焼き</span>
+      <span class="band-sub">しゃぶしゃぶ</span>
+      <span class="band-en">SAKURA</span>
+    </div>
+    <div class="hero-copy">
+      <h1 id="hero-title">{h.heroTitle}</h1>
+      <p>{h.heroLead}</p>
+      <div class="hero-actions">
+        <a class="btn btn-primary" href={pagePath(lang, 'reserve')}>{d.ui.reserve}</a>
+        <a class="btn btn-ghost" href={pagePath(lang, 'menu')}>{d.ui.viewMenu}</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="feature on-dark" aria-labelledby="concept-title">
+    <img src={withBase('images/concept.jpg')} alt="" width="1800" height="1100" loading="lazy" decoding="async" />
+    <div class="wrap">
+      <div class="feature-body">
+        <h2 id="concept-title">{h.conceptTitle}</h2>
+        {h.introBody.map((p) => <p>{p}</p>)}
+      </div>
+    </div>
+  </section>
+
+  <section class="section" aria-labelledby="styles-title">
+    <div class="wrap">
+      <div class="section-head">
+        <h2 id="styles-title">{h.stylesTitle}</h2>
+        <p>{h.stylesLead}</p>
+      </div>
+      <div class="styles-grid">
+        {(['sukiyaki', 'shabushabu'] as const).map((k) => (
+          <article class="style-col">
+            <img src={withBase(`images/${k}.jpg`)} alt="" width="1200" height="800" loading="lazy" decoding="async" />
+            <h3>{h[k].name}</h3>
+            <p>{h[k].body}</p>
+            <dl><dt>{h.tasteLabel}</dt><dd>{h[k].taste}</dd></dl>
+          </article>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <section class="section" aria-labelledby="courses-title">
+    <div class="wrap">
+      <div class="section-head">
+        <h2 id="courses-title">{h.coursesTitle}</h2>
+        <p>{d.menu.lead}</p>
+      </div>
+      <ul class="course-list">
+        {featured.map((item) => <CourseRow item={item} lang={lang} showCategory />)}
+      </ul>
+      <p class="more-link"><a class="btn btn-ink" href={pagePath(lang, 'menu')}>{d.ui.viewMenu}</a></p>
+    </div>
+  </section>
+
+  <section class="feature is-right on-dark" aria-labelledby="banquet-title">
+    <img src={withBase('images/banquet.jpg')} alt="" width="1800" height="1100" loading="lazy" decoding="async" />
+    <div class="wrap">
+      <div class="feature-body">
+        <h2 id="banquet-title">{h.banquetTitle}</h2>
+        <p>{h.banquetBody}</p>
+        <a class="btn btn-primary" href={pagePath(lang, 'banquet')}>{h.banquetCta}</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" aria-labelledby="seats-title">
+    <div class="wrap">
+      <div class="section-head"><h2 id="seats-title">{d.banquet.seatsTitle}</h2></div>
+      <div class="seat-grid">
+        {d.banquet.seats.map((seat, i) => (
+          <article class="seat">
+            <img src={withBase(`images/seat-${i + 1}.jpg`)} alt={seat.name} width="1000" height="1250" loading="lazy" decoding="async" />
+            <h3>{seat.name}</h3>
+            <p class="capacity">{seat.capacity}</p>
+            <p>{seat.body}</p>
+          </article>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <section class="band on-dark" aria-labelledby="first-title">
+    <div class="wrap">
+      <div>
+        <h2 id="first-title">{h.firstTitle}</h2>
+        <p>{h.firstBody}</p>
+      </div>
+      <a class="btn btn-ghost" href={pagePath(lang, 'guide')}>{d.ui.viewGuide}</a>
+    </div>
+  </section>
+
+  <section class="section" aria-labelledby="gallery-title">
+    <div class="wrap">
+      <div class="section-head"><h2 id="gallery-title">{h.galleryTitle}</h2></div>
+      <div class="gallery">
+        {h.galleryAlt.map((alt, i) => (
+          <figure><img src={withBase(`images/gallery-${i + 1}.jpg`)} alt={alt} width="1200" height="900" loading="lazy" decoding="async" /></figure>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <section class="section" aria-labelledby="info-title">
+    <div class="wrap">
+      <div class="section-head"><h2 id="info-title">{h.infoTitle}</h2></div>
+      <div class="info-grid">
+        <InfoList lang={lang} />
+        <div>
+          {lang !== 'ja' && <TaxiCard lang={lang} />}
+          <div style={lang !== 'ja' ? 'margin-top:1.5rem' : ''}><MapLinks lang={lang} /></div>
+        </div>
+      </div>
+    </div>
+  </section>
+</Base>

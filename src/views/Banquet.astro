@@ -1,0 +1,62 @@
+---
+import Base from '../layouts/Base.astro';
+import CourseRow from '../components/CourseRow.astro';
+import site from '../data/site.json';
+import menu from '../data/menu.json';
+import { t, pagePath, withBase, type Lang } from '../lib/i18n';
+const { lang } = Astro.props as { lang: Lang };
+const d = t(lang);
+const b = d.banquet;
+const plans = menu.items.filter((i) => i.category === 'banquet');
+---
+<Base lang={lang} page="banquet" title={d.seo.banquet.title} description={d.seo.banquet.description}>
+  <section class="feature on-dark" aria-labelledby="page-title">
+    <img src={withBase('images/banquet.jpg')} alt="" width="1800" height="1100" fetchpriority="high" decoding="async" />
+    <div class="wrap">
+      <div class="feature-body">
+        <h1 id="page-title">{b.title}</h1>
+        <p style="margin-top:1.5rem">{b.lead}</p>
+        <a class="btn btn-primary" href={pagePath(lang, 'reserve')}>{d.ui.reserve}</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="section" aria-labelledby="seats-title">
+    <div class="wrap">
+      <div class="section-head"><h2 id="seats-title">{b.seatsTitle}</h2></div>
+      <div class="seat-grid">
+        {b.seats.map((seat, i) => (
+          <article class="seat">
+            <img src={withBase(`images/seat-${i + 1}.jpg`)} alt={seat.name} width="1000" height="1250" loading="lazy" decoding="async" />
+            <h3>{seat.name}</h3>
+            <p class="capacity">{seat.capacity}</p>
+            <p>{seat.body}</p>
+          </article>
+        ))}
+      </div>
+    </div>
+  </section>
+
+  <section class="section" aria-labelledby="plans-title">
+    <div class="wrap">
+      <div class="section-head">
+        <h2 id="plans-title">{b.plansTitle}</h2>
+        <p>{b.plansLead}</p>
+      </div>
+      <ul class="course-list">
+        {plans.map((item) => <CourseRow item={item} lang={lang} />)}
+      </ul>
+    </div>
+  </section>
+
+  <section class="band" aria-labelledby="charter-title">
+    <div class="wrap">
+      <div>
+        <h2 id="charter-title">{b.charterTitle}</h2>
+        <p>{b.charterBody}</p>
+        <p class="muted" style="margin-top:0.5rem">{b.contact}</p>
+      </div>
+      <a class="btn btn-primary" href={`tel:${site.phoneIntl}`}>{d.ui.call} {lang === 'ja' ? site.phone : site.phoneIntlDisplay}</a>
+    </div>
+  </section>
+</Base>

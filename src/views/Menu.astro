@@ -1,0 +1,25 @@
+---
+import Base from '../layouts/Base.astro';
+import PageHead from '../components/PageHead.astro';
+import CourseRow from '../components/CourseRow.astro';
+import menu from '../data/menu.json';
+import { t, type Lang } from '../lib/i18n';
+const { lang } = Astro.props as { lang: Lang };
+const d = t(lang);
+const cats = ['sukiyaki', 'shabushabu', 'banquet', 'alacarte'] as const;
+---
+<Base lang={lang} page="menu" title={d.seo.menu.title} description={d.seo.menu.description}>
+  <PageHead title={d.menu.title} lead={d.menu.lead} />
+  <section class="section">
+    <div class="wrap">
+      <div class="filter" data-filter hidden role="group" aria-label={d.menu.title}>
+        <button type="button" data-value="all" aria-pressed="true">{d.ui.all}</button>
+        {cats.map((c) => <button type="button" data-value={c} aria-pressed="false">{d.categories[c]}</button>)}
+      </div>
+      <ul class="course-list">
+        {menu.items.map((item) => <CourseRow item={item} lang={lang} showCategory />)}
+      </ul>
+      <p class="muted" style="margin-top:1.5rem">{d.menu.note}</p>
+    </div>
+  </section>
+</Base>
