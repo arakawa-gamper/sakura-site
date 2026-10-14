@@ -1,0 +1,29 @@
+---
+import { t, pick, yen, withBase, type Lang } from '../lib/i18n';
+interface Props { item: any; lang: Lang; showCategory?: boolean }
+const { item, lang, showCategory = false } = Astro.props;
+const d = t(lang);
+const allergens = d.allergens as Record<string, string>;
+const cats = d.categories as Record<string, string>;
+const priceNote = lang === 'ja' ? `${d.ui.perPerson}・${d.ui.taxIncl}`
+  : lang.startsWith('zh') ? `${d.ui.perPerson}（${d.ui.taxIncl}）`
+  : `${d.ui.perPerson}, ${d.ui.taxIncl}`;
+---
+<li class="course" data-cat={item.category}>
+  <img src={withBase('images/' + item.image)} alt={pick(item.name, lang)} width="800" height="600" loading="lazy" decoding="async" />
+  <div>
+    {showCategory && <p class="course-cat">{cats[item.category]}</p>}
+    <h3>{pick(item.name, lang)}</h3>
+    <p>{pick(item.desc, lang)}</p>
+    <ul class="allergen-list" aria-label={d.ui.allergens}>
+      <li class="label">{d.ui.allergens}:</li>
+      {item.allergens.length
+        ? item.allergens.map((a: string) => <li>{allergens[a] ?? a}</li>)
+        : <li>{d.ui.noAllergens}</li>}
+    </ul>
+  </div>
+  <p class="price">
+    <strong>{yen(item.price)}</strong>
+    <small>{priceNote}</small>
+  </p>
+</li>

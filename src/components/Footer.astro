@@ -1,0 +1,31 @@
+---
+import site from '../data/site.json';
+import { LANGS, t, pagePath, pick, type Lang, type PageKey } from '../lib/i18n';
+interface Props { lang: Lang }
+const { lang } = Astro.props;
+const d = t(lang);
+const navPages: PageKey[] = ['home', 'menu', 'banquet', 'guide', 'access', 'faq', 'reserve'];
+const addr = lang === 'ja' ? site.address.ja : site.address.en;
+const year = new Date().getFullYear();
+---
+<footer class="site-footer on-dark">
+  <div class="wrap">
+    <div class="footer-grid">
+      <div>
+        <p class="footer-name">Sakura</p>
+        <p>{pick(site.name, lang)}</p>
+        <p>{addr}</p>
+        <p><a href={`tel:${site.phoneIntl}`}>{lang === 'ja' ? site.phone : site.phoneIntlDisplay}</a></p>
+      </div>
+      <nav aria-label={d.nav.home}>
+        <h2>{site.shortName}</h2>
+        <ul>{navPages.map((p) => <li><a href={pagePath(lang, p)}>{d.nav[p]}</a></li>)}</ul>
+      </nav>
+      <div>
+        <h2>{d.ui.language}</h2>
+        <ul>{LANGS.map((l) => <li><a href={pagePath(l, 'home')} lang={t(l).lang.html} hreflang={t(l).lang.html}>{t(l).lang.label}</a></li>)}</ul>
+      </div>
+    </div>
+    <p class="copyright">© {year} {site.name.en}</p>
+  </div>
+</footer>

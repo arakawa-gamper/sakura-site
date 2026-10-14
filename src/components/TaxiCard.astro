@@ -1,0 +1,14 @@
+---
+import site from '../data/site.json';
+import { t, type Lang } from '../lib/i18n';
+interface Props { lang: Lang }
+const { lang } = Astro.props;
+const d = t(lang);
+---
+<div class="taxi-card">
+  <h3>{d.access.taxiTitle}</h3>
+  <p class="taxi-note">{d.access.taxiNote}</p>
+  <p class="taxi-addr" lang="ja">{site.address.ja}</p>
+  <p class="taxi-name" lang="ja">{site.name.ja}</p>
+  <p class="taxi-tel" lang="ja">TEL {site.phone}</p>
+</div>

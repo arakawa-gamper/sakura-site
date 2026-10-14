@@ -1,0 +1,107 @@
+{
+  "_説明": "店舗の基本情報です。【仮】や[placeholder]と書かれた項目を実際の情報に書き換えてください。",
+  "name": {
+    "ja": "和牛すき焼きしゃぶしゃぶ Sakura",
+    "en": "Wagyu Sukiyaki & Shabu-Shabu Sakura",
+    "zh-hans": "和牛寿喜烧・涮涮锅 Sakura",
+    "zh-hant": "和牛壽喜燒・涮涮鍋 Sakura",
+    "ko": "와규 스키야키·샤부샤부 사쿠라"
+  },
+  "shortName": "Sakura",
+  "phone": "03-0000-0000",
+  "phoneIntl": "+81300000000",
+  "phoneIntlDisplay": "+81-3-0000-0000",
+  "address": {
+    "ja": "〒000-0000 東京都○○区○○ 1-2-3 ○○ビル 2F【仮】",
+    "en": "2F XX Bldg., 1-2-3 XX, XX-ku, Tokyo 000-0000, Japan [placeholder]"
+  },
+  "postalCode": "000-0000",
+  "streetAddressEn": "2F XX Bldg., 1-2-3 XX",
+  "locality": "XX-ku",
+  "region": "Tokyo",
+  "geo": {
+    "lat": 35.6812,
+    "lng": 139.7671
+  },
+  "station": {
+    "ja": "○○駅 A1出口より徒歩3分【仮】",
+    "en": "3 min walk from XX Station, Exit A1 [placeholder]",
+    "zh-hans": "XX站A1出口步行3分钟【暂定】",
+    "zh-hant": "XX站A1出口步行3分鐘【暫定】",
+    "ko": "XX역 A1 출구에서 도보 3분 [임시]"
+  },
+  "hours": [
+    {
+      "days": {
+        "ja": "月〜金",
+        "en": "Mon–Fri",
+        "zh-hans": "周一至周五",
+        "zh-hant": "週一至週五",
+        "ko": "월~금"
+      },
+      "time": "17:00–22:30",
+      "lastOrder": "21:30"
+    },
+    {
+      "days": {
+        "ja": "土・日・祝",
+        "en": "Sat, Sun & holidays",
+        "zh-hans": "周六、周日及节假日",
+        "zh-hant": "週六、週日及假日",
+        "ko": "토·일·공휴일"
+      },
+      "time": "11:30–14:30 / 17:00–22:00",
+      "lastOrder": "13:30 / 21:00"
+    }
+  ],
+  "openingHoursSpec": [
+    {
+      "dayOfWeek": [
+        "Monday",
+        "Tuesday",
+        "Wednesday",
+        "Thursday",
+        "Friday"
+      ],
+      "opens": "17:00",
+      "closes": "22:30"
+    },
+    {
+      "dayOfWeek": [
+        "Saturday",
+        "Sunday"
+      ],
+      "opens": "11:30",
+      "closes": "14:30"
+    },
+    {
+      "dayOfWeek": [
+        "Saturday",
+        "Sunday"
+      ],
+      "opens": "17:00",
+      "closes": "22:00"
+    }
+  ],
+  "closed": {
+    "ja": "年末年始【仮】",
+    "en": "New Year holidays [placeholder]",
+    "zh-hans": "年末年初【暂定】",
+    "zh-hant": "年末年初【暫定】",
+    "ko": "연말연시 [임시]"
+  },
+  "seats": 40,
+  "priceRange": "¥¥¥",
+  "payments": [
+    "Visa",
+    "Mastercard",
+    "JCB",
+    "American Express",
+    "UnionPay",
+    "Alipay",
+    "WeChat Pay",
+    "PayPay"
+  ],
+  "reservationUrl": "https://example.com/reserve-placeholder",
+  "instagram": "https://www.instagram.com/"
+}

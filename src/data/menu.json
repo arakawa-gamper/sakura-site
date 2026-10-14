@@ -1,0 +1,213 @@
+{
+  "_説明": "メニューと価格です。price は税込価格（数字のみ）。image は public/images/ 内のファイル名。allergens は egg / wheat / milk / soy / sesame / beef / shrimp から選びます。featured を true にするとトップページに表示されます（3件まで）。",
+  "items": [
+    {
+      "id": "sukiyaki-kiwami",
+      "category": "sukiyaki",
+      "featured": true,
+      "image": "course-sukiyaki-kiwami.jpg",
+      "price": 16500,
+      "allergens": [
+        "egg",
+        "wheat",
+        "soy",
+        "beef"
+      ],
+      "name": {
+        "ja": "すき焼き 極コース",
+        "en": "Sukiyaki Kiwami Course",
+        "zh-hans": "寿喜烧 极致套餐",
+        "zh-hant": "壽喜燒 極致套餐",
+        "ko": "스키야키 키와미 코스"
+      },
+      "desc": {
+        "ja": "A5ランク黒毛和牛のサーロインを、一枚ずつ割下で焼き上げます。前菜、季節の野菜、〆の卵かけごはん、甘味付き。",
+        "en": "A5-grade Kuroge Wagyu sirloin, cooked slice by slice in our house warishita sauce. With starters, seasonal vegetables, egg over rice to finish, and dessert.",
+        "zh-hans": "A5级黑毛和牛西冷，以秘制酱汁逐片烹煮。含前菜、时令蔬菜、收尾的生鸡蛋拌饭及甜品。",
+        "zh-hant": "A5級黑毛和牛西冷，以秘製醬汁逐片烹煮。含前菜、時令蔬菜、收尾的生雞蛋拌飯及甜品。",
+        "ko": "A5 등급 흑모와규 등심을 특제 와리시타 소스에 한 장씩 구워 드립니다. 전채, 제철 채소, 마무리 달걀밥, 디저트 포함."
+      }
+    },
+    {
+      "id": "sukiyaki-sakura",
+      "category": "sukiyaki",
+      "featured": true,
+      "image": "course-sukiyaki-sakura.jpg",
+      "price": 9900,
+      "allergens": [
+        "egg",
+        "wheat",
+        "soy",
+        "beef"
+      ],
+      "name": {
+        "ja": "すき焼き 桜コース",
+        "en": "Sukiyaki Sakura Course",
+        "zh-hans": "寿喜烧 樱花套餐",
+        "zh-hant": "壽喜燒 櫻花套餐",
+        "ko": "스키야키 사쿠라 코스"
+      },
+      "desc": {
+        "ja": "黒毛和牛の肩ロースとモモの食べ比べ。はじめての方にもおすすめの定番コースです。",
+        "en": "A tasting of Kuroge Wagyu chuck and round. Our classic course, and a good place to start.",
+        "zh-hans": "黑毛和牛肩里脊与腿肉对比品尝，初次来店的首选经典套餐。",
+        "zh-hant": "黑毛和牛肩里脊與腿肉對比品嚐，初次來店的首選經典套餐。",
+        "ko": "흑모와규 목심과 우둔살을 비교하며 즐기는 기본 코스. 처음 오신 분께 추천합니다."
+      }
+    },
+    {
+      "id": "shabu-kiwami",
+      "category": "shabushabu",
+      "featured": true,
+      "image": "course-shabu-kiwami.jpg",
+      "price": 15400,
+      "allergens": [
+        "wheat",
+        "soy",
+        "sesame",
+        "beef"
+      ],
+      "name": {
+        "ja": "しゃぶしゃぶ 極コース",
+        "en": "Shabu-Shabu Kiwami Course",
+        "zh-hans": "涮涮锅 极致套餐",
+        "zh-hant": "涮涮鍋 極致套餐",
+        "ko": "샤부샤부 키와미 코스"
+      },
+      "desc": {
+        "ja": "昆布だしにくぐらせる、A5ランク黒毛和牛のロース。自家製ごまだれとポン酢で。〆は雑炊またはうどん。",
+        "en": "A5-grade Kuroge Wagyu loin, swished through kombu broth. Served with house sesame sauce and ponzu. Finish with rice porridge or udon.",
+        "zh-hans": "A5级黑毛和牛里脊，在昆布高汤中轻涮。搭配自制芝麻酱与柚子醋，收尾可选杂烩粥或乌冬面。",
+        "zh-hant": "A5級黑毛和牛里脊，在昆布高湯中輕涮。搭配自製芝麻醬與柚子醋，收尾可選雜炊粥或烏冬。",
+        "ko": "다시마 육수에 살짝 담가 먹는 A5 등급 흑모와규 등심. 수제 참깨 소스와 폰즈를 곁들입니다. 마무리는 죽 또는 우동."
+      }
+    },
+    {
+      "id": "shabu-sakura",
+      "category": "shabushabu",
+      "featured": false,
+      "image": "course-shabu-sakura.jpg",
+      "price": 8800,
+      "allergens": [
+        "wheat",
+        "soy",
+        "sesame",
+        "beef"
+      ],
+      "name": {
+        "ja": "しゃぶしゃぶ 桜コース",
+        "en": "Shabu-Shabu Sakura Course",
+        "zh-hans": "涮涮锅 樱花套餐",
+        "zh-hant": "涮涮鍋 櫻花套餐",
+        "ko": "샤부샤부 사쿠라 코스"
+      },
+      "desc": {
+        "ja": "さっぱりと味わえる黒毛和牛の肩ロースを、季節の野菜とともに。",
+        "en": "Kuroge Wagyu chuck, light and clean-tasting, with seasonal vegetables.",
+        "zh-hans": "口感清爽的黑毛和牛肩里脊，搭配时令蔬菜。",
+        "zh-hant": "口感清爽的黑毛和牛肩里脊，搭配時令蔬菜。",
+        "ko": "산뜻하게 즐기는 흑모와규 목심과 제철 채소."
+      }
+    },
+    {
+      "id": "extra-wagyu",
+      "category": "alacarte",
+      "featured": false,
+      "image": "alacarte-wagyu.jpg",
+      "price": 3300,
+      "allergens": [
+        "beef"
+      ],
+      "name": {
+        "ja": "追加 黒毛和牛（100g）",
+        "en": "Extra Kuroge Wagyu (100g)",
+        "zh-hans": "加点 黑毛和牛（100克）",
+        "zh-hant": "加點 黑毛和牛（100克）",
+        "ko": "추가 흑모와규 (100g)"
+      },
+      "desc": {
+        "ja": "どのコースにもお肉を追加できます。",
+        "en": "Add more beef to any course.",
+        "zh-hans": "可为任意套餐追加牛肉。",
+        "zh-hant": "可為任意套餐追加牛肉。",
+        "ko": "어느 코스에나 고기를 추가할 수 있습니다."
+      }
+    },
+    {
+      "id": "sake-set",
+      "category": "alacarte",
+      "featured": false,
+      "image": "alacarte-sake.jpg",
+      "price": 2200,
+      "allergens": [],
+      "name": {
+        "ja": "日本酒 飲み比べセット",
+        "en": "Sake Tasting Flight",
+        "zh-hans": "日本酒 品鉴组合",
+        "zh-hant": "日本酒 品鑑組合",
+        "ko": "니혼슈 비교 시음 세트"
+      },
+      "desc": {
+        "ja": "すき焼きに合う地酒を3種。",
+        "en": "Three regional sakes chosen to pair with sukiyaki.",
+        "zh-hans": "三款与寿喜烧相配的地方清酒。",
+        "zh-hant": "三款與壽喜燒相配的地方清酒。",
+        "ko": "스키야키와 어울리는 지역 사케 3종."
+      }
+    },
+    {
+      "id": "banquet-sukiyaki",
+      "category": "banquet",
+      "featured": false,
+      "image": "banquet-sukiyaki.jpg",
+      "price": 12000,
+      "allergens": [
+        "egg",
+        "wheat",
+        "soy",
+        "beef"
+      ],
+      "name": {
+        "ja": "宴会 すき焼きプラン",
+        "en": "Group Sukiyaki Plan",
+        "zh-hans": "宴会 寿喜烧套餐",
+        "zh-hant": "宴會 壽喜燒套餐",
+        "ko": "연회 스키야키 플랜"
+      },
+      "desc": {
+        "ja": "黒毛和牛のすき焼きに前菜、〆、甘味。2時間飲み放題付き。6名様より。",
+        "en": "Kuroge Wagyu sukiyaki with starters, a rice or noodle finish, and dessert. 2 hours of all-you-can-drink. 6 guests minimum.",
+        "zh-hans": "黑毛和牛寿喜烧，含前菜、收尾主食及甜品，2小时畅饮。6位起订。",
+        "zh-hant": "黑毛和牛壽喜燒，包前菜、收尾主食及甜品，2小時任飲。6位起。",
+        "ko": "흑모와규 스키야키에 전채, 마무리 식사, 디저트. 2시간 무제한 음료 포함. 6명부터."
+      }
+    },
+    {
+      "id": "banquet-shabu",
+      "category": "banquet",
+      "featured": false,
+      "image": "banquet-shabu.jpg",
+      "price": 11000,
+      "allergens": [
+        "wheat",
+        "soy",
+        "sesame",
+        "beef"
+      ],
+      "name": {
+        "ja": "宴会 しゃぶしゃぶプラン",
+        "en": "Group Shabu-Shabu Plan",
+        "zh-hans": "宴会 涮涮锅套餐",
+        "zh-hant": "宴會 涮涮鍋套餐",
+        "ko": "연회 샤부샤부 플랜"
+      },
+      "desc": {
+        "ja": "黒毛和牛のしゃぶしゃぶに前菜、〆、甘味。2時間飲み放題付き。6名様より。",
+        "en": "Kuroge Wagyu shabu-shabu with starters, a rice or noodle finish, and dessert. 2 hours of all-you-can-drink. 6 guests minimum.",
+        "zh-hans": "黑毛和牛涮涮锅，含前菜、收尾主食及甜品，2小时畅饮。6位起订。",
+        "zh-hant": "黑毛和牛涮涮鍋，包前菜、收尾主食及甜品，2小時任飲。6位起。",
+        "ko": "흑모와규 샤부샤부에 전채, 마무리 식사, 디저트. 2시간 무제한 음료 포함. 6명부터."
+      }
+    }
+  ]
+}

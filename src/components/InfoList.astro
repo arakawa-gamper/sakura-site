@@ -1,0 +1,31 @@
+---
+import site from '../data/site.json';
+import { t, pick, type Lang } from '../lib/i18n';
+interface Props { lang: Lang }
+const { lang } = Astro.props;
+const d = t(lang);
+const addr = lang === 'ja' ? site.address.ja : site.address.en;
+---
+<dl class="info-list">
+  <dt>{d.ui.hours}</dt>
+  <dd>
+    {site.hours.map((h) => (
+      <div class="hours-row">
+        <strong>{pick(h.days, lang)}</strong> {h.time}<br />
+        <span class="muted">{d.ui.lastOrder} {h.lastOrder}</span>
+      </div>
+    ))}
+  </dd>
+  <dt>{d.ui.closed}</dt>
+  <dd>{pick(site.closed, lang)}</dd>
+  <dt>{d.ui.address}</dt>
+  <dd>{addr}</dd>
+  <dt>{d.ui.station}</dt>
+  <dd>{pick(site.station, lang)}</dd>
+  <dt>{d.ui.phone}</dt>
+  <dd><a href={`tel:${site.phoneIntl}`}>{lang === 'ja' ? site.phone : site.phoneIntlDisplay}</a></dd>
+  <dt>{d.ui.seats}</dt>
+  <dd>{site.seats} {d.ui.seatsUnit}</dd>
+  <dt>{d.ui.payments}</dt>
+  <dd><ul class="pay-list">{site.payments.map((p) => <li>{p}</li>)}</ul></dd>
+</dl>
