@@ -1,6 +1,6 @@
 ---
 import site from '../data/site.json';
-import { LANGS, t, pagePath, type Lang, type PageKey } from '../lib/i18n';
+import { LANGS, t, pagePath, withBase, type Lang, type PageKey } from '../lib/i18n';
 interface Props { lang: Lang; page: PageKey | null }
 const { lang, page } = Astro.props;
 const d = t(lang);
@@ -9,8 +9,11 @@ const navPages: PageKey[] = ['menu', 'banquet', 'guide', 'access', 'faq', 'reser
 <header class="site-header">
   <div class="wrap header-inner">
     <a class="logo" href={pagePath(lang, 'home')} aria-label={site.name[lang]}>
-      <span class="logo-en">Sakura</span>
-      <span class="logo-jp jp-mark" lang="ja">和牛すき焼きしゃぶしゃぶ</span>
+      <img class="logo-mark" src={withBase('images/logo.jpg')} alt="" width="528" height="537" />
+      <span class="logo-text" lang="ja">
+        <span class="logo-jp jp-mark">和牛すき焼きしゃぶしゃぶ</span>
+        <span class="logo-en">Sakura <span class="logo-branch">名古屋店</span></span>
+      </span>
     </a>
     <nav class="site-nav" id="site-nav" aria-label={d.ui.openMenu}>
       <ul class="nav-list">

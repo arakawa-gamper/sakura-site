@@ -1,6 +1,6 @@
 ---
 import site from '../data/site.json';
-import { LANGS, t, pagePath, pick, type Lang, type PageKey } from '../lib/i18n';
+import { LANGS, t, pagePath, pick, withBase, type Lang, type PageKey } from '../lib/i18n';
 interface Props { lang: Lang }
 const { lang } = Astro.props;
 const d = t(lang);
@@ -12,7 +12,7 @@ const year = new Date().getFullYear();
   <div class="wrap">
     <div class="footer-grid">
       <div>
-        <p class="footer-name">Sakura</p>
+        <img class="footer-logo" src={withBase('images/logo.jpg')} alt={site.name.ja} width="528" height="537" loading="lazy" />
         <p>{pick(site.name, lang)}</p>
         <p>{addr}</p>
         <p><a href={`tel:${site.phoneIntl}`}>{lang === 'ja' ? site.phone : site.phoneIntlDisplay}</a></p>

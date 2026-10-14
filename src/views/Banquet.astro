@@ -7,7 +7,7 @@ import { t, pagePath, withBase, type Lang } from '../lib/i18n';
 const { lang } = Astro.props as { lang: Lang };
 const d = t(lang);
 const b = d.banquet;
-const plans = menu.items.filter((i) => i.category === 'banquet');
+const plans = menu.items.filter((i) => i.category !== 'unkai');
 ---
 <Base lang={lang} page="banquet" title={d.seo.banquet.title} description={d.seo.banquet.description}>
   <section class="feature on-dark" aria-labelledby="page-title">
@@ -34,6 +34,7 @@ const plans = menu.items.filter((i) => i.category === 'banquet');
           </article>
         ))}
       </div>
+      <p class="muted" style="margin-top:1.5rem">{d.banquet.seatsNote}</p>
     </div>
   </section>
 

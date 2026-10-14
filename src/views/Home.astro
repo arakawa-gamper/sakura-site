@@ -12,13 +12,12 @@ const { lang } = Astro.props as { lang: Lang };
 const d = t(lang);
 const h = d.home;
 const featured = menu.items.filter((i) => i.featured).slice(0, 3);
-const prices = menu.items.filter((i) => i.category !== 'alacarte').map((i) => i.price);
+const prices = menu.items.map((i) => i.price);
 
 const jsonLd = {
   '@context': 'https://schema.org',
   '@type': 'Restaurant',
   name: pick(site.name, lang),
-  alternateName: [site.name.ja, site.name.en],
   url: new URL(pagePath(lang, 'home'), Astro.site).href,
   image: new URL(withBase('images/hero.jpg'), Astro.site).href,
   telephone: site.phoneIntlDisplay,
@@ -46,10 +45,8 @@ const jsonLd = {
     <div class="hero-media">
       <img src={withBase('images/hero.jpg')} alt="" width="1800" height="1200" fetchpriority="high" decoding="async" />
     </div>
-    <div class="hero-band" lang="ja" aria-hidden="true">
-      <span class="band-main">和牛すき焼き</span>
-      <span class="band-sub">しゃぶしゃぶ</span>
-      <span class="band-en">SAKURA</span>
+    <div class="hero-logo">
+      <img src={withBase('images/logo.jpg')} alt={site.name.ja} width="528" height="537" />
     </div>
     <div class="hero-copy">
       <h1 id="hero-title">{h.heroTitle}</h1>
@@ -127,6 +124,7 @@ const jsonLd = {
           </article>
         ))}
       </div>
+      <p class="muted" style="margin-top:1.5rem">{d.banquet.seatsNote}</p>
     </div>
   </section>
 

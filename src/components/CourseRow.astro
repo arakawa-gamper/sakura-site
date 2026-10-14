@@ -12,18 +12,25 @@ const priceNote = lang === 'ja' ? `${d.ui.perPerson}・${d.ui.taxIncl}`
 <li class="course" data-cat={item.category}>
   <img src={withBase('images/' + item.image)} alt={pick(item.name, lang)} width="800" height="600" loading="lazy" decoding="async" />
   <div>
-    {showCategory && <p class="course-cat">{cats[item.category]}</p>}
-    <h3>{pick(item.name, lang)}</h3>
+    {showCategory && <p class="course-cat">{cats[item.category]}{item.meta && <span class="course-meta">{pick(item.meta, lang)}</span>}</p>}
+    {!showCategory && item.meta && <p class="course-cat">{pick(item.meta, lang)}</p>}
+    <h3>{item.badge && <span class="course-badge">{pick(item.badge, lang)}</span>}{pick(item.name, lang)}</h3>
     <p>{pick(item.desc, lang)}</p>
-    <ul class="allergen-list" aria-label={d.ui.allergens}>
-      <li class="label">{d.ui.allergens}:</li>
-      {item.allergens.length
-        ? item.allergens.map((a: string) => <li>{allergens[a] ?? a}</li>)
-        : <li>{d.ui.noAllergens}</li>}
-    </ul>
+    {item.items && (
+      <dl class="course-items">
+        {item.items.map((row: any) => <><dt>{pick(row.label, lang)}</dt><dd>{pick(row.value, lang)}</dd></>)}
+      </dl>
+    )}
+    {item.upgrade && <p class="course-upgrade">{pick(item.upgrade, lang)}</p>}
+    {item.allergens && item.allergens.length > 0 && (
+      <ul class="allergen-list" aria-label={d.ui.allergens}>
+        <li class="label">{d.ui.allergens}:</li>
+        {item.allergens.map((a: string) => <li>{allergens[a] ?? a}</li>)}
+      </ul>
+    )}
   </div>
   <p class="price">
-    <strong>{yen(item.price)}</strong>
+    <strong>{item.priceAdd ? '+' : ''}{yen(item.price)}</strong>
     <small>{priceNote}</small>
   </p>
 </li>

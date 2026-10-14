@@ -6,19 +6,32 @@ import menu from '../data/menu.json';
 import { t, type Lang } from '../lib/i18n';
 const { lang } = Astro.props as { lang: Lang };
 const d = t(lang);
-const cats = ['sukiyaki', 'shabushabu', 'banquet', 'alacarte'] as const;
+const order = ['standard', 'tabehoudai', 'unkai'];
+const labels = d.categories as Record<string, string>;
+const groupText = (d.menu as any).groups as Record<string, string>;
+const groups = order
+  .map((c) => ({ id: c, items: menu.items.filter((i) => i.category === c) }))
+  .filter((g) => g.items.length > 0);
 ---
 <Base lang={lang} page="menu" title={d.seo.menu.title} description={d.seo.menu.description}>
   <PageHead title={d.menu.title} lead={d.menu.lead} />
   <section class="section">
     <div class="wrap">
-      <div class="filter" data-filter hidden role="group" aria-label={d.menu.title}>
+      <div class="filter menu-tabs" data-filter hidden role="group" aria-label={d.menu.title}>
         <button type="button" data-value="all" aria-pressed="true">{d.ui.all}</button>
-        {cats.map((c) => <button type="button" data-value={c} aria-pressed="false">{d.categories[c]}</button>)}
+        {groups.map((g) => <button type="button" data-value={g.id} aria-pressed="false">{labels[g.id]}<span class="tab-count">{g.items.length}</span></button>)}
       </div>
-      <ul class="course-list">
-        {menu.items.map((item) => <CourseRow item={item} lang={lang} showCategory />)}
-      </ul>
+      {groups.map((g) => (
+        <section class="menu-group" id={g.id} data-cat={g.id} aria-labelledby={`${g.id}-title`}>
+          <div class="menu-group-head">
+            <h2 id={`${g.id}-title`}>{labels[g.id]}</h2>
+            <p>{groupText[g.id]}</p>
+          </div>
+          <ul class="course-list">
+            {g.items.map((item) => <CourseRow item={item} lang={lang} />)}
+          </ul>
+        </section>
+      ))}
       <p class="muted" style="margin-top:1.5rem">{d.menu.note}</p>
     </div>
   </section>

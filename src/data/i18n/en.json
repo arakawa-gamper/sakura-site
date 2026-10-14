@@ -37,13 +37,14 @@
     "seats": "Seats",
     "seatsUnit": "seats",
     "backHome": "Back to home",
-    "noAllergens": "No major allergens"
+    "noAllergens": "No major allergens",
+    "smoking": "Smoking",
+    "parking": "Parking"
   },
   "categories": {
-    "sukiyaki": "Sukiyaki",
-    "shabushabu": "Shabu-shabu",
-    "alacarte": "À la carte & drinks",
-    "banquet": "Group plans"
+    "standard": "Shabu-shabu & sukiyaki",
+    "tabehoudai": "All-you-can-eat",
+    "unkai": "Unkai-nabe"
   },
   "allergens": {
     "egg": "Egg",
@@ -64,19 +65,19 @@
     "heroLead": "Japanese Kuroge Wagyu sukiyaki and shabu-shabu, cooked at your table.",
     "introTitle": "From choosing the beef to the last slice",
     "introBody": [
-      "Every day we select the best Kuroge Wagyu available and cut each part to the thickness that suits it.",
-      "For sukiyaki, our staff cook your first slice and show you when it is ready. No experience needed. Just come hungry."
+      "At Sakura, Omi beef and Japanese Kuroge Wagyu are served in two broths: our signature Kiwami broth and a sukiyaki-style broth.",
+      "Along with spacious table seating, we have horigotatsu rooms that work well for families with children. No experience needed. Just come hungry."
     ],
     "stylesTitle": "Sukiyaki or shabu-shabu?",
-    "stylesLead": "Same Wagyu, two very different meals. If you can only choose one, start with sukiyaki.",
+    "stylesLead": "Our course lets you try both, with two different broths at your table.",
     "sukiyaki": {
       "name": "Sukiyaki",
-      "body": "Beef seared in a cast-iron pot with sweet soy sauce, then dipped in beaten egg. The richest way to taste Wagyu fat.",
+      "body": "Beef simmered in our sweet-savory sukiyaki-style broth, bringing out the sweetness of Wagyu fat.",
       "taste": "Sweet, savory, rich"
     },
     "shabushabu": {
       "name": "Shabu-shabu",
-      "body": "Thin slices swished for a few seconds in kombu broth, then dipped in sesame sauce or citrus ponzu. Light, clean, and tender.",
+      "body": "Swished for a few seconds through our Kiwami broth, so you taste the beef itself: its aroma and tenderness.",
       "taste": "Light and fresh"
     },
     "tasteLabel": "Flavor",
@@ -90,15 +91,20 @@
       "Wagyu cooking in a cast-iron pot"
     ],
     "infoTitle": "Visit us",
-    "conceptTitle": "From choosing the beef to the last slice",
+    "conceptTitle": "One pot, two ways to enjoy Wagyu",
     "banquetTitle": "Private rooms for every occasion",
-    "banquetBody": "From private rooms for two to a hall for up to 24 guests. Ideal for business dinners, celebrations, and family gatherings.",
+    "banquetBody": "Private rooms for two, up to a fully private room for 60. Ideal for business dinners, celebrations, family gatherings and company parties.",
     "banquetCta": "See rooms and group plans"
   },
   "menu": {
     "title": "Menu",
-    "lead": "Courses are for 2 or more guests. All prices are per person and include tax.",
-    "note": "Courses may change with seasonal availability. Please tell us about any allergies when you book."
+    "lead": "All prices are per person and include tax. Drinks are ordered separately.",
+    "note": "Courses may change with seasonal availability. Please tell us about any allergies when you book.",
+    "groups": {
+      "standard": "Try shabu-shabu and sukiyaki side by side in two broths. Choose by type of meat.",
+      "tabehoudai": "Two hours of all-you-can-eat temari sushi, meat and seasonal vegetables. The appetizer box, rice porridge and matcha ice cream are not included.",
+      "unkai": "Unkai-nabe, our interactive sukiyaki served as a fluffy 'sea of clouds' hot pot. Perfect for dates and celebrations."
+    }
   },
   "guide": {
     "title": "How to eat",
@@ -110,23 +116,23 @@
         "body": "Lightly beat the raw egg in your small bowl. Dipping the hot beef cools it slightly and makes it silky. Eggs in Japan are produced to be eaten raw."
       },
       {
-        "title": "We cook the first slice",
-        "body": "Your server sears the first slice in the sauce and serves it at its best, so you can see how it should look."
+        "title": "Simmer the beef",
+        "body": "Add a slice to the sukiyaki-style broth. It is ready as soon as the color changes."
       },
       {
         "title": "Beef first, then vegetables",
         "body": "Simmer vegetables and tofu in the sauce once it has taken on the flavor of the beef."
       },
       {
-        "title": "Finish with rice",
-        "body": "Pour the remaining sauce and egg over rice to end the meal."
+        "title": "Finish",
+        "body": "End with udon noodles or rice porridge."
       }
     ],
     "shabuTitle": "Shabu-shabu",
     "shabuSteps": [
       {
         "title": "Heat the broth",
-        "body": "When the kombu broth is at a gentle simmer, you are ready."
+        "body": "When the Kiwami broth is at a gentle simmer, you are ready."
       },
       {
         "title": "Swish a few times",
@@ -146,12 +152,12 @@
   },
   "access": {
     "title": "Access",
-    "lead": "About 3 minutes on foot from the station exit.",
+    "lead": "1 minute on foot from Exit 5 of the Miyako Underground Mall, Nagoya Station.",
     "directionsTitle": "From the station",
     "directions": [
-      "Leave XX Station by Exit A1. [placeholder]",
-      "Walk straight along the main road to the convenience store on the corner. [placeholder]",
-      "Turn left. We are on the 2nd floor of the second building, XX Bldg. Look for the cherry-blossom noren curtain. [placeholder]"
+      "From Nagoya Station, go into the Miyako Underground Mall and take Exit 5 up to street level. [to be confirmed]",
+      "Enter the Yanagibashi Food Market building right by the exit. [to be confirmed]",
+      "Take the elevator to the 4th floor. [to be confirmed]"
     ],
     "taxiTitle": "Coming by taxi?",
     "taxiNote": "Show this address to your driver.",
@@ -174,8 +180,12 @@
         "a": "We can prepare a vegetable-based course with 2 days' notice. We are not halal certified."
       },
       {
+        "q": "Do you offer all-you-can-eat?",
+        "a": "Yes. Add ¥3,000 to the Omi beef & Kuroge Wagyu course or the Kuroge Wagyu course, ¥4,500 to the Omi beef course, or ¥2,000 to the Hida pork course to make it all-you-can-eat. We also offer all-you-can-eat courses: Hida pork for ¥6,480, Kuroge Wagyu for ¥8,980, and Omi beef & Kuroge Wagyu for ¥13,980."
+      },
+      {
         "q": "Are children welcome?",
-        "a": "Yes. We have private rooms. Please mention children when you book."
+        "a": "Yes, children of all ages are welcome, including infants. Please let us know when you book."
       },
       {
         "q": "Is there a dress code?",
@@ -183,15 +193,23 @@
       },
       {
         "q": "Which payment methods do you accept?",
-        "a": "Cash, major credit cards, UnionPay, Alipay, WeChat Pay and PayPay."
+        "a": "Credit cards (Visa, Mastercard, JCB, AMEX, Diners, UnionPay), PayPay and Alipay. IC transit cards and other e-money are not accepted."
       },
       {
-        "q": "Do your staff speak English?",
-        "a": "Yes, some of our staff speak English. We also have Chinese and Korean menus."
+        "q": "Do you have an English menu?",
+        "a": "Yes, we have an English menu."
+      },
+      {
+        "q": "Is there parking?",
+        "a": "We have no parking of our own. There are coin-operated car parks nearby, and we are a short walk from Nagoya Station."
+      },
+      {
+        "q": "Can I smoke?",
+        "a": "The restaurant is non-smoking throughout."
       },
       {
         "q": "Is there a cancellation fee?",
-        "a": "50% of the course price for cancellations the day before, and 100% on the day. [placeholder]"
+        "a": "Same-day cancellations and no-shows are charged 100% of the course price."
       }
     ]
   },
@@ -199,45 +217,46 @@
     "title": "Reservations",
     "lead": "Book online any time, 24 hours a day.",
     "onlineTitle": "Book online",
-    "onlineBody": "Check availability and confirm your table in English.",
+    "onlineBody": "Check availability and book online on Tabelog.",
     "phoneTitle": "Book by phone",
     "phoneBody": "Call us during opening hours. From outside Japan, use the international number.",
     "notesTitle": "Before you book",
     "notes": [
-      "Courses are for 2 or more guests.",
+      "Courses are 2-hour seating.",
       "Please tell us about allergies or foods you avoid.",
-      "Cancellation fee: 50% of the course price the day before, 100% on the day. [placeholder]",
-      "If you are more than 15 minutes late without contacting us, your booking may be cancelled."
+      "We are unable to accept requests for a specific type of seating.",
+      "If you are more than 15 minutes late without contacting us, we may seat waiting guests first.",
+      "Same-day cancellations and no-shows are charged 100% of the course price."
     ]
   },
   "seo": {
     "home": {
-      "title": "Wagyu Sukiyaki & Shabu-Shabu Sakura | Tokyo",
-      "description": "A5 Kuroge Wagyu sukiyaki and shabu-shabu in Tokyo, 3 minutes from XX Station. English menu, private rooms, online booking."
+      "title": "和牛すき焼きしゃぶしゃぶSakura 名古屋店 | Wagyu Sukiyaki & Shabu-Shabu near Nagoya Station",
+      "description": "Omi beef and Kuroge Wagyu shabu-shabu & sukiyaki, 1 minute from Nagoya Station. English menu, private rooms for 2 to 60 guests."
     },
     "menu": {
-      "title": "Menu & Prices | Wagyu Sukiyaki & Shabu-Shabu Sakura",
-      "description": "Sukiyaki and shabu-shabu courses with A5 Kuroge Wagyu, from ¥9,900 per person, tax included."
+      "title": "Menu & Prices | 和牛すき焼きしゃぶしゃぶSakura 名古屋店",
+      "description": "Nine courses from ¥4,480 to ¥13,980, tax included: Omi beef, Kuroge Wagyu and Hida pork shabu-shabu & sukiyaki, plus Unkai-nabe, our interactive 'sea of clouds' sukiyaki. All-you-can-eat upgrades available."
     },
     "guide": {
-      "title": "How to Eat Sukiyaki & Shabu-Shabu | Sakura",
+      "title": "How to Eat Sukiyaki & Shabu-Shabu | 和牛すき焼きしゃぶしゃぶSakura 名古屋店",
       "description": "A simple step-by-step guide to eating sukiyaki and shabu-shabu, for first-timers."
     },
     "access": {
-      "title": "Access & Hours | Wagyu Sukiyaki & Shabu-Shabu Sakura",
-      "description": "Opening hours, address and directions from XX Station."
+      "title": "Access & Hours | 和牛すき焼きしゃぶしゃぶSakura 名古屋店",
+      "description": "Opening hours, address and directions from Nagoya Station, 1 minute from Exit 5 of the Miyako Underground Mall."
     },
     "faq": {
-      "title": "FAQ | Wagyu Sukiyaki & Shabu-Shabu Sakura",
+      "title": "FAQ | 和牛すき焼きしゃぶしゃぶSakura 名古屋店",
       "description": "Reservations, allergies, children, payment methods and more."
     },
     "reserve": {
-      "title": "Reservations | Wagyu Sukiyaki & Shabu-Shabu Sakura",
+      "title": "Reservations | 和牛すき焼きしゃぶしゃぶSakura 名古屋店",
       "description": "Book online in English, or call us."
     },
     "banquet": {
-      "title": "Private Rooms & Group Dining | Wagyu Sukiyaki & Shabu-Shabu Sakura",
-      "description": "Private rooms, horigotatsu seating and a hall for up to 24 guests. Group plans with all-you-can-drink, and exclusive hire."
+      "title": "Private Rooms & Group Dining | 和牛すき焼きしゃぶしゃぶSakura 名古屋店",
+      "description": "Private rooms for 2 up to a fully private room for 60, next to Nagoya Station."
     }
   },
   "notFound": {
@@ -251,24 +270,25 @@
     "seats": [
       {
         "name": "Private room",
-        "capacity": "2–6 guests",
-        "body": "A fully enclosed room with a door, for quiet business dinners and special occasions."
+        "capacity": "2–8 guests",
+        "body": "Private rooms from two guests, for quiet business dinners and special occasions."
       },
       {
-        "name": "Horigotatsu room",
-        "capacity": "6–12 guests",
-        "body": "Low tables with a sunken floor so you can stretch your legs. Great for families with children."
+        "name": "Group room",
+        "capacity": "10–30 guests",
+        "body": "Including rooms with tatami or horigotatsu sunken seating. Great for families and farewell parties."
       },
       {
-        "name": "Hall (exclusive use)",
-        "capacity": "16–24 guests",
-        "body": "Partitions open into one large room for parties and company events."
+        "name": "Large private room",
+        "capacity": "15–60 guests",
+        "body": "A fully enclosed room with a door, for company parties and large groups."
       }
     ],
-    "plansTitle": "Group plans",
-    "plansLead": "For 6 or more guests. Includes 2 hours of all-you-can-drink.",
-    "charterTitle": "Exclusive hire",
-    "charterBody": "The whole restaurant can be reserved for groups of 20 or more. Tell us your group size, budget and preferred date.",
-    "contact": "For group bookings and exclusive hire, please call us."
+    "plansTitle": "Courses for groups",
+    "plansLead": "Our 2-hour course works well for parties. Call us to discuss group size and budget.",
+    "charterTitle": "Large group dining",
+    "charterBody": "We host parties of 15 to 60 guests in a fully private room. Tell us your group size, budget and preferred date.",
+    "contact": "For group bookings, please call us.",
+    "seatsNote": "Seating is assigned based on your group size. We are unable to accept requests for a specific room type."
   }
 }

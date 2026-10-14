@@ -33,7 +33,7 @@ const bannerData = page
   <title>{title}</title>
   <meta name="description" content={description} />
   <meta name="theme-color" content="#141110" />
-  <link rel="icon" href={withBase('favicon.svg')} type="image/svg+xml" />
+  <link rel="icon" href={withBase('favicon.png')} type="image/png" />
   <link rel="apple-touch-icon" href={withBase('apple-touch-icon.png')} />
   {canonical && <link rel="canonical" href={canonical} />}
   {page && LANGS.map((l) => <link rel="alternate" hreflang={t(l).lang.html} href={abs(pagePath(l, page))} />)}
@@ -126,17 +126,22 @@ const bannerData = page
       }
     }
 
-    // お品書きのカテゴリ切替
+    // お品書きのカテゴリ切替（URLの #tabehoudai などで直接開ける）
     const filter = document.querySelector('[data-filter]');
     if (filter) {
-      const rows = document.querySelectorAll<HTMLElement>('[data-cat]');
-      filter.querySelectorAll<HTMLButtonElement>('button').forEach((btn) => {
-        btn.addEventListener('click', () => {
-          filter.querySelectorAll('button').forEach((b) => b.setAttribute('aria-pressed', String(b === btn)));
-          const cat = btn.dataset.value;
-          rows.forEach((r) => { r.hidden = cat !== 'all' && r.dataset.cat !== cat; });
-        });
-      });
+      const groups = document.querySelectorAll<HTMLElement>('.menu-group[data-cat]');
+      const buttons = filter.querySelectorAll<HTMLButtonElement>('button');
+      const show = (cat: string, push: boolean) => {
+        buttons.forEach((b) => b.setAttribute('aria-pressed', String(b.dataset.value === cat)));
+        groups.forEach((g) => { g.hidden = cat !== 'all' && g.dataset.cat !== cat; });
+        if (push) history.replaceState(null, '', cat === 'all' ? location.pathname : '#' + cat);
+        filter.querySelector<HTMLElement>(`[data-value="${cat}"]`)?.scrollIntoView({ inline: 'nearest', block: 'nearest' });
+      };
+      buttons.forEach((btn) => btn.addEventListener('click', () => show(btn.dataset.value!, true)));
+      const initial = location.hash.slice(1);
+      if ([...buttons].some((b) => b.dataset.value === initial)) {
+        show(initial, false);
+      }
       (filter as HTMLElement).hidden = false;
     }
   </script>
