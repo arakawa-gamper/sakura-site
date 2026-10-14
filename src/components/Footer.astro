@@ -12,7 +12,7 @@ const year = new Date().getFullYear();
   <div class="wrap">
     <div class="footer-grid">
       <div>
-        <img class="footer-logo" src={withBase('images/logo.jpg')} alt={site.name.ja} width="528" height="537" loading="lazy" />
+        <img class="footer-logo" src={withBase('images/logo.webp')} alt={site.name.ja} width="480" height="537" loading="lazy" />
         <p>{pick(site.name, lang)}</p>
         <p>{addr}</p>
         <p><a href={`tel:${site.phoneIntl}`}>{lang === 'ja' ? site.phone : site.phoneIntlDisplay}</a></p>
