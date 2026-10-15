@@ -24,11 +24,11 @@
     "lng": 136.8889
   },
   "station": {
-    "ja": "名古屋駅 ミヤコ地下街5番出口より徒歩1分／桜通口（東口）より徒歩5分",
-    "en": "1 min walk from Exit 5 of the Miyako Underground Mall, Nagoya Station (5 min from the Sakura-dori / East Exit)",
-    "zh-hans": "名古屋站 Miyako地下街5号出口步行1分钟／樱通口（东口）步行5分钟",
-    "zh-hant": "名古屋站 Miyako地下街5號出口步行1分鐘／櫻通口（東口）步行5分鐘",
-    "ko": "나고야역 미야코 지하상가 5번 출구에서 도보 1분 / 사쿠라도리 출구(동쪽 출구)에서 도보 5분"
+    "ja": "名古屋駅 桜通口（東口）より徒歩5分",
+    "en": "5 min walk from the Sakura-dori (East) Exit of Nagoya Station",
+    "zh-hans": "名古屋站樱通口（东口）步行5分钟",
+    "zh-hant": "名古屋站櫻通口（東口）步行5分鐘",
+    "ko": "나고야역 사쿠라도리 출구(동쪽 출구)에서 도보 5분"
   },
   "hours": [
     {

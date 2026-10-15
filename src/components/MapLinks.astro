@@ -14,7 +14,7 @@ const links = [
   { label: '네이버 지도 Naver', href: `https://map.naver.com/p/search/${q}` },
 ];
 ---
-{showImage && <img class="map-img" src={withBase('images/map.jpg')} alt={d.access.mapAlt} width="1200" height="800" loading="lazy" decoding="async" />}
+{showImage && <a class="map-link" href={links[0].href} target="_blank" rel="noopener"><img class="map-img" src={withBase('images/map.jpg')} alt={d.access.mapAlt} width="1604" height="981" loading="lazy" decoding="async" /></a>}
 <h3 class="visually-hidden">{d.access.mapsTitle}</h3>
 <div class="map-links">
   {links.map((l) => <a href={l.href} target="_blank" rel="noopener">{l.label}</a>)}

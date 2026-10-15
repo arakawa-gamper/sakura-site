@@ -108,7 +108,7 @@
     "inboundPoints": [
       "English menu",
       "Alipay & UnionPay",
-      "1 min from Nagoya Station",
+      "5 min from Nagoya Station",
       "Private rooms"
     ],
     "inboundAlt": [
@@ -175,17 +175,17 @@
   },
   "access": {
     "title": "Access",
-    "lead": "1 minute on foot from Exit 5 of the Miyako Underground Mall, Nagoya Station.",
+    "lead": "A 5-minute walk from the Sakura-dori (East) Exit of Nagoya Station.",
     "directionsTitle": "From the station",
     "directions": [
-      "From Nagoya Station, go into the Miyako Underground Mall and take Exit 5 up to street level. [to be confirmed]",
-      "Enter the Yanagibashi Food Market building right by the exit. [to be confirmed]",
-      "Take the elevator to the 4th floor. [to be confirmed]"
+      "Leave Nagoya Station by the Sakura-dori (East) Exit.",
+      "Using the map, walk past Midland Square to Nishiki-dori street (about 5 minutes).",
+      "Enter the Yanagibashi Food Market building and take the elevator to the 4th floor."
     ],
     "taxiTitle": "Coming by taxi?",
     "taxiNote": "Show this address to your driver.",
     "mapsTitle": "Open in a map app",
-    "mapAlt": "Map of the area around the restaurant"
+    "mapAlt": "Map from Nagoya Station to the restaurant"
   },
   "faq": {
     "title": "FAQ",
@@ -255,7 +255,7 @@
   "seo": {
     "home": {
       "title": "和牛すき焼きしゃぶしゃぶSakura 名古屋店 | Wagyu Sukiyaki & Shabu-Shabu near Nagoya Station",
-      "description": "Omi beef and Kuroge Wagyu shabu-shabu & sukiyaki, 1 minute from Nagoya Station. English menu, private rooms for 2 to 60 guests."
+      "description": "Omi beef and Kuroge Wagyu shabu-shabu & sukiyaki, 5 minutes from Nagoya Station. English menu, private rooms for 2 to 60 guests."
     },
     "menu": {
       "title": "Menu & Prices | 和牛すき焼きしゃぶしゃぶSakura 名古屋店",
@@ -267,7 +267,7 @@
     },
     "access": {
       "title": "Access & Hours | 和牛すき焼きしゃぶしゃぶSakura 名古屋店",
-      "description": "Opening hours, address and directions from Nagoya Station, 1 minute from Exit 5 of the Miyako Underground Mall."
+      "description": "Opening hours, address and directions from the Sakura-dori (East) Exit of Nagoya Station, a 5-minute walk."
     },
     "faq": {
       "title": "FAQ | 和牛すき焼きしゃぶしゃぶSakura 名古屋店",
@@ -283,7 +283,7 @@
     },
     "lunch": {
       "title": "Lunch | 炭火うなぎSakura (Charcoal-Grilled Eel), Nagoya Station",
-      "description": "Charcoal-grilled eel for lunch, 1 minute from Nagoya Station. Unadon from ¥1,780, hitsumabushi from ¥2,780, tax included. English menu available."
+      "description": "Charcoal-grilled eel for lunch, 5 minutes from Nagoya Station. Unadon from ¥1,780, hitsumabushi from ¥2,780, tax included. English menu available."
     }
   },
   "notFound": {

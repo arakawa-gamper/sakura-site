@@ -350,7 +350,9 @@ p + p { margin-top: 1em; }
 .map-links { display: flex; flex-wrap: wrap; gap: 0.5rem; margin-top: 1rem; }
 .map-links a { font-size: var(--step--1); text-decoration: none; border: 1px solid var(--line-strong); padding: 0.45rem 0.9rem; border-radius: 2px; }
 .map-links a:hover { border-color: var(--gold); color: var(--gold); }
-.map-img { border: 1px solid var(--line); width: 100%; aspect-ratio: 3 / 2; object-fit: cover; }
+.map-img { border: 1px solid var(--line); width: 100%; height: auto; }
+.map-link { display: block; }
+.map-link:hover .map-img { border-color: var(--line-strong); }
 
 /* ---------- ページ見出し ---------- */
 .page-head { padding-top: var(--space-l); padding-bottom: var(--space-l); border-bottom: 1px solid var(--line); }
