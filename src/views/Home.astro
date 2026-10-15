@@ -6,6 +6,8 @@ import TaxiCard from '../components/TaxiCard.astro';
 import MapLinks from '../components/MapLinks.astro';
 import site from '../data/site.json';
 import menu from '../data/menu.json';
+import lunch from '../data/lunch.json';
+import drinks from '../data/drinks.json';
 import { t, pagePath, withBase, pick, type Lang } from '../lib/i18n';
 
 const { lang } = Astro.props as { lang: Lang };
@@ -106,6 +108,29 @@ const jsonLd = {
     </div>
   </section>
 
+  <section class="section entrances" aria-label={`${(d.nav as any).lunch} / ${d.categories.drink}`}>
+    <div class="wrap entrance-grid">
+      <a class="entrance entrance-lunch" href={pagePath(lang, 'lunch')}>
+        <img src={withBase('images/' + lunch.image)} alt="" width="952" height="550" loading="lazy" decoding="async" />
+        <div class="entrance-body">
+          <p class="eyebrow" lang="ja">{lunch.brand}</p>
+          <h2>{h.lunchTitle}</h2>
+          <p>{h.lunchBody}</p>
+          <span class="btn btn-primary">{h.lunchCta}</span>
+        </div>
+      </a>
+      <a class="entrance entrance-drink" href={pagePath(lang, 'menu') + '#drink'}>
+        <div class="entrance-body">
+          <p class="eyebrow">{d.categories.drink}</p>
+          <h2>{h.drinkTitle}</h2>
+          <p>{h.drinkBody}</p>
+          <ul class="inbound-points">{drinks.highlights.map((x) => <li>{pick(x.title, lang)}</li>)}<li>{drinks.plans[0] && (d as any).drink.plansTitle}</li></ul>
+          <span class="btn btn-ghost">{h.drinkCta}</span>
+        </div>
+      </a>
+    </div>
+  </section>
+
   <section class="feature is-right on-dark" aria-labelledby="banquet-title">
     <img src={withBase('images/banquet.jpg')} alt="" width="1800" height="1100" loading="lazy" decoding="async" />
     <div class="wrap">
@@ -131,6 +156,20 @@ const jsonLd = {
         ))}
       </div>
       <p class="muted" style="margin-top:1.5rem">{d.banquet.seatsNote}</p>
+    </div>
+  </section>
+
+  <section class="section inbound" aria-labelledby="inbound-title">
+    <div class="wrap inbound-grid">
+      <div class="inbound-text">
+        <h2 id="inbound-title">{h.inboundTitle}</h2>
+        <p>{h.inboundBody}</p>
+        <ul class="inbound-points">{h.inboundPoints.map((pt) => <li>{pt}</li>)}</ul>
+      </div>
+      <div class="inbound-photos">
+        <img class="ph-1" src={withBase('images/inbound-1.jpg')} alt={h.inboundAlt[0]} width="1264" height="762" loading="lazy" decoding="async" />
+        <img class="ph-2" src={withBase('images/inbound-2.jpg')} alt={h.inboundAlt[1]} width="1024" height="935" loading="lazy" decoding="async" />
+      </div>
     </div>
   </section>
 

@@ -8,6 +8,7 @@
   "nav": {
     "home": "Home",
     "menu": "Menu",
+    "lunch": "Lunch",
     "banquet": "Private dining",
     "guide": "How to eat",
     "access": "Access",
@@ -44,7 +45,8 @@
   "categories": {
     "standard": "Shabu-shabu & sukiyaki",
     "tabehoudai": "All-you-can-eat",
-    "unkai": "Unkai-nabe"
+    "unkai": "Premium Sukiyaki (Unkai-nabe)",
+    "drink": "Drinks"
   },
   "allergens": {
     "egg": "Egg",
@@ -94,7 +96,25 @@
     "conceptTitle": "One pot, two ways to enjoy Wagyu",
     "banquetTitle": "Private rooms for every occasion",
     "banquetBody": "Private rooms for two, up to a fully private room for 60. Ideal for business dinners, celebrations, family gatherings and company parties.",
-    "banquetCta": "See rooms and group plans"
+    "banquetCta": "See rooms and group plans",
+    "lunchTitle": "By day, a charcoal-grilled eel restaurant.",
+    "lunchBody": "At lunchtime we become 炭火うなぎSakura, serving Kansai-style eel grilled over charcoal. Unadon from ¥1,780, hitsumabushi from ¥2,780.",
+    "lunchCta": "See the lunch menu",
+    "drinkTitle": "Drinks chosen to go with Wagyu.",
+    "drinkBody": "Sake from across Japan, whisky, and all-you-can-drink plans from ¥1,980.",
+    "drinkCta": "See the drink menu",
+    "inboundTitle": "Welcome, travelers from around the world.",
+    "inboundBody": "We have an English menu and accept Alipay, UnionPay and major credit cards. Make memories surrounded by cherry blossoms.",
+    "inboundPoints": [
+      "English menu",
+      "Alipay & UnionPay",
+      "1 min from Nagoya Station",
+      "Private rooms"
+    ],
+    "inboundAlt": [
+      "Guests enjoying a meal in a private room decorated with cherry blossoms",
+      "Guests and staff taking a photo with cherry blossom branches"
+    ]
   },
   "menu": {
     "title": "Menu",
@@ -236,7 +256,7 @@
     },
     "menu": {
       "title": "Menu & Prices | 和牛すき焼きしゃぶしゃぶSakura 名古屋店",
-      "description": "Nine courses from ¥4,480 to ¥13,980, tax included: Omi beef, Kuroge Wagyu and Hida pork shabu-shabu & sukiyaki, plus Unkai-nabe, our interactive 'sea of clouds' sukiyaki. All-you-can-eat upgrades available."
+      "description": "Nine courses from ¥4,480 to ¥13,980, tax included: Omi beef, Kuroge Wagyu and Hida pork shabu-shabu & sukiyaki, plus our Premium Sukiyaki Course served as Unkai-nabe, an interactive 'sea of clouds' hot pot. All-you-can-eat upgrades available."
     },
     "guide": {
       "title": "How to Eat Sukiyaki & Shabu-Shabu | 和牛すき焼きしゃぶしゃぶSakura 名古屋店",
@@ -257,6 +277,10 @@
     "banquet": {
       "title": "Private Rooms & Group Dining | 和牛すき焼きしゃぶしゃぶSakura 名古屋店",
       "description": "Private rooms for 2 up to a fully private room for 60, next to Nagoya Station."
+    },
+    "lunch": {
+      "title": "Lunch | 炭火うなぎSakura (Charcoal-Grilled Eel), Nagoya Station",
+      "description": "Charcoal-grilled eel for lunch, 1 minute from Nagoya Station. Unadon from ¥1,780, hitsumabushi from ¥2,780, tax included. English menu available."
     }
   },
   "notFound": {
@@ -290,5 +314,28 @@
     "charterBody": "We host parties of 15 to 60 guests in a fully private room. Tell us your group size, budget and preferred date.",
     "contact": "For group bookings, please call us.",
     "seatsNote": "Seating is assigned based on your group size. We are unable to accept requests for a specific room type."
+  },
+  "lunch": {
+    "title": "Lunch",
+    "eyebrow": "炭火うなぎSakura (Charcoal-Grilled Eel)",
+    "lead": "By day, a charcoal-grilled eel restaurant. Kansai-style eel, grilled over charcoal until fragrant.",
+    "notice": "Lunch service is starting soon. We will announce the opening date on Instagram.",
+    "hoursLabel": "Lunch hours",
+    "lastEntry": "Last entry",
+    "floor": "4th floor of the same building. Please take the elevator. English menu available.",
+    "recommended": "Recommended",
+    "riceTitle": "Rice",
+    "drinksTitle": "Drinks",
+    "taxNote": "All prices include tax.",
+    "dinnerTitle": "By night: Wagyu sukiyaki & shabu-shabu",
+    "dinnerCta": "See the dinner menu",
+    "imageAlt": "Charcoal-grilled eel rice bowl"
+  },
+  "drink": {
+    "title": "Drinks",
+    "lead": "Sake from across Japan, including regional brews, Japanese whisky, sours and highballs. All chosen to go well with Wagyu.",
+    "plansTitle": "All-you-can-drink",
+    "more": "Full drink list on Hotpepper Gourmet (Japanese)",
+    "taxNote": "Prices include tax."
   }
 }

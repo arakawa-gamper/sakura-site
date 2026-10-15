@@ -4,7 +4,7 @@ import { LANGS, t, pagePath, pick, withBase, type Lang, type PageKey } from '../
 interface Props { lang: Lang }
 const { lang } = Astro.props;
 const d = t(lang);
-const navPages: PageKey[] = ['home', 'menu', 'banquet', 'guide', 'access', 'faq', 'reserve'];
+const navPages: PageKey[] = ['home', 'menu', 'lunch', 'banquet', 'guide', 'access', 'faq', 'reserve'];
 const addr = lang === 'ja' ? site.address.ja : site.address.en;
 const year = new Date().getFullYear();
 ---

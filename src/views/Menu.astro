@@ -3,7 +3,8 @@ import Base from '../layouts/Base.astro';
 import PageHead from '../components/PageHead.astro';
 import CourseRow from '../components/CourseRow.astro';
 import menu from '../data/menu.json';
-import { t, type Lang } from '../lib/i18n';
+import drinks from '../data/drinks.json';
+import { t, pick, yen, type Lang } from '../lib/i18n';
 const { lang } = Astro.props as { lang: Lang };
 const d = t(lang);
 const order = ['standard', 'tabehoudai', 'unkai'];
@@ -20,6 +21,7 @@ const groups = order
       <div class="filter menu-tabs" data-filter hidden role="group" aria-label={d.menu.title}>
         <button type="button" data-value="all" aria-pressed="true">{d.ui.all}</button>
         {groups.map((g) => <button type="button" data-value={g.id} aria-pressed="false">{labels[g.id]}<span class="tab-count">{g.items.length}</span></button>)}
+        <button type="button" data-value="drink" aria-pressed="false">{labels.drink}</button>
       </div>
       {groups.map((g) => (
         <section class="menu-group" id={g.id} data-cat={g.id} aria-labelledby={`${g.id}-title`}>
@@ -32,6 +34,28 @@ const groups = order
           </ul>
         </section>
       ))}
+      <section class="menu-group" id="drink" data-cat="drink" aria-labelledby="drink-title">
+        <div class="menu-group-head">
+          <h2 id="drink-title">{(d as any).drink.title}</h2>
+          <p>{(d as any).drink.lead}</p>
+        </div>
+        <div class="drink-highlights">
+          {drinks.highlights.map((h) => <div><h3>{pick(h.title, lang)}</h3><p>{pick(h.body, lang)}</p></div>)}
+        </div>
+        <h3 class="drink-plans-title">{(d as any).drink.plansTitle}</h3>
+        <ul class="course-list drink-plans">
+          {drinks.plans.map((pl: any) => (
+            <li class="course drink-plan">
+              <div>
+                <h3>{pl.badge && <span class="course-badge">{pick(pl.badge, lang)}</span>}{pick(pl.name, lang)}</h3>
+                <p>{pick(pl.desc, lang)}</p>
+              </div>
+              <p class="price"><strong>{yen(pl.price)}</strong><small>{d.ui.taxIncl}</small></p>
+            </li>
+          ))}
+        </ul>
+        <p class="more-link"><a class="btn btn-ink" href={drinks.moreUrl} target="_blank" rel="noopener">{(d as any).drink.more}</a></p>
+      </section>
       <p class="muted" style="margin-top:1.5rem">{d.menu.note}</p>
     </div>
   </section>

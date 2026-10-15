@@ -148,11 +148,11 @@
       "image": "course-unkai-premium.jpg",
       "price": 11980,
       "name": {
-        "ja": "雲海鍋 近江牛＆黒毛和牛すき焼きコース",
-        "en": "Unkai-Nabe Omi Beef & Kuroge Wagyu Sukiyaki Course",
-        "zh-hans": "云海锅 近江牛＆黑毛和牛寿喜烧套餐",
-        "zh-hant": "雲海鍋 近江牛＆黑毛和牛壽喜燒套餐",
-        "ko": "운카이나베 오미규＆흑모와규 스키야키 코스"
+        "ja": "近江牛＆黒毛和牛 特選すき焼きコース（雲海鍋）",
+        "en": "Omi Beef & Kuroge Wagyu Premium Sukiyaki Course (Unkai-nabe)",
+        "zh-hans": "近江牛＆黑毛和牛 特选寿喜烧套餐（云海锅）",
+        "zh-hant": "近江牛＆黑毛和牛 特選壽喜燒套餐（雲海鍋）",
+        "ko": "오미규＆흑모와규 특선 스키야키 코스(운카이나베)"
       },
       "desc": {
         "ja": "近江牛と黒毛和牛を、ふわふわの“雲海鍋”で。体験型すき焼きのいちばん贅沢なコースです。手毬寿司と9種の前菜BOXから始まる全6品。",
@@ -421,11 +421,11 @@
       "image": "course-unkai.jpg",
       "price": 9980,
       "name": {
-        "ja": "雲海鍋 黒毛和牛すき焼きコース",
-        "en": "Unkai-Nabe Kuroge Wagyu Sukiyaki Course",
-        "zh-hans": "云海锅 黑毛和牛寿喜烧套餐",
-        "zh-hant": "雲海鍋 黑毛和牛壽喜燒套餐",
-        "ko": "운카이나베 흑모와규 스키야키 코스"
+        "ja": "黒毛和牛 特選すき焼きコース（雲海鍋）",
+        "en": "Kuroge Wagyu Premium Sukiyaki Course (Unkai-nabe)",
+        "zh-hans": "黑毛和牛 特选寿喜烧套餐（云海锅）",
+        "zh-hant": "黑毛和牛 特選壽喜燒套餐（雲海鍋）",
+        "ko": "흑모와규 특선 스키야키 코스(운카이나베)"
       },
       "desc": {
         "ja": "ふわふわの“雲海鍋”で楽しむ、体験型の黒毛和牛すき焼き。見た目にも楽しく、記念日やデートにおすすめです。手毬寿司と9種の前菜BOXから始まる全6品。",
