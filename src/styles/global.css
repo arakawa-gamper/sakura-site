@@ -735,3 +735,8 @@ p + p { margin-top: 1em; }
 .homemade-title { font-family: var(--serif); font-weight: 600; font-size: var(--step-1); color: #fff; }
 .homemade p + p { margin-top: 0.35rem; color: var(--ink-soft); }
 .note-box + .note-box { margin-top: 1rem; }
+
+/* Tripadvisor */
+.ta-icon { width: 1.05rem; height: 1.05rem; flex: none; color: var(--gold); }
+.footer-sns .ta-icon { color: currentColor; }
+.btn-row { display: flex; flex-wrap: wrap; gap: 0.75rem; }

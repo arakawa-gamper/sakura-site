@@ -8,6 +8,7 @@ import site from '../data/site.json';
 import menu from '../data/menu.json';
 import lunch from '../data/lunch.json';
 import InstagramIcon from '../components/InstagramIcon.astro';
+import ReviewIcon from '../components/ReviewIcon.astro';
 import drinks from '../data/drinks.json';
 import { t, pagePath, withBase, pick, type Lang } from '../lib/i18n';
 
@@ -170,7 +171,7 @@ const jsonLd = {
         <h2 id="inbound-title">{h.inboundTitle}</h2>
         <p>{h.inboundBody}</p>
         <ul class="inbound-points">{h.inboundPoints.map((pt) => <li>{pt}</li>)}</ul>
-        <p class="more-link"><a class="btn btn-primary" href={pagePath(lang, 'welcome')}>{(h as any).inboundMore}</a></p>
+        <p class="more-link btn-row"><a class="btn btn-primary" href={pagePath(lang, 'welcome')}>{(h as any).inboundMore}</a><a class="btn btn-ghost" href={(site.tripadvisor as any)[lang]} target="_blank" rel="noopener"><ReviewIcon /> {(d.ui as any).tripadvisor}</a></p>
       </div>
       <div class="inbound-photo">
         <img src={withBase('images/inbound-2.jpg')} alt={h.inboundAlt[1]} width="1024" height="935" loading="lazy" decoding="async" />

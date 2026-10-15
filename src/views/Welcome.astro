@@ -1,6 +1,7 @@
 ---
 import Base from '../layouts/Base.astro';
 import site from '../data/site.json';
+import ReviewIcon from '../components/ReviewIcon.astro';
 import { t, pagePath, withBase, type Lang } from '../lib/i18n';
 const { lang } = Astro.props as { lang: Lang };
 const d = t(lang);
@@ -19,6 +20,7 @@ const posters = first ? [...all.filter((p) => p.k === first), ...all.filter((p) 
         <div class="hero-actions" style="justify-content:flex-start">
           <a class="btn btn-primary" href={site.reservationUrl} target="_blank" rel="noopener">{d.ui.reserve}</a>
           <a class="btn btn-ghost" href={pagePath(lang, 'menu')}>{d.ui.viewMenu}</a>
+          <a class="btn btn-ghost" href={(site.tripadvisor as any)[lang]} target="_blank" rel="noopener"><ReviewIcon /> {(d.ui as any).tripadvisor}</a>
         </div>
       </div>
       <img src={withBase('images/inbound-2.jpg')} alt={(d.home as any).inboundAlt[1]} width="1024" height="935" fetchpriority="high" />
