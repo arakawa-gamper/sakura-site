@@ -1,5 +1,6 @@
 ---
 import site from '../data/site.json';
+import InstagramIcon from './InstagramIcon.astro';
 import { LANGS, t, pagePath, pick, withBase, type Lang, type PageKey } from '../lib/i18n';
 interface Props { lang: Lang }
 const { lang } = Astro.props;
@@ -16,6 +17,7 @@ const year = new Date().getFullYear();
         <p>{pick(site.name, lang)}</p>
         <p>{addr}</p>
         <p><a href={`tel:${site.phoneIntl}`}>{lang === 'ja' ? site.phone : site.phoneIntlDisplay}</a></p>
+        <p class="footer-sns"><a href={site.instagram} target="_blank" rel="noopener"><InstagramIcon /> Instagram {site.instagramHandle}</a></p>
       </div>
       <nav aria-label={d.nav.home}>
         <h2>{site.shortName}</h2>

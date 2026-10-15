@@ -14,7 +14,7 @@ const L = (d as any).lunch;
         <p class="eyebrow" lang="ja">{lunch.brand}</p>
         <h1>{L.title}</h1>
         <p class="lead">{L.lead}</p>
-        <p class="lunch-notice">{L.notice}</p>
+        <p class="lunch-notice">{L.notice} <a href={site.instagram} target="_blank" rel="noopener">{L.snsLink}</a></p>
         <dl class="lunch-hours">
           <div><dt>{L.hoursLabel}</dt><dd>{lunch.hours}</dd></div>
           <div><dt>{L.lastEntry}</dt><dd>{lunch.lastEntry}</dd></div>

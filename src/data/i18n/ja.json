@@ -114,7 +114,10 @@
     "inboundAlt": [
       "桜に囲まれた個室で料理を楽しむお客様",
       "桜の枝を手に記念撮影を楽しむお客様とスタッフ"
-    ]
+    ],
+    "snsTitle": "Instagramで、最新のおしらせを。",
+    "snsBody": "季節のメニューや店内の様子、ランチ開始などの最新情報をお届けしています。",
+    "snsCta": "Instagramを見る"
   },
   "menu": {
     "title": "お品書き",
@@ -330,7 +333,8 @@
     "taxNote": "表示価格はすべて税込です。",
     "dinnerTitle": "夜は、和牛すき焼き・しゃぶしゃぶ",
     "dinnerCta": "夜のお品書きを見る",
-    "imageAlt": "炭火で焼き上げたうな丼"
+    "imageAlt": "炭火で焼き上げたうな丼",
+    "snsLink": "Instagramでお知らせを見る"
   },
   "drink": {
     "title": "ドリンク",

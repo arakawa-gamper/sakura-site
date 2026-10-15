@@ -114,7 +114,10 @@
     "inboundAlt": [
       "在樱花装饰的包间享用料理的客人",
       "手持樱花枝与店员合影的客人"
-    ]
+    ],
+    "snsTitle": "关注我们的Instagram",
+    "snsBody": "发布应季菜单、店内实况及午餐开始等最新消息。",
+    "snsCta": "查看Instagram"
   },
   "menu": {
     "title": "菜单",
@@ -329,7 +332,8 @@
     "taxNote": "所有价格均含税。",
     "dinnerTitle": "晚间：和牛寿喜烧・涮涮锅",
     "dinnerCta": "查看晚餐菜单",
-    "imageAlt": "炭火烤制的鳗鱼盖饭"
+    "imageAlt": "炭火烤制的鳗鱼盖饭",
+    "snsLink": "在Instagram查看最新消息"
   },
   "drink": {
     "title": "饮品",

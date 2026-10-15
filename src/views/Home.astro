@@ -7,6 +7,7 @@ import MapLinks from '../components/MapLinks.astro';
 import site from '../data/site.json';
 import menu from '../data/menu.json';
 import lunch from '../data/lunch.json';
+import InstagramIcon from '../components/InstagramIcon.astro';
 import drinks from '../data/drinks.json';
 import { t, pagePath, withBase, pick, type Lang } from '../lib/i18n';
 
@@ -191,6 +192,17 @@ const jsonLd = {
           <figure><img src={withBase(`images/gallery-${i + 1}.jpg`)} alt={alt} width="1200" height="900" loading="lazy" decoding="async" /></figure>
         ))}
       </div>
+    </div>
+  </section>
+
+  <section class="band sns-band" aria-labelledby="sns-title">
+    <div class="wrap">
+      <div>
+        <p class="eyebrow">Instagram {site.instagramHandle}</p>
+        <h2 id="sns-title">{h.snsTitle}</h2>
+        <p>{h.snsBody}</p>
+      </div>
+      <a class="btn btn-primary" href={site.instagram} target="_blank" rel="noopener"><InstagramIcon /> {h.snsCta}</a>
     </div>
   </section>
 

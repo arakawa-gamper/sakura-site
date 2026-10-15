@@ -664,3 +664,16 @@ p + p { margin-top: 1em; }
 .drink-plans-title { font-size: var(--step-2); margin-bottom: 1rem; }
 .drink-plan { grid-template-columns: 1fr auto; }
 @media (max-width: 720px) { .drink-plan { grid-template-columns: 1fr; } .drink-plan .price { grid-column: 1; } }
+
+/* ===== Instagram ===== */
+.icon-link { display: inline-flex; align-items: center; justify-content: center; width: 2.4rem; height: 2.4rem; color: var(--ink); border-radius: 50%; }
+.icon-link:hover { color: var(--gold); }
+.icon-link svg, .btn svg, .footer-sns svg, .nav-sns svg { width: 1.15rem; height: 1.15rem; flex: none; }
+.nav-sns { display: none; }
+.nav-sns a { display: flex !important; align-items: center; gap: 0.5rem; }
+@media (max-width: 960px) { .nav-sns { display: block; } }
+@media (max-width: 480px) { .header-actions .icon-link { display: none; } }
+.footer-sns a { display: inline-flex; align-items: center; gap: 0.45rem; }
+.sns-band .eyebrow { margin-bottom: 0.4rem; }
+.sns-band .btn { gap: 0.55rem; }
+.lunch-notice a { color: var(--gold); white-space: nowrap; }

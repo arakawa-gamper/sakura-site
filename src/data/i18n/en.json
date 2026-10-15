@@ -114,7 +114,10 @@
     "inboundAlt": [
       "Guests enjoying a meal in a private room decorated with cherry blossoms",
       "Guests and staff taking a photo with cherry blossom branches"
-    ]
+    ],
+    "snsTitle": "Follow us on Instagram",
+    "snsBody": "Seasonal menus, a look inside the restaurant, and the latest news, including our lunch opening.",
+    "snsCta": "View on Instagram"
   },
   "menu": {
     "title": "Menu",
@@ -329,7 +332,8 @@
     "taxNote": "All prices include tax.",
     "dinnerTitle": "By night: Wagyu sukiyaki & shabu-shabu",
     "dinnerCta": "See the dinner menu",
-    "imageAlt": "Charcoal-grilled eel rice bowl"
+    "imageAlt": "Charcoal-grilled eel rice bowl",
+    "snsLink": "See updates on Instagram"
   },
   "drink": {
     "title": "Drinks",
