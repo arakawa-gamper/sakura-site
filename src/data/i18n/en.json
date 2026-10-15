@@ -99,7 +99,7 @@
     "infoTitle": "Visit us",
     "conceptTitle": "One pot, two ways to enjoy Wagyu",
     "banquetTitle": "Private rooms for every occasion",
-    "banquetBody": "Private rooms for two, up to a fully private room for 60. Ideal for business dinners, celebrations, family gatherings and company parties.",
+    "banquetBody": "Private rooms for two, up to large rooms for groups of 60. Ideal for business dinners, celebrations, family gatherings and company parties.",
     "banquetCta": "See rooms and group plans",
     "lunchTitle": "By day, a charcoal-grilled eel restaurant.",
     "lunchBody": "At lunchtime we become 炭火うなぎSakura, serving Kansai-style eel grilled over charcoal. Unadon from ¥1,780, hitsumabushi from ¥2,780.",
@@ -179,7 +179,7 @@
       }
     ],
     "eggTitle": "Prefer not to eat raw egg?",
-    "eggBody": "We can serve a soft-boiled egg, or sukiyaki without egg. Just ask.",
+    "eggBody": "You can also enjoy sukiyaki without the egg. Just let us know.",
     "unkaiTitle": "For the Premium Sukiyaki Course (Unkai-nabe)",
     "unkaiBody": "We sear the beef in our house-made special warishita sauce."
   },
@@ -206,7 +206,7 @@
       },
       {
         "q": "Can you accommodate allergies?",
-        "a": "In most cases we can offer alternatives for egg, wheat, sesame and more. Please tell us when you book."
+        "a": "Yes. Please tell us about any allergies when you book, and we will accommodate them."
       },
       {
         "q": "Do you offer vegetarian or halal options?",
@@ -289,7 +289,7 @@
     },
     "banquet": {
       "title": "Private Rooms & Group Dining | 和牛すき焼きしゃぶしゃぶSakura 名古屋店",
-      "description": "Private rooms for 2 up to a fully private room for 60, next to Nagoya Station."
+      "description": "Private rooms for 2 to 60 guests, next to Nagoya Station."
     },
     "lunch": {
       "title": "Lunch | 炭火うなぎSakura (Charcoal-Grilled Eel), Nagoya Station",
@@ -326,13 +326,13 @@
       {
         "name": "Large private room",
         "capacity": "15–60 guests",
-        "body": "A fully enclosed room with a door, for company parties and large groups."
+        "body": "Spacious rooms for company parties and large groups. Some rooms are separated by noren curtains rather than doors."
       }
     ],
     "plansTitle": "Courses for groups",
     "plansLead": "Our 2-hour course works well for parties. Call us to discuss group size and budget.",
     "charterTitle": "Large group dining",
-    "charterBody": "We host parties of 15 to 60 guests in a fully private room. Tell us your group size, budget and preferred date.",
+    "charterBody": "We host parties of 15 to 60 guests in a private room. Tell us your group size, budget and preferred date.",
     "contact": "For group bookings, please call us.",
     "seatsNote": "Seating is assigned based on your group size. We are unable to accept requests for a specific room type."
   },

@@ -65,11 +65,11 @@
     }
   ],
   "closed": {
-    "ja": "不定休【要確認】",
-    "en": "Irregular [to be confirmed]",
-    "zh-hans": "不定期休息【待确认】",
-    "zh-hant": "不定期休息【待確認】",
-    "ko": "부정기 휴무 [확인 필요]"
+    "ja": "無休",
+    "en": "Open every day",
+    "zh-hans": "全年无休",
+    "zh-hant": "全年無休",
+    "ko": "연중무휴"
   },
   "seats": 90,
   "priceRange": "¥¥¥",
@@ -96,7 +96,7 @@
     "ja": "なし（近隣にコインパーキングあり）",
     "en": "None (coin parking nearby)",
     "zh-hans": "无（附近有投币式停车场）",
-    "zh-hant": "沒有（附近有自助停車場）",
+    "zh-hant": "沒有（附近有計時停車場）",
     "ko": "없음(근처에 유료 주차장 있음)"
   },
   "openingDate": "2025-11-13",
@@ -145,7 +145,7 @@
     "ja": "https://www.tripadvisor.jp/Restaurant_Review-g298106-d34271242-Reviews-Wagyu_Sukiyaki_Shabushabu_Sakura-Nagoya_Aichi_Prefecture_Tokai_Chubu.html",
     "en": "https://www.tripadvisor.com/Restaurant_Review-g298106-d34271242-Reviews-Wagyu_Sukiyaki_Shabushabu_Sakura-Nagoya_Aichi_Prefecture_Tokai_Chubu.html",
     "zh-hans": "https://www.tripadvisor.com/Restaurant_Review-g298106-d34271242-Reviews-Wagyu_Sukiyaki_Shabushabu_Sakura-Nagoya_Aichi_Prefecture_Tokai_Chubu.html",
-    "zh-hant": "https://www.tripadvisor.com.hk/Restaurant_Review-g298106-d34271242-Reviews-Wagyu_Sukiyaki_Shabushabu_Sakura-Nagoya_Aichi_Prefecture_Tokai_Chubu.html",
+    "zh-hant": "https://www.tripadvisor.com.tw/Restaurant_Review-g298106-d34271242-Reviews-Wagyu_Sukiyaki_Shabushabu_Sakura-Nagoya_Aichi_Prefecture_Tokai_Chubu.html",
     "ko": "https://www.tripadvisor.co.kr/Restaurant_Review-g298106-d34271242-Reviews-Wagyu_Sukiyaki_Shabushabu_Sakura-Nagoya_Aichi_Prefecture_Tokai_Chubu.html"
   }
 }

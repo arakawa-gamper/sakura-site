@@ -9,14 +9,14 @@
         "ja": "スタンダード飲み放題",
         "en": "Standard All-You-Can-Drink",
         "zh-hans": "标准畅饮",
-        "zh-hant": "標準任飲",
+        "zh-hant": "標準喝到飽",
         "ko": "스탠다드 무제한 음료"
       },
       "desc": {
         "ja": "生ビール・ハイボール・焼酎・日本酒・果実酒・サワー・カクテル・ワイン・ソフトドリンクなど、全60種類以上。",
         "en": "Over 60 drinks, including draft beer, highballs, shochu, sake, fruit liqueurs, sours, cocktails, wine and soft drinks.",
         "zh-hans": "生啤、嗨棒、烧酒、清酒、果酒、沙瓦、鸡尾酒、葡萄酒及软饮等，共60种以上。",
-        "zh-hant": "生啤、Highball、燒酎、清酒、果酒、沙瓦、雞尾酒、葡萄酒及汽水等，共60款以上。",
+        "zh-hant": "生啤、Highball、燒酎、清酒、果酒、沙瓦、雞尾酒、葡萄酒及無酒精飲料等，共60款以上。",
         "ko": "생맥주, 하이볼, 소주, 사케, 과실주, 사워, 칵테일, 와인, 소프트드링크 등 60종 이상."
       }
     },
@@ -27,21 +27,21 @@
         "ja": "おすすめ",
         "en": "Recommended",
         "zh-hans": "推荐",
-        "zh-hant": "推介",
+        "zh-hant": "推薦",
         "ko": "추천"
       },
       "name": {
         "ja": "プレミアム飲み放題",
         "en": "Premium All-You-Can-Drink",
         "zh-hans": "高级畅饮",
-        "zh-hant": "高級任飲",
+        "zh-hant": "高級喝到飽",
         "ko": "프리미엄 무제한 음료"
       },
       "desc": {
         "ja": "スタンダードの内容に加え、クラフトビール・各地の地酒・プレミアム銘柄など、全80種類以上。",
         "en": "Everything in the standard plan, plus craft beer, regional sake and premium brands. Over 80 drinks in total.",
         "zh-hans": "在标准畅饮的基础上，增加精酿啤酒、各地地酒及高级品牌等，共80种以上。",
-        "zh-hant": "於標準任飲的基礎上，增加精釀啤酒、各地地酒及高級品牌等，共80款以上。",
+        "zh-hant": "於標準喝到飽的基礎上，增加精釀啤酒、各地地酒及高級品牌等，共80款以上。",
         "ko": "스탠다드 내용에 크래프트 맥주, 각지의 지역 사케, 프리미엄 브랜드 등을 더해 80종 이상."
       }
     }
@@ -59,7 +59,7 @@
         "ja": "全国から選び抜いた日本酒を多数。季節に合わせた地酒もご用意しています。",
         "en": "A wide range of sake chosen from across Japan, including seasonal regional brews.",
         "zh-hans": "精选自日本各地的众多清酒，并备有应季地酒。",
-        "zh-hant": "精選自日本各地的眾多清酒，並備有應季地酒。",
+        "zh-hant": "精選自日本各地的眾多清酒，並備有當季地酒。",
         "ko": "일본 각지에서 엄선한 다양한 사케와 계절별 지역 술을 준비했습니다."
       },
       "image": "drink-sake.jpg",
@@ -74,11 +74,11 @@
         "ko": "위스키"
       },
       "body": {
-        "ja": "定番の角ウイスキーから、愛知県内の蒸留所のウイスキーまで。",
-        "en": "From classic Kaku highballs to whisky from distilleries in Aichi.",
-        "zh-hans": "从经典角瓶威士忌，到爱知县蒸馏所出品的威士忌。",
-        "zh-hant": "由經典角瓶威士忌，到愛知縣蒸餾所出品的威士忌。",
-        "ko": "정번 가쿠 위스키부터 아이치현 증류소의 위스키까지."
+        "ja": "人気のウイスキーを揃えています。",
+        "en": "A selection of popular whiskies.",
+        "zh-hans": "备有多款人气威士忌。",
+        "zh-hant": "備有多款人氣威士忌。",
+        "ko": "인기 위스키를 다양하게 갖추고 있습니다."
       },
       "image": "drink-whisky.jpg",
       "alt": "銘柄ウイスキー"

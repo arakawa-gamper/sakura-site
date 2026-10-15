@@ -11,7 +11,7 @@
         "ja": "うな丼",
         "en": "Unadon (Charcoal-Grilled Eel Rice Bowl)",
         "zh-hans": "鳗鱼盖饭",
-        "zh-hant": "鰻魚蓋飯",
+        "zh-hant": "鰻魚丼",
         "ko": "장어 덮밥"
       },
       "desc": {
@@ -68,7 +68,7 @@
         "ja": "吸い物・白菜漬け付き",
         "en": "Served with soup and pickled Chinese cabbage.",
         "zh-hans": "附汤和白菜腌菜。",
-        "zh-hant": "附湯及白菜醃菜。",
+        "zh-hant": "附湯及醃白菜。",
         "ko": "국과 배추절임이 포함됩니다."
       },
       "rice": [
@@ -87,7 +87,7 @@
             "ja": "まし 350g",
             "en": "Extra rice 350g",
             "zh-hans": "加饭 350g",
-            "zh-hant": "加飯 350g",
+            "zh-hant": "大碗 350g",
             "ko": "밥 추가 350g"
           },
           "add": 100
@@ -97,7 +97,7 @@
             "ja": "ましまし 450g",
             "en": "Extra-large rice 450g",
             "zh-hans": "加大饭 450g",
-            "zh-hant": "加大飯 450g",
+            "zh-hant": "特大碗 450g",
             "ko": "밥 추가 450g"
           },
           "add": 200
@@ -110,7 +110,7 @@
         "ja": "ひつまぶし",
         "en": "Hitsumabushi (Grilled Eel over Rice)",
         "zh-hans": "鳗鱼饭（三种吃法）",
-        "zh-hant": "鰻魚飯（三種食法）",
+        "zh-hant": "鰻魚飯三吃",
         "ko": "히츠마부시"
       },
       "desc": {
@@ -157,7 +157,7 @@
         "ja": "白菜漬け・薬味（刻み海苔・わさび・あさつき）・茶出汁付き",
         "en": "Served with pickles, condiments (seaweed, wasabi, green onions) and tea broth.",
         "zh-hans": "附白菜腌菜、佐料（海苔、山葵、葱花）和茶汤。",
-        "zh-hant": "附白菜醃菜、佐料（海苔、山葵、蔥花）及茶湯。",
+        "zh-hant": "附醃白菜、佐料（海苔、山葵、蔥花）及茶湯。",
         "ko": "배추절임, 고명(김·와사비·파), 차 육수가 포함됩니다."
       },
       "rice": [
@@ -176,7 +176,7 @@
             "ja": "まし 400g",
             "en": "Extra rice 400g",
             "zh-hans": "加饭 400g",
-            "zh-hant": "加飯 400g",
+            "zh-hant": "大碗 400g",
             "ko": "밥 추가 400g"
           },
           "add": 100
