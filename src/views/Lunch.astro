@@ -1,0 +1,66 @@
+---
+import Base from '../layouts/Base.astro';
+import site from '../data/site.json';
+import lunch from '../data/lunch.json';
+import { t, pick, yen, pagePath, withBase, type Lang } from '../lib/i18n';
+const { lang } = Astro.props as { lang: Lang };
+const d = t(lang);
+const L = (d as any).lunch;
+---
+<Base lang={lang} page="lunch" title={(d.seo as any).lunch.title} description={(d.seo as any).lunch.description}>
+  <header class="page-head lunch-head">
+    <div class="wrap lunch-intro">
+      <div>
+        <p class="eyebrow" lang="ja">{lunch.brand}</p>
+        <h1>{L.title}</h1>
+        <p class="lead">{L.lead}</p>
+        <p class="lunch-notice">{L.notice}</p>
+        <dl class="lunch-hours">
+          <div><dt>{L.hoursLabel}</dt><dd>{lunch.hours}</dd></div>
+          <div><dt>{L.lastEntry}</dt><dd>{lunch.lastEntry}</dd></div>
+          <div><dt>{d.ui.phone}</dt><dd><a href={`tel:${site.phoneIntl}`}>{lang === 'ja' ? site.phone : site.phoneIntlDisplay}</a></dd></div>
+        </dl>
+        <p class="muted">{L.floor}</p>
+      </div>
+      <img src={withBase('images/' + lunch.image)} alt={L.imageAlt} width="952" height="550" fetchpriority="high" />
+    </div>
+  </header>
+  <section class="section">
+    <div class="wrap lunch-grid">
+      {lunch.items.map((item) => (
+        <article class="lunch-item">
+          <h2>{pick(item.name, lang)}</h2>
+          <p class="lunch-desc">{pick(item.desc, lang)}</p>
+          <ul class="size-list">
+            {item.sizes.map((s: any) => (
+              <li>
+                <span>{pick(s.label, lang)}{s.recommended && <em class="rec">{L.recommended}</em>}</span>
+                <strong>{yen(s.price)}</strong>
+              </li>
+            ))}
+          </ul>
+          <div class="lunch-box">
+            <p>{pick(item.includes, lang)}</p>
+            <p class="box-title">{L.riceTitle}</p>
+            <ul class="rice-list">
+              {item.rice.map((r: any) => <li><span>{pick(r.label, lang)}</span><span>{r.add ? `+${yen(r.add)}` : ''}</span></li>)}
+            </ul>
+          </div>
+        </article>
+      ))}
+    </div>
+    <div class="wrap">
+      <div class="lunch-drinks">
+        <h2>{L.drinksTitle}</h2>
+        <ul>{lunch.drinks.map((dr) => <li><span>{pick(dr.name, lang)}</span><span>{yen(dr.price)}</span></li>)}</ul>
+        <p class="muted">{L.taxNote}</p>
+      </div>
+    </div>
+  </section>
+  <section class="band">
+    <div class="wrap">
+      <div><h2>{L.dinnerTitle}</h2></div>
+      <a class="btn btn-ghost" href={pagePath(lang, 'menu')}>{L.dinnerCta}</a>
+    </div>
+  </section>
+</Base>

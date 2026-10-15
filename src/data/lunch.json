@@ -1,0 +1,259 @@
+{
+  "_説明": "ランチ（炭火うなぎSakura）のメニューです。price は税込。recommended を true にすると「おすすめ」が付きます。",
+  "brand": "炭火うなぎSakura",
+  "hours": "11:00–14:30",
+  "lastEntry": "14:00",
+  "image": "lunch-unadon.jpg",
+  "items": [
+    {
+      "id": "unadon",
+      "name": {
+        "ja": "うな丼",
+        "en": "Unadon (Charcoal-Grilled Eel Rice Bowl)",
+        "zh-hans": "鳗鱼盖饭",
+        "zh-hant": "鰻魚蓋飯",
+        "ko": "장어 덮밥"
+      },
+      "desc": {
+        "ja": "香ばしいうなぎを、たれご飯とシンプルに。",
+        "en": "Fragrant charcoal-grilled eel over sauce-seasoned rice, simply served.",
+        "zh-hans": "香气四溢的鳗鱼搭配酱汁米饭，简单纯粹。",
+        "zh-hant": "香氣四溢的鰻魚配上醬汁白飯，簡單純粹。",
+        "ko": "고소한 장어를 소스 밥과 함께 심플하게."
+      },
+      "sizes": [
+        {
+          "label": {
+            "ja": "半尾",
+            "en": "1/2 Eel",
+            "zh-hans": "半条",
+            "zh-hant": "半條",
+            "ko": "반 마리"
+          },
+          "price": 1780
+        },
+        {
+          "label": {
+            "ja": "3/4尾",
+            "en": "3/4 Eel",
+            "zh-hans": "3/4条",
+            "zh-hant": "3/4條",
+            "ko": "3/4마리"
+          },
+          "price": 2480,
+          "recommended": true
+        },
+        {
+          "label": {
+            "ja": "一尾",
+            "en": "Whole Eel",
+            "zh-hans": "一条",
+            "zh-hant": "一條",
+            "ko": "1마리"
+          },
+          "price": 3180
+        },
+        {
+          "label": {
+            "ja": "一尾半",
+            "en": "1.5 Eels",
+            "zh-hans": "一条半",
+            "zh-hant": "一條半",
+            "ko": "1.5마리"
+          },
+          "price": 4480
+        }
+      ],
+      "includes": {
+        "ja": "吸い物・白菜漬け付き",
+        "en": "Served with soup and pickled Chinese cabbage.",
+        "zh-hans": "附汤和白菜腌菜。",
+        "zh-hant": "附湯及白菜醃菜。",
+        "ko": "국과 배추절임이 포함됩니다."
+      },
+      "rice": [
+        {
+          "label": {
+            "ja": "ご飯 250g",
+            "en": "Rice 250g",
+            "zh-hans": "米饭 250g",
+            "zh-hant": "白飯 250g",
+            "ko": "밥 250g"
+          },
+          "add": 0
+        },
+        {
+          "label": {
+            "ja": "まし 350g",
+            "en": "Extra rice 350g",
+            "zh-hans": "加饭 350g",
+            "zh-hant": "加飯 350g",
+            "ko": "밥 추가 350g"
+          },
+          "add": 100
+        },
+        {
+          "label": {
+            "ja": "ましまし 450g",
+            "en": "Extra-large rice 450g",
+            "zh-hans": "加大饭 450g",
+            "zh-hant": "加大飯 450g",
+            "ko": "밥 추가 450g"
+          },
+          "add": 200
+        }
+      ]
+    },
+    {
+      "id": "hitsumabushi",
+      "name": {
+        "ja": "ひつまぶし",
+        "en": "Hitsumabushi (Grilled Eel over Rice)",
+        "zh-hans": "鳗鱼饭（三种吃法）",
+        "zh-hant": "鰻魚飯（三種食法）",
+        "ko": "히츠마부시"
+      },
+      "desc": {
+        "ja": "そのまま、薬味で、茶出汁で。三通りの味わいをお楽しみください。",
+        "en": "Enjoy it three ways: as it is, with condiments, then with tea broth.",
+        "zh-hans": "先直接品尝，再加入佐料，最后加入茶汤，品味三种风味。",
+        "zh-hant": "先直接品嚐，再加入佐料，最後加入茶湯，品味三種風味。",
+        "ko": "그대로, 고명과 함께, 마지막에는 차 육수를 부어 세 가지 맛으로 즐겨 보세요."
+      },
+      "sizes": [
+        {
+          "label": {
+            "ja": "3/4尾",
+            "en": "3/4 Eel",
+            "zh-hans": "3/4条",
+            "zh-hant": "3/4條",
+            "ko": "3/4마리"
+          },
+          "price": 2780,
+          "recommended": true
+        },
+        {
+          "label": {
+            "ja": "一尾",
+            "en": "Whole Eel",
+            "zh-hans": "一条",
+            "zh-hant": "一條",
+            "ko": "1마리"
+          },
+          "price": 3480
+        },
+        {
+          "label": {
+            "ja": "一尾半",
+            "en": "1.5 Eels",
+            "zh-hans": "一条半",
+            "zh-hant": "一條半",
+            "ko": "1.5마리"
+          },
+          "price": 4780
+        }
+      ],
+      "includes": {
+        "ja": "白菜漬け・薬味（刻み海苔・わさび・あさつき）・茶出汁付き",
+        "en": "Served with pickles, condiments (seaweed, wasabi, green onions) and tea broth.",
+        "zh-hans": "附白菜腌菜、佐料（海苔、山葵、葱花）和茶汤。",
+        "zh-hant": "附白菜醃菜、佐料（海苔、山葵、蔥花）及茶湯。",
+        "ko": "배추절임, 고명(김·와사비·파), 차 육수가 포함됩니다."
+      },
+      "rice": [
+        {
+          "label": {
+            "ja": "ご飯 300g",
+            "en": "Rice 300g",
+            "zh-hans": "米饭 300g",
+            "zh-hant": "白飯 300g",
+            "ko": "밥 300g"
+          },
+          "add": 0
+        },
+        {
+          "label": {
+            "ja": "まし 400g",
+            "en": "Extra rice 400g",
+            "zh-hans": "加饭 400g",
+            "zh-hant": "加飯 400g",
+            "ko": "밥 추가 400g"
+          },
+          "add": 100
+        }
+      ]
+    }
+  ],
+  "drinks": [
+    {
+      "name": {
+        "ja": "生ビール",
+        "en": "Draft Beer",
+        "zh-hans": "生啤酒",
+        "zh-hant": "生啤酒",
+        "ko": "생맥주"
+      },
+      "price": 600
+    },
+    {
+      "name": {
+        "ja": "オールフリー（ノンアルコールビール）",
+        "en": "All-Free (non-alcoholic beer)",
+        "zh-hans": "无酒精啤酒",
+        "zh-hant": "無酒精啤酒",
+        "ko": "무알코올 맥주"
+      },
+      "price": 450
+    },
+    {
+      "name": {
+        "ja": "ウーロン茶",
+        "en": "Oolong Tea",
+        "zh-hans": "乌龙茶",
+        "zh-hant": "烏龍茶",
+        "ko": "우롱차"
+      },
+      "price": 350
+    },
+    {
+      "name": {
+        "ja": "緑茶",
+        "en": "Green Tea",
+        "zh-hans": "绿茶",
+        "zh-hant": "綠茶",
+        "ko": "녹차"
+      },
+      "price": 350
+    },
+    {
+      "name": {
+        "ja": "黒烏龍茶",
+        "en": "Black Oolong Tea",
+        "zh-hans": "黑乌龙茶",
+        "zh-hant": "黑烏龍茶",
+        "ko": "흑우롱차"
+      },
+      "price": 350
+    },
+    {
+      "name": {
+        "ja": "コーラ",
+        "en": "Cola",
+        "zh-hans": "可乐",
+        "zh-hant": "可樂",
+        "ko": "콜라"
+      },
+      "price": 350
+    },
+    {
+      "name": {
+        "ja": "ジンジャーエール",
+        "en": "Ginger Ale",
+        "zh-hans": "姜汁汽水",
+        "zh-hant": "薑汁汽水",
+        "ko": "진저에일"
+      },
+      "price": 350
+    }
+  ]
+}
