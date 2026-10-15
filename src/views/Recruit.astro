@@ -1,0 +1,40 @@
+---
+import Base from '../layouts/Base.astro';
+import site from '../data/site.json';
+import { t, withBase, type Lang } from '../lib/i18n';
+const { lang } = Astro.props as { lang: Lang };
+const d = t(lang);
+const r = (d as any).recruit;
+const groups = [
+  { id: 'regular', title: r.regularTitle, lead: r.regularLead, cta: r.regularCta, url: site.recruit.regularUrl, images: site.recruit.regularImages },
+  { id: 'part', title: r.partTitle, lead: r.partLead, cta: r.partCta, url: site.recruit.partUrl, images: site.recruit.partImages },
+];
+---
+<Base lang={lang} page="recruit" title={(d.seo as any).recruit.title} description={(d.seo as any).recruit.description}>
+  <header class="page-head">
+    <div class="wrap">
+      <p class="eyebrow">Recruit</p>
+      <h1>{r.pageTitle}</h1>
+      <p class="lead">{r.lead}</p>
+      <div class="hero-actions" style="justify-content:flex-start">
+        {groups.map((g) => <a class="btn btn-ghost" href={`#${g.id}`}>{g.title}</a>)}
+      </div>
+    </div>
+  </header>
+  {groups.map((g) => (
+    <section class="section recruit-group" id={g.id} aria-labelledby={`${g.id}-title`}>
+      <div class="wrap">
+        <div class="section-head">
+          <h2 id={`${g.id}-title`}>{g.title}</h2>
+          <p>{g.lead}</p>
+        </div>
+        <div class="recruit-gallery">
+          {g.images.map(([src, alt], i) => (
+            <img class={i === 0 ? 'is-main' : ''} src={withBase('images/' + src)} alt={alt} width="1200" height="900" loading={i === 0 ? 'eager' : 'lazy'} decoding="async" />
+          ))}
+        </div>
+        <p class="recruit-cta"><a class="btn btn-primary" href={g.url} target="_blank" rel="noopener">{g.cta}</a></p>
+      </div>
+    </section>
+  ))}
+</Base>

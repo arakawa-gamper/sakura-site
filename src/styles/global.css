@@ -697,3 +697,17 @@ p + p { margin-top: 1em; }
 .poster-grid img { width: 100%; height: auto; border: 1px solid var(--line); }
 .poster-grid figcaption { text-align: center; color: var(--ink-soft); font-size: var(--step--1); margin-top: 0.5rem; }
 @media (max-width: 720px) { .poster-grid { grid-template-columns: 1fr 1fr; } .poster-grid .is-main { grid-column: span 2; } }
+
+/* ===== 採用情報 ===== */
+.recruit-gallery { display: grid; grid-template-columns: repeat(3, 1fr); gap: clamp(0.75rem, 1.8vw, 1.25rem); }
+.recruit-gallery img { width: 100%; height: auto; aspect-ratio: 4 / 3; object-fit: cover; }
+.recruit-gallery .is-main { grid-column: 1 / -1; max-width: 56rem; margin-inline: auto; }
+@media (max-width: 720px) { .recruit-gallery { grid-template-columns: 1fr; } }
+.recruit-cta { text-align: center; margin-top: var(--space-l); }
+.recruit-group + .recruit-group { border-top: 1px solid var(--line); padding-top: var(--space-xl); }
+.recruit-group { scroll-margin-top: calc(var(--header-h) + 1rem); }
+.recruit-home-grid { display: grid; grid-template-columns: 0.9fr 1.1fr; gap: var(--space-l); align-items: center; }
+.recruit-home-grid img { width: 100%; aspect-ratio: 4 / 3; object-fit: cover; }
+.recruit-home-grid h2 { margin-bottom: 1rem; }
+.recruit-home-grid p { color: var(--ink-soft); }
+@media (max-width: 800px) { .recruit-home-grid { grid-template-columns: 1fr; } }

@@ -206,18 +206,17 @@ const jsonLd = {
     </div>
   </section>
 
-  {site.recruitUrl && (
-    <section class="band recruit-band" aria-labelledby="recruit-title">
-      <div class="wrap">
-        <div>
-          <p class="eyebrow">Recruit</p>
-          <h2 id="recruit-title">{(d as any).recruit.title}</h2>
-          <p>{(d as any).recruit.body}</p>
-        </div>
-        <a class="btn btn-ghost" href={site.recruitUrl} target="_blank" rel="noopener">{(d as any).recruit.cta}</a>
+  <section class="section recruit-home" aria-labelledby="recruit-title">
+    <div class="wrap recruit-home-grid">
+      <img src={withBase('images/recruit-p1.jpg')} alt={site.recruit.partImages[0][1]} width="1200" height="900" loading="lazy" decoding="async" />
+      <div>
+        <p class="eyebrow">Recruit</p>
+        <h2 id="recruit-title">{lang === 'ja' ? '一緒に働く仲間を募集しています' : (d as any).recruit.title}</h2>
+        <p>{(d as any).recruit.body}</p>
+        <p class="more-link"><a class="btn btn-primary" href={pagePath(lang, 'recruit')}>{(d as any).recruit.cta}</a></p>
       </div>
-    </section>
-  )}
+    </div>
+  </section>
 
   <section class="section" aria-labelledby="info-title">
     <div class="wrap">

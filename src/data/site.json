@@ -101,6 +101,44 @@
   },
   "openingDate": "2025-11-13",
   "instagramHandle": "@sakura_wagyu",
-  "recruitUrl": "",
-  "_recruitUrl_説明": "求人ページのURLを入れると、トップとフッターに採用情報へのリンクが表示されます（空欄の間は表示されません）。"
+  "recruit": {
+    "regularUrl": "https://saiyo.page/123330/job-list/sort=osusume&page=1&baitFlgList=regular&freewords=Sakura",
+    "partUrl": "https://saiyo.page/123330/job-list/sort=osusume&page=1&baitFlgList=normal&freewords=Sakura",
+    "regularImages": [
+      [
+        "recruit-r1.jpg",
+        "一緒に頑張ってくれる正社員を募集しています"
+      ],
+      [
+        "recruit-r2.jpg",
+        "お客様に喜んでいただける瞬間がいちばん嬉しい"
+      ],
+      [
+        "recruit-r3.jpg",
+        "スタッフの育成がいちばんの仕事です"
+      ],
+      [
+        "recruit-r4.jpg",
+        "様々な数字を分析して改善を積み重ねる"
+      ]
+    ],
+    "partImages": [
+      [
+        "recruit-p1.jpg",
+        "10代・20代の同世代スタッフが活躍中"
+      ],
+      [
+        "recruit-p2.jpg",
+        "お店でスライスした黒毛和牛を丁寧に盛り付けます"
+      ],
+      [
+        "recruit-p3.jpg",
+        "外国人のお客様とのコミュニケーションも翻訳アプリがあるから心配なし"
+      ],
+      [
+        "recruit-p4.jpg",
+        "海外からのお客様の素敵な思い出づくりをお手伝い"
+      ]
+    ]
+  }
 }

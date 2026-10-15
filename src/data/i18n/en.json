@@ -14,7 +14,8 @@
     "access": "Access",
     "faq": "FAQ",
     "reserve": "Reservations",
-    "welcome": "For international guests"
+    "welcome": "For international guests",
+    "recruit": "Careers"
   },
   "ui": {
     "reserve": "Book a table",
@@ -292,6 +293,10 @@
     "welcome": {
       "title": "International Guests | 和牛すき焼きしゃぶしゃぶSakura 名古屋店",
       "description": "No language barrier: tablet translation, an English menu, and UnionPay and Alipay accepted. Wagyu shabu-shabu and sukiyaki with hanami under the sakura, all year round."
+    },
+    "recruit": {
+      "title": "Careers | 和牛すき焼きしゃぶしゃぶSakura 名古屋店",
+      "description": "Full-time and part-time (lunch / dinner) positions at a Wagyu sukiyaki and shabu-shabu restaurant near Nagoya Station."
     }
   },
   "notFound": {
@@ -380,8 +385,16 @@
     "ctaTitle": "Book and visit"
   },
   "recruit": {
-    "title": "We're hiring",
-    "body": "Join the team at 和牛すき焼きしゃぶしゃぶSakura 名古屋店.",
-    "cta": "See job openings (Japanese)"
+    "title": "Careers",
+    "body": "We're hiring full-time and part-time (lunch / dinner) staff.",
+    "cta": "See careers",
+    "lead": "We're looking for people to join our team at 和牛すき焼きしゃぶしゃぶSakura 名古屋店. Job listings are in Japanese.",
+    "regularTitle": "Full-time staff",
+    "regularLead": "As a core member of the restaurant, you'll handle everything from hospitality to training staff and analyzing results to keep improving.",
+    "regularCta": "View full-time openings (Japanese)",
+    "partTitle": "Part-time staff (lunch / dinner)",
+    "partLead": "Our team is mostly in their teens and twenties. From plating Wagyu in the kitchen to serving international guests with a translation app, it's easy to get started.",
+    "partCta": "View part-time openings (Japanese)",
+    "pageTitle": "Careers"
   }
 }
