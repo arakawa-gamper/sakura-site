@@ -6,8 +6,8 @@ import { t, pagePath, withBase, type Lang } from '../lib/i18n';
 const { lang } = Astro.props as { lang: Lang };
 const d = t(lang);
 const w = (d as any).welcome;
-const all = [{ k: 'en', label: 'English' }, { k: 'zh', label: '中文' }, { k: 'ko', label: '한국어' }];
-const first = lang === 'en' ? 'en' : lang.startsWith('zh') ? 'zh' : lang === 'ko' ? 'ko' : null;
+const all = [{ k: 'en', label: 'English' }, { k: 'zh', label: '简体中文' }, { k: 'zh-hant', label: '繁體中文' }, { k: 'ko', label: '한국어' }];
+const first = lang === 'en' ? 'en' : lang === 'zh-hans' ? 'zh' : lang === 'zh-hant' ? 'zh-hant' : lang === 'ko' ? 'ko' : null;
 const posters = first ? [...all.filter((p) => p.k === first), ...all.filter((p) => p.k !== first)] : all;
 ---
 <Base lang={lang} page="welcome" title={(d.seo as any).welcome.title} description={(d.seo as any).welcome.description}>

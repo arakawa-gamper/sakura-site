@@ -740,3 +740,12 @@ p + p { margin-top: 1em; }
 .ta-icon { width: 1.05rem; height: 1.05rem; flex: none; color: var(--gold); }
 .footer-sns .ta-icon { color: currentColor; }
 .btn-row { display: flex; flex-wrap: wrap; gap: 0.75rem; }
+
+/* ドリンクの写真 */
+.drink-highlights > div { padding: 0; overflow: hidden; }
+.drink-highlights img { width: 100%; aspect-ratio: 4 / 3; object-fit: cover; display: block; }
+.drink-highlights .dh-body { padding: 1.1rem 1.25rem 1.3rem; }
+
+/* 案内画像を4枚に */
+.poster-grid { grid-template-columns: repeat(4, 1fr); }
+@media (max-width: 960px) { .poster-grid { grid-template-columns: 1fr 1fr; } .poster-grid .is-main { grid-column: auto; } }

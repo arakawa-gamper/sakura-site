@@ -4,7 +4,7 @@ import PageHead from '../components/PageHead.astro';
 import CourseRow from '../components/CourseRow.astro';
 import menu from '../data/menu.json';
 import drinks from '../data/drinks.json';
-import { t, pick, yen, type Lang } from '../lib/i18n';
+import { t, pick, yen, withBase, type Lang } from '../lib/i18n';
 const { lang } = Astro.props as { lang: Lang };
 const d = t(lang);
 const order = ['standard', 'tabehoudai', 'unkai'];
@@ -40,7 +40,7 @@ const groups = order
           <p>{(d as any).drink.lead}</p>
         </div>
         <div class="drink-highlights">
-          {drinks.highlights.map((h) => <div><h3>{pick(h.title, lang)}</h3><p>{pick(h.body, lang)}</p></div>)}
+          {drinks.highlights.map((h: any) => <div>{h.image && <img src={withBase('images/' + h.image)} alt={pick(h.title, lang)} width="1200" height="900" loading="lazy" decoding="async" />}<div class="dh-body"><h3>{pick(h.title, lang)}</h3><p>{pick(h.body, lang)}</p></div></div>)}
         </div>
         <h3 class="drink-plans-title">{(d as any).drink.plansTitle}</h3>
         <ul class="course-list drink-plans">

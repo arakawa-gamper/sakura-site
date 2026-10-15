@@ -384,8 +384,9 @@
     "postersTitle": "Our guide in your language",
     "posterAlt": {
       "en": "English guide",
-      "zh": "Chinese guide",
-      "ko": "Korean guide"
+      "zh": "Chinese (Simplified) guide",
+      "ko": "Korean guide",
+      "zh-hant": "Chinese (Traditional) guide"
     },
     "ctaTitle": "Book and visit"
   },
