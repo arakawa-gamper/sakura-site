@@ -108,10 +108,10 @@
     "drinkBody": "Sake from across Japan, whisky, and all-you-can-drink plans from ¥1,980.",
     "drinkCta": "See the drink menu",
     "inboundTitle": "Welcome, travelers from around the world.",
-    "inboundBody": "We have an English menu and accept Alipay, UnionPay and major credit cards. Make memories surrounded by cherry blossoms.",
+    "inboundBody": "We have menus in English, Korean and Chinese, and accept Alipay, UnionPay and major credit cards. Make memories surrounded by cherry blossoms.",
     "inboundPoints": [
       "Tablet translation",
-      "English menu",
+      "Multilingual menus",
       "Alipay & UnionPay",
       "5 min from Nagoya Station",
       "Private rooms"
@@ -229,8 +229,8 @@
         "a": "Credit cards (Visa, Mastercard, JCB, AMEX, Diners, UnionPay), PayPay and Alipay. IC transit cards and other e-money are not accepted."
       },
       {
-        "q": "Do you have an English menu?",
-        "a": "Yes, we have an English menu."
+        "q": "Do you have menus in other languages?",
+        "a": "Yes. We have menus in English, Korean, and Chinese (Simplified and Traditional), and staff can help using a translation app on a tablet."
       },
       {
         "q": "Is there parking?",
@@ -265,7 +265,7 @@
   "seo": {
     "home": {
       "title": "和牛すき焼きしゃぶしゃぶSakura 名古屋店 | Wagyu Sukiyaki & Shabu-Shabu near Nagoya Station",
-      "description": "Omi beef and Kuroge Wagyu shabu-shabu & sukiyaki, 5 minutes from Nagoya Station. English menu, private rooms for 2 to 60 guests."
+      "description": "Omi beef and Kuroge Wagyu shabu-shabu & sukiyaki, 5 minutes from Nagoya Station. Menus in English, Chinese and Korean, private rooms for 2 to 60 guests."
     },
     "menu": {
       "title": "Menu & Prices | 和牛すき焼きしゃぶしゃぶSakura 名古屋店",
@@ -293,11 +293,11 @@
     },
     "lunch": {
       "title": "Lunch | 炭火うなぎSakura (Charcoal-Grilled Eel), Nagoya Station",
-      "description": "Charcoal-grilled eel for lunch, 5 minutes from Nagoya Station. Unadon from ¥1,780, hitsumabushi from ¥2,780, tax included. English menu available."
+      "description": "Charcoal-grilled eel for lunch, 5 minutes from Nagoya Station. Unadon from ¥1,780, hitsumabushi from ¥2,780, tax included. Menus in English, Chinese (Simplified) and Korean."
     },
     "welcome": {
       "title": "International Guests | 和牛すき焼きしゃぶしゃぶSakura 名古屋店",
-      "description": "No language barrier: tablet translation, an English menu, and UnionPay and Alipay accepted. Wagyu shabu-shabu and sukiyaki with hanami under the sakura, all year round."
+      "description": "No language barrier: tablet translation, multilingual menus, and UnionPay and Alipay accepted. Wagyu shabu-shabu and sukiyaki with hanami under the sakura, all year round."
     },
     "recruit": {
       "title": "Careers | 和牛すき焼きしゃぶしゃぶSakura 名古屋店",
@@ -343,7 +343,7 @@
     "notice": "Lunch service is starting soon. We will announce the opening date on Instagram.",
     "hoursLabel": "Lunch hours",
     "lastEntry": "Last entry",
-    "floor": "4th floor of the same building. Please take the elevator. English menu available.",
+    "floor": "4th floor of the same building. Please take the elevator. Menus in English, Chinese (Simplified) and Korean.",
     "recommended": "Recommended",
     "riceTitle": "Rice",
     "drinksTitle": "Drinks",
@@ -369,8 +369,8 @@
         "body": "Our staff use a translation app on a tablet to take your order and answer questions, in English, Chinese, Korean and more."
       },
       {
-        "title": "English menu",
-        "body": "We have an English menu, and staff can explain each course and how to eat it."
+        "title": "Menus in your language",
+        "body": "We have menus in English, Korean, and Chinese (Simplified and Traditional). Staff can also explain each course and how to eat it."
       },
       {
         "title": "Hanami under the sakura, all year round",
