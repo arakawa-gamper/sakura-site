@@ -723,3 +723,14 @@ p + p { margin-top: 1em; }
   .gallery figure:last-child { grid-column: span 2; }
   .gallery figure:last-child img { aspect-ratio: 4 / 3; }
 }
+
+/* 自家製の訴求 */
+.homemade {
+  display: flex; gap: 1rem; align-items: flex-start; margin-bottom: var(--space-l);
+  padding: clamp(1.1rem, 2.5vw, 1.6rem) clamp(1.25rem, 3vw, 2rem);
+  border: 1px solid var(--line-strong); background: linear-gradient(135deg, rgba(194, 160, 106, 0.12), rgba(194, 160, 106, 0.03));
+}
+.homemade svg { width: 2rem; height: 2rem; color: var(--gold); flex: none; margin-top: 0.2rem; }
+.homemade-title { font-family: var(--serif); font-weight: 600; font-size: var(--step-1); color: #fff; }
+.homemade p + p { margin-top: 0.35rem; color: var(--ink-soft); }
+.note-box + .note-box { margin-top: 1rem; }

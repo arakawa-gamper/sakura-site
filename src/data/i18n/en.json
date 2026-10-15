@@ -82,7 +82,7 @@
     },
     "shabushabu": {
       "name": "Shabu-shabu",
-      "body": "Swished for a few seconds through our Kiwami broth, so you taste the beef itself: its aroma and tenderness.",
+      "body": "Swished for a few seconds through our Kiwami broth, then dipped in house-made sesame sauce or ponzu, so you taste the beef itself.",
       "taste": "Light and fresh"
     },
     "tasteLabel": "Flavor",
@@ -122,14 +122,16 @@
     "snsTitle": "Follow us on Instagram",
     "snsBody": "Seasonal menus, a look inside the restaurant, and the latest news, including our lunch opening.",
     "snsCta": "View on Instagram",
-    "inboundMore": "Guide for international guests"
+    "inboundMore": "Guide for international guests",
+    "homemadeTitle": "Warishita, sesame sauce and ponzu: all made in-house.",
+    "homemadeBody": "Our house-made warishita, sesame sauce and ponzu bring out the best in our Wagyu."
   },
   "menu": {
     "title": "Menu",
     "lead": "All prices are per person and include tax. Drinks are ordered separately.",
     "note": "Courses may change with seasonal availability. Please tell us about any allergies when you book.",
     "groups": {
-      "standard": "Try shabu-shabu and sukiyaki side by side in two broths. Choose by type of meat.",
+      "standard": "Try shabu-shabu and sukiyaki side by side in two broths. Choose by type of meat. Warishita, sesame sauce and ponzu are all made in-house.",
       "tabehoudai": "Two hours of all-you-can-eat temari sushi, meat and seasonal vegetables. The appetizer box, rice porridge and matcha ice cream are not included.",
       "unkai": "Unkai-nabe, our interactive sukiyaki served as a fluffy 'sea of clouds' hot pot. Perfect for dates and celebrations."
     }
@@ -144,8 +146,8 @@
         "body": "Lightly beat the raw egg in your small bowl. Dipping the hot beef cools it slightly and makes it silky. Eggs in Japan are produced to be eaten raw."
       },
       {
-        "title": "Simmer the beef",
-        "body": "Add a slice to the sukiyaki-style broth. It is ready as soon as the color changes."
+        "title": "Simmer the beef in the sukiyaki-style broth",
+        "body": "In our two-broth pot courses, add a slice to the sukiyaki-style broth. It is ready as soon as the color changes."
       },
       {
         "title": "Beef first, then vegetables",
@@ -167,8 +169,8 @@
         "body": "Hold one slice with chopsticks and swish it through the broth 2–3 times. It is ready when a little pink remains."
       },
       {
-        "title": "Dip in sauce",
-        "body": "Rich sesame sauce or light citrus ponzu. Try both."
+        "title": "Dip in our house-made sauces",
+        "body": "Rich house-made sesame sauce or light house-made ponzu. Try both."
       },
       {
         "title": "Finish with porridge or udon",
@@ -176,7 +178,9 @@
       }
     ],
     "eggTitle": "Prefer not to eat raw egg?",
-    "eggBody": "We can serve a soft-boiled egg, or sukiyaki without egg. Just ask."
+    "eggBody": "We can serve a soft-boiled egg, or sukiyaki without egg. Just ask.",
+    "unkaiTitle": "For the Premium Sukiyaki Course (Unkai-nabe)",
+    "unkaiBody": "We sear the beef in our house-made special warishita sauce."
   },
   "access": {
     "title": "Access",
