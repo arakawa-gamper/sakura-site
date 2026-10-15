@@ -711,3 +711,15 @@ p + p { margin-top: 1em; }
 .recruit-home-grid h2 { margin-bottom: 1rem; }
 .recruit-home-grid p { color: var(--ink-soft); }
 @media (max-width: 800px) { .recruit-home-grid { grid-template-columns: 1fr; } }
+
+/* 店内・外観：縦長3枚を均等に */
+.gallery { grid-template-columns: repeat(3, 1fr); grid-template-rows: auto; }
+.gallery figure:first-child { grid-row: auto; grid-column: auto; }
+.gallery img { aspect-ratio: 3 / 4; height: auto; }
+.gallery figcaption { margin-top: 0.6rem; font-size: var(--step--1); color: var(--ink-soft); }
+@media (max-width: 720px) {
+  .gallery { grid-template-columns: 1fr 1fr; }
+  .gallery figure:first-child { grid-column: auto; }
+  .gallery figure:last-child { grid-column: span 2; }
+  .gallery figure:last-child img { aspect-ratio: 4 / 3; }
+}
