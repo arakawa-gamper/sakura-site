@@ -6,7 +6,7 @@
     "ogLocale": "ja_JP"
   },
   "nav": {
-    "home": "トップ",
+    "home": "TOP",
     "menu": "お品書き",
     "lunch": "ランチ",
     "banquet": "お席・宴会",
@@ -15,7 +15,7 @@
     "faq": "よくある質問",
     "reserve": "ご予約",
     "welcome": "海外のお客様へ",
-    "recruit": "採用情報"
+    "recruit": "リクルート"
   },
   "ui": {
     "reserve": "予約する",

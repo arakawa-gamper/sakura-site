@@ -129,7 +129,7 @@ p + p { margin-top: 1em; }
 .logo-en { font-family: "Shippori Mincho", serif; font-size: 1.5rem; font-weight: 600; letter-spacing: 0.06em; }
 .logo-jp { font-size: 0.6875rem; letter-spacing: 0.12em; color: var(--ink-soft); }
 .nav-list { display: flex; gap: 1.5rem; list-style: none; margin: 0; padding: 0; font-size: var(--step--1); }
-.nav-list a { text-decoration: none; padding-block: 0.4rem; border-bottom: 1px solid transparent; }
+.nav-list a { text-decoration: none; padding-block: 0.4rem; border-bottom: 1px solid transparent; white-space: nowrap; }
 .nav-list a:hover, .nav-list a[aria-current="page"] { border-bottom-color: currentColor; }
 .header-actions { display: flex; align-items: center; gap: 0.75rem; }
 .header-actions .btn { min-height: 2.5rem; padding: 0.4rem 1.1rem; font-size: var(--step--1); }
@@ -153,9 +153,8 @@ p + p { margin-top: 1em; }
 .menu-toggle { display: none; background: none; border: 0; padding: 0.5rem; margin-right: -0.5rem; cursor: pointer; color: inherit; }
 .menu-toggle svg { width: 1.6rem; height: 1.6rem; display: block; }
 
-@media (max-width: 960px) {
+@media (max-width: 1180px) {
   .menu-toggle { display: block; }
-  .header-actions .btn { display: none; }
   .site-nav {
     position: fixed; inset: calc(var(--header-h) + env(safe-area-inset-top, 0px)) 0 0 0;
     background: var(--paper); padding: 1.5rem 1.25rem calc(6rem + env(safe-area-inset-bottom, 0px));
@@ -165,6 +164,8 @@ p + p { margin-top: 1em; }
   .nav-list { flex-direction: column; gap: 0; font-family: var(--serif); font-size: var(--step-2); }
   .nav-list a { display: block; padding-block: 0.9rem; border-bottom: 1px solid var(--line); }
 }
+@media (max-width: 960px) { .header-actions .btn { display: none; } }
+
 
 /* ---------- ヒーロー（全画面写真＋縦書きの店名） ---------- */
 .hero {
@@ -673,7 +674,7 @@ p + p { margin-top: 1em; }
 .icon-link svg, .btn svg, .footer-sns svg, .nav-sns svg { width: 1.15rem; height: 1.15rem; flex: none; }
 .nav-sns { display: none; }
 .nav-sns a { display: flex !important; align-items: center; gap: 0.5rem; }
-@media (max-width: 960px) { .nav-sns { display: block; } }
+@media (max-width: 1180px) { .nav-sns { display: block; } }
 @media (max-width: 480px) { .header-actions .icon-link { display: none; } }
 .footer-sns a { display: inline-flex; align-items: center; gap: 0.45rem; }
 .sns-band .eyebrow { margin-bottom: 0.4rem; }
