@@ -23,9 +23,9 @@ export function langPaths() {
   }));
 }
 
-export type PageKey = 'home' | 'menu' | 'lunch' | 'banquet' | 'guide' | 'access' | 'faq' | 'reserve';
-export const PAGES: PageKey[] = ['home', 'menu', 'lunch', 'banquet', 'guide', 'access', 'faq', 'reserve'];
-const slug: Record<PageKey, string> = { home: '', menu: 'menu/', lunch: 'lunch/', banquet: 'banquet/', guide: 'guide/', access: 'access/', faq: 'faq/', reserve: 'reserve/' };
+export type PageKey = 'home' | 'menu' | 'lunch' | 'banquet' | 'welcome' | 'guide' | 'access' | 'faq' | 'reserve';
+export const PAGES: PageKey[] = ['home', 'menu', 'lunch', 'banquet', 'welcome', 'guide', 'access', 'faq', 'reserve'];
+const slug: Record<PageKey, string> = { home: '', menu: 'menu/', lunch: 'lunch/', banquet: 'banquet/', welcome: 'welcome/', guide: 'guide/', access: 'access/', faq: 'faq/', reserve: 'reserve/' };
 
 /** サイト内リンク（base パスを考慮） */
 export function withBase(path: string) {

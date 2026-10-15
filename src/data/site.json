@@ -100,5 +100,7 @@
     "ko": "없음(근처에 유료 주차장 있음)"
   },
   "openingDate": "2025-11-13",
-  "instagramHandle": "@sakura_wagyu"
+  "instagramHandle": "@sakura_wagyu",
+  "recruitUrl": "",
+  "_recruitUrl_説明": "求人ページのURLを入れると、トップとフッターに採用情報へのリンクが表示されます（空欄の間は表示されません）。"
 }

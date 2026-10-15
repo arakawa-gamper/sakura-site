@@ -166,10 +166,10 @@ const jsonLd = {
         <h2 id="inbound-title">{h.inboundTitle}</h2>
         <p>{h.inboundBody}</p>
         <ul class="inbound-points">{h.inboundPoints.map((pt) => <li>{pt}</li>)}</ul>
+        <p class="more-link"><a class="btn btn-primary" href={pagePath(lang, 'welcome')}>{(h as any).inboundMore}</a></p>
       </div>
-      <div class="inbound-photos">
-        <img class="ph-1" src={withBase('images/inbound-1.jpg')} alt={h.inboundAlt[0]} width="1264" height="762" loading="lazy" decoding="async" />
-        <img class="ph-2" src={withBase('images/inbound-2.jpg')} alt={h.inboundAlt[1]} width="1024" height="935" loading="lazy" decoding="async" />
+      <div class="inbound-photo">
+        <img src={withBase('images/inbound-2.jpg')} alt={h.inboundAlt[1]} width="1024" height="935" loading="lazy" decoding="async" />
       </div>
     </div>
   </section>
@@ -205,6 +205,19 @@ const jsonLd = {
       <a class="btn btn-primary" href={site.instagram} target="_blank" rel="noopener"><InstagramIcon /> {h.snsCta}</a>
     </div>
   </section>
+
+  {site.recruitUrl && (
+    <section class="band recruit-band" aria-labelledby="recruit-title">
+      <div class="wrap">
+        <div>
+          <p class="eyebrow">Recruit</p>
+          <h2 id="recruit-title">{(d as any).recruit.title}</h2>
+          <p>{(d as any).recruit.body}</p>
+        </div>
+        <a class="btn btn-ghost" href={site.recruitUrl} target="_blank" rel="noopener">{(d as any).recruit.cta}</a>
+      </div>
+    </section>
+  )}
 
   <section class="section" aria-labelledby="info-title">
     <div class="wrap">

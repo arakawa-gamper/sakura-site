@@ -13,7 +13,8 @@
     "guide": "How to eat",
     "access": "Access",
     "faq": "FAQ",
-    "reserve": "Reservations"
+    "reserve": "Reservations",
+    "welcome": "For international guests"
   },
   "ui": {
     "reserve": "Book a table",
@@ -40,7 +41,8 @@
     "backHome": "Back to home",
     "noAllergens": "No major allergens",
     "smoking": "Smoking",
-    "parking": "Parking"
+    "parking": "Parking",
+    "careers": "Careers"
   },
   "categories": {
     "standard": "Shabu-shabu & sukiyaki",
@@ -106,6 +108,7 @@
     "inboundTitle": "Welcome, travelers from around the world.",
     "inboundBody": "We have an English menu and accept Alipay, UnionPay and major credit cards. Make memories surrounded by cherry blossoms.",
     "inboundPoints": [
+      "Tablet translation",
       "English menu",
       "Alipay & UnionPay",
       "5 min from Nagoya Station",
@@ -117,7 +120,8 @@
     ],
     "snsTitle": "Follow us on Instagram",
     "snsBody": "Seasonal menus, a look inside the restaurant, and the latest news, including our lunch opening.",
-    "snsCta": "View on Instagram"
+    "snsCta": "View on Instagram",
+    "inboundMore": "Guide for international guests"
   },
   "menu": {
     "title": "Menu",
@@ -284,6 +288,10 @@
     "lunch": {
       "title": "Lunch | 炭火うなぎSakura (Charcoal-Grilled Eel), Nagoya Station",
       "description": "Charcoal-grilled eel for lunch, 5 minutes from Nagoya Station. Unadon from ¥1,780, hitsumabushi from ¥2,780, tax included. English menu available."
+    },
+    "welcome": {
+      "title": "International Guests | 和牛すき焼きしゃぶしゃぶSakura 名古屋店",
+      "description": "No language barrier: tablet translation, an English menu, and UnionPay and Alipay accepted. Wagyu shabu-shabu and sukiyaki with hanami under the sakura, all year round."
     }
   },
   "notFound": {
@@ -341,5 +349,39 @@
     "plansTitle": "All-you-can-drink",
     "more": "Full drink list on Hotpepper Gourmet (Japanese)",
     "taxNote": "Prices include tax."
+  },
+  "welcome": {
+    "title": "Welcome, international guests",
+    "lead": "No need to worry about language. With tablet translation, ordering and asking questions is easy.",
+    "features": [
+      {
+        "title": "No language barrier with tablet translation",
+        "body": "Our staff use a translation app on a tablet to take your order and answer questions, in English, Chinese, Korean and more."
+      },
+      {
+        "title": "English menu",
+        "body": "We have an English menu, and staff can explain each course and how to eat it."
+      },
+      {
+        "title": "Hanami under the sakura, all year round",
+        "body": "Our cherry-blossom-themed dining room lets you enjoy the feel of a Japanese hanami in any season."
+      },
+      {
+        "title": "Cashless payment",
+        "body": "Major credit cards, UnionPay, Alipay and PayPay accepted."
+      }
+    ],
+    "postersTitle": "Our guide in your language",
+    "posterAlt": {
+      "en": "English guide",
+      "zh": "Chinese guide",
+      "ko": "Korean guide"
+    },
+    "ctaTitle": "Book and visit"
+  },
+  "recruit": {
+    "title": "We're hiring",
+    "body": "Join the team at 和牛すき焼きしゃぶしゃぶSakura 名古屋店.",
+    "cta": "See job openings (Japanese)"
   }
 }

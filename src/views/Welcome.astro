@@ -1,0 +1,58 @@
+---
+import Base from '../layouts/Base.astro';
+import site from '../data/site.json';
+import { t, pagePath, withBase, type Lang } from '../lib/i18n';
+const { lang } = Astro.props as { lang: Lang };
+const d = t(lang);
+const w = (d as any).welcome;
+const all = [{ k: 'en', label: 'English' }, { k: 'zh', label: '中文' }, { k: 'ko', label: '한국어' }];
+const first = lang === 'en' ? 'en' : lang.startsWith('zh') ? 'zh' : lang === 'ko' ? 'ko' : null;
+const posters = first ? [...all.filter((p) => p.k === first), ...all.filter((p) => p.k !== first)] : all;
+---
+<Base lang={lang} page="welcome" title={(d.seo as any).welcome.title} description={(d.seo as any).welcome.description}>
+  <header class="page-head">
+    <div class="wrap welcome-intro">
+      <div>
+        <p class="eyebrow">Welcome / 欢迎 / 歡迎 / 환영합니다</p>
+        <h1>{w.title}</h1>
+        <p class="lead">{w.lead}</p>
+        <div class="hero-actions" style="justify-content:flex-start">
+          <a class="btn btn-primary" href={site.reservationUrl} target="_blank" rel="noopener">{d.ui.reserve}</a>
+          <a class="btn btn-ghost" href={pagePath(lang, 'menu')}>{d.ui.viewMenu}</a>
+        </div>
+      </div>
+      <img src={withBase('images/inbound-2.jpg')} alt={(d.home as any).inboundAlt[1]} width="1024" height="935" fetchpriority="high" />
+    </div>
+  </header>
+  <section class="section">
+    <div class="wrap">
+      <div class="welcome-features">
+        {w.features.map((f: any, i: number) => (
+          <article><span class="num">{String(i + 1).padStart(2, '0')}</span><h2>{f.title}</h2><p>{f.body}</p></article>
+        ))}
+      </div>
+    </div>
+  </section>
+  <section class="section">
+    <div class="wrap">
+      <div class="section-head"><h2>{w.postersTitle}</h2></div>
+      <div class="poster-grid">
+        {posters.map((p, i) => (
+          <figure class={i === 0 && first ? 'is-main' : ''}>
+            <img src={withBase(`images/welcome-${p.k}.jpg`)} alt={w.posterAlt[p.k]} width="941" height="1672" loading="lazy" decoding="async" />
+            <figcaption>{p.label}</figcaption>
+          </figure>
+        ))}
+      </div>
+    </div>
+  </section>
+  <section class="band">
+    <div class="wrap">
+      <div><h2>{w.ctaTitle}</h2><p>{site.station[lang]}</p></div>
+      <div class="hero-actions" style="margin-top:0">
+        <a class="btn btn-primary" href={site.reservationUrl} target="_blank" rel="noopener">{d.ui.reserve}</a>
+        <a class="btn btn-ghost" href={pagePath(lang, 'access')}>{d.nav.access}</a>
+      </div>
+    </div>
+  </section>
+</Base>

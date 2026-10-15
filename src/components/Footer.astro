@@ -5,7 +5,7 @@ import { LANGS, t, pagePath, pick, withBase, type Lang, type PageKey } from '../
 interface Props { lang: Lang }
 const { lang } = Astro.props;
 const d = t(lang);
-const navPages: PageKey[] = ['home', 'menu', 'lunch', 'banquet', 'guide', 'access', 'faq', 'reserve'];
+const navPages: PageKey[] = ['home', 'menu', 'lunch', 'banquet', 'welcome', 'guide', 'access', 'faq', 'reserve'];
 const addr = lang === 'ja' ? site.address.ja : site.address.en;
 const year = new Date().getFullYear();
 ---
@@ -21,7 +21,10 @@ const year = new Date().getFullYear();
       </div>
       <nav aria-label={d.nav.home}>
         <h2>{site.shortName}</h2>
-        <ul>{navPages.map((p) => <li><a href={pagePath(lang, p)}>{d.nav[p]}</a></li>)}</ul>
+        <ul>
+          {navPages.map((p) => <li><a href={pagePath(lang, p)}>{(d.nav as any)[p]}</a></li>)}
+          {site.recruitUrl && <li><a href={site.recruitUrl} target="_blank" rel="noopener">{(d.ui as any).careers}</a></li>}
+        </ul>
       </nav>
       <div>
         <h2>{d.ui.language}</h2>

@@ -679,3 +679,21 @@ p + p { margin-top: 1em; }
 .sns-band .eyebrow { margin-bottom: 0.4rem; }
 .sns-band .btn { gap: 0.55rem; }
 .lunch-notice a { color: var(--gold); white-space: nowrap; }
+
+/* ===== 海外のお客様へ ===== */
+.inbound-grid { grid-template-columns: 1fr 1fr; }
+.inbound-photo img { width: 100%; aspect-ratio: 1024 / 935; object-fit: cover; }
+.welcome-intro { display: grid; grid-template-columns: 1.1fr 0.9fr; gap: var(--space-l); align-items: center; }
+.welcome-intro img { width: 100%; aspect-ratio: 1024 / 935; object-fit: cover; }
+@media (max-width: 800px) { .welcome-intro { grid-template-columns: 1fr; } .welcome-intro img { order: -1; } }
+.welcome-features { display: grid; grid-template-columns: repeat(2, 1fr); gap: clamp(1rem, 2.5vw, 2rem); }
+.welcome-features article { background: var(--surface); padding: clamp(1.5rem, 3vw, 2.25rem); border-top: 2px solid var(--gold); }
+.welcome-features .num { font-family: var(--serif); color: var(--gold); font-size: var(--step-2); }
+.welcome-features h2 { font-size: var(--step-2); margin: 0.5rem 0 0.75rem; }
+.welcome-features p { color: var(--ink-soft); }
+@media (max-width: 720px) { .welcome-features { grid-template-columns: 1fr; } }
+.poster-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: clamp(0.75rem, 2vw, 1.5rem); align-items: start; }
+.poster-grid figure { margin: 0; }
+.poster-grid img { width: 100%; height: auto; border: 1px solid var(--line); }
+.poster-grid figcaption { text-align: center; color: var(--ink-soft); font-size: var(--step--1); margin-top: 0.5rem; }
+@media (max-width: 720px) { .poster-grid { grid-template-columns: 1fr 1fr; } .poster-grid .is-main { grid-column: span 2; } }
