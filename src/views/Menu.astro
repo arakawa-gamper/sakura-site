@@ -34,6 +34,17 @@ const groups = order
           <ul class="course-list">
             {g.items.map((item) => <CourseRow item={item} lang={lang} />)}
           </ul>
+          {g.id === 'standard' && (
+            <aside class="omi-about" aria-labelledby="omi-about-title">
+              <div class="omi-about-text">
+                <p class="eyebrow">{(d.menu as any).omi.eyebrow}</p>
+                <h3 id="omi-about-title">{(d.menu as any).omi.title}</h3>
+                {(d.menu as any).omi.sections.map((x: any) => <><h4>{x.h}</h4><p>{x.body}</p></>)}
+                <p class="omi-about-note">{(d.menu as any).omi.note}</p>
+              </div>
+              <img src={withBase('images/omi-cattle.jpg')} alt={(d.menu as any).omi.alt} width="414" height="273" loading="lazy" decoding="async" />
+            </aside>
+          )}
         </section>
       ))}
       <section class="menu-group" id="alacarte" data-cat="alacarte" aria-labelledby="alacarte-title">

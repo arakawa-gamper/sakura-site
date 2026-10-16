@@ -142,6 +142,22 @@
       "tabehoudai": "120 minutes (last order at 90 minutes). All-you-can-eat meat, seasonal vegetables, temari sushi and udon (the kumasu hassun and dessert are not included). Children aged 6–10 get ¥2,000 off the adult price. Everyone in the group must order the same all-you-can-eat course. Please avoid leaving excessive leftovers.",
       "unkai": "A cloud of white cotton candy melts away like a sea of clouds to reveal the sukiyaki beneath. A sukiyaki experience that comes together before your eyes, only at Sakura.",
       "alacarte": "Want a little more? Add whatever you like. All prices include tax."
+    },
+    "omi": {
+      "eyebrow": "About Omi beef",
+      "title": "Omi beef, carrying on over 400 years of history.",
+      "sections": [
+        {
+          "h": "History and land",
+          "body": "Raised amid the rich nature and water of Shiga Prefecture, Omi beef is one of Japan's leading wagyu brands, with a history of around 400 years."
+        },
+        {
+          "h": "Texture and flavor",
+          "body": "Fine-grained meat with a rich aroma. Tender, with fat that melts in the mouth for an elegant, savory flavor."
+        }
+      ],
+      "note": "Traceability records and certificates for our Omi beef are displayed at the entrance.",
+      "alt": "Omi cattle on a farm in Shiga Prefecture"
     }
   },
   "guide": {
