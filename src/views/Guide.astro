@@ -28,7 +28,7 @@ const blocks = [
             </ol>
             {b.id === 'sukiyaki' && (
               <>
-                <div class="note-box"><h3>{(g as any).unkaiTitle}</h3><p>{(g as any).unkaiBody}</p></div>
+                <div class="note-box note-box-img"><img src={withBase('images/course-unkai-premium.jpg')} alt={d.categories.unkai} width="1200" height="900" loading="lazy" decoding="async" /><div><h3>{(g as any).unkaiTitle}</h3><p>{(d.menu as any).groups.unkai}</p><p>{(g as any).unkaiBody}</p></div></div>
                 <div class="note-box"><h3>{g.eggTitle}</h3><p>{g.eggBody}</p></div>
               </>
             )}

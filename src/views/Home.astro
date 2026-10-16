@@ -114,6 +114,20 @@ const jsonLd = {
     </div>
   </section>
 
+  <section class="section signature" aria-labelledby="signature-title">
+    <div class="wrap signature-grid">
+      <img src={withBase('images/unkai-signature.jpg')} alt={d.categories.unkai} width="1000" height="1250" loading="lazy" decoding="async" />
+      <div class="signature-body">
+        <p class="eyebrow">{(h as any).unkaiEyebrow}</p>
+        <h2 id="signature-title">{(h as any).unkaiTitle}</h2>
+        <p class="signature-name">{d.categories.unkai}</p>
+        <p>{(d.menu as any).groups.unkai}</p>
+        <p class="signature-price">{(h as any).unkaiPrice}</p>
+        <a class="btn btn-primary" href={pagePath(lang, 'menu') + '#unkai'}>{(h as any).unkaiCta}</a>
+      </div>
+    </div>
+  </section>
+
   <section class="section entrances" aria-label={`${(d.nav as any).lunch} / ${d.categories.drink}`}>
     <div class="wrap entrance-grid">
       <a class="entrance entrance-lunch" href={pagePath(lang, 'lunch')}>

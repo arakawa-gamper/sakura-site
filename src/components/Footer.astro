@@ -20,6 +20,7 @@ const year = new Date().getFullYear();
         <p><a href={`tel:${site.phoneIntl}`}>{lang === 'ja' ? site.phone : site.phoneIntlDisplay}</a></p>
         <p class="footer-sns"><a href={site.instagram} target="_blank" rel="noopener"><InstagramIcon /> Instagram {site.instagramHandle}</a></p>
         <p class="footer-sns"><a href={(site.tripadvisor as any)[lang]} target="_blank" rel="noopener"><ReviewIcon /> {(d.ui as any).tripadvisor}</a></p>
+        <p class="footer-sns"><a href={(site as any).tabelog} target="_blank" rel="noopener"><ReviewIcon /> {(d.ui as any).tabelog}</a></p>
       </div>
       <nav aria-label={d.nav.home}>
         <h2>{site.shortName}</h2>

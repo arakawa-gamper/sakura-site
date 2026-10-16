@@ -44,12 +44,14 @@
     "smoking": "Smoking",
     "parking": "Parking",
     "careers": "Careers",
-    "tripadvisor": "Read reviews on Tripadvisor"
+    "tripadvisor": "Read reviews on Tripadvisor",
+    "tabelog": "Reviews on Tabelog"
   },
   "categories": {
-    "standard": "Shabu-shabu & sukiyaki",
+    "standard": "Sukiyaki & shabu-shabu",
     "tabehoudai": "All-you-can-eat",
-    "unkai": "Premium Sukiyaki (Unkai-nabe)",
+    "unkai": "Unkai-nabe",
+    "alacarte": "Add-ons",
     "drink": "Drinks"
   },
   "allergens": {
@@ -125,16 +127,21 @@
     "snsCta": "View on Instagram",
     "inboundMore": "Guide for international guests",
     "homemadeTitle": "Warishita, sesame sauce and ponzu: all made in-house.",
-    "homemadeBody": "Our house-made warishita, sesame sauce and ponzu bring out the best in our Wagyu."
+    "homemadeBody": "Our warishita is a house blend of premium tamari soy sauce and Hatcho miso, Nagoya's famous dark miso. Our sesame sauce and ponzu are house-made too, bringing out the best in our Wagyu.",
+    "unkaiEyebrow": "SIGNATURE SUKIYAKI",
+    "unkaiTitle": "Sukiyaki, turned into a one-of-a-kind experience.",
+    "unkaiPrice": "Kuroge Wagyu ¥9,980 / Omi beef ¥11,980 (tax included)",
+    "unkaiCta": "See Unkai-nabe courses"
   },
   "menu": {
     "title": "Menu",
     "lead": "All prices are per person and include tax. Drinks are ordered separately.",
-    "note": "Courses may change with seasonal availability. Please tell us about any allergies when you book.",
+    "note": "Courses may change with seasonal availability. Please tell us about any allergies when you book. Children aged 6 and over need to order one course each (regular courses are the same price for children).",
     "groups": {
       "standard": "Try shabu-shabu and sukiyaki side by side in two broths. Choose by type of meat. Warishita, sesame sauce and ponzu are all made in-house.",
-      "tabehoudai": "Two hours of all-you-can-eat temari sushi, meat and seasonal vegetables. The appetizer box, rice porridge and matcha ice cream are not included.",
-      "unkai": "Unkai-nabe, our interactive sukiyaki served as a fluffy 'sea of clouds' hot pot. Perfect for dates and celebrations."
+      "tabehoudai": "120 minutes (last order at 90 minutes). All-you-can-eat meat, seasonal vegetables, temari sushi and udon (the kumasu hassun and dessert are not included). Children aged 6–10 get ¥2,000 off the adult price. Everyone in the group must order the same all-you-can-eat course. Please avoid leaving excessive leftovers.",
+      "unkai": "A cloud of white cotton candy melts away like a sea of clouds to reveal the sukiyaki beneath. A sukiyaki experience that comes together before your eyes, only at Sakura.",
+      "alacarte": "Want a little more? Add whatever you like. All prices include tax."
     }
   },
   "guide": {
@@ -180,7 +187,7 @@
     ],
     "eggTitle": "Prefer not to eat raw egg?",
     "eggBody": "You can also enjoy sukiyaki without the egg. Just let us know.",
-    "unkaiTitle": "For the Premium Sukiyaki Course (Unkai-nabe)",
+    "unkaiTitle": "For Unkai-nabe",
     "unkaiBody": "We sear the beef in our house-made special warishita sauce."
   },
   "access": {
@@ -214,11 +221,11 @@
       },
       {
         "q": "Do you offer all-you-can-eat?",
-        "a": "Yes. Add ¥3,000 to the Omi beef & Kuroge Wagyu course or the Kuroge Wagyu course, ¥4,500 to the Omi beef course, or ¥2,000 to the Hida pork course to make it all-you-can-eat. We also offer all-you-can-eat courses: Hida pork for ¥6,480, Kuroge Wagyu for ¥8,980, and Omi beef & Kuroge Wagyu for ¥13,980."
+        "a": "Yes. Add ¥3,000 to the Omi Beef & Kuroge Wagyu Premium Tasting Course or the Kuroge Wagyu course, ¥4,500 to the Omi beef course, or ¥2,000 to the Hida pork course to make it all-you-can-eat. We also offer all-you-can-eat courses: Hida pork for ¥6,480, Kuroge Wagyu for ¥8,980 and Omi beef for ¥13,980. All-you-can-eat is 120 minutes (last order at 90 minutes), and children aged 6–10 get ¥2,000 off."
       },
       {
         "q": "Are children welcome?",
-        "a": "Yes, children of all ages are welcome, including infants. Please let us know when you book."
+        "a": "Yes, children of all ages are welcome, including infants. Please let us know when you book. Children aged 6 and over order one course each; regular courses are the same price as for adults, and all-you-can-eat courses are ¥2,000 off for children aged 6–10."
       },
       {
         "q": "Is there a dress code?",
@@ -269,7 +276,7 @@
     },
     "menu": {
       "title": "Menu & Prices | 和牛すき焼きしゃぶしゃぶSakura 名古屋店",
-      "description": "Nine courses from ¥4,480 to ¥13,980, tax included: Omi beef, Kuroge Wagyu and Hida pork shabu-shabu & sukiyaki, plus our Premium Sukiyaki Course served as Unkai-nabe, an interactive 'sea of clouds' hot pot. All-you-can-eat upgrades available."
+      "description": "Nine courses from ¥4,480 to ¥13,980, tax included: Omi beef, Kuroge Wagyu and Hida pork sukiyaki & shabu-shabu, Unkai-nabe 'sea of clouds' sukiyaki, and all-you-can-eat. Extra meat and vegetables available."
     },
     "guide": {
       "title": "How to Eat Sukiyaki & Shabu-Shabu | 和牛すき焼きしゃぶしゃぶSakura 名古屋店",

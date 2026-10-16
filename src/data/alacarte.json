@@ -1,0 +1,276 @@
+{
+  "_説明": "お品書きページの「追加のお品」です。price は税込。",
+  "images": [
+    [
+      "alacarte-meat.jpg",
+      "追加のお肉"
+    ],
+    [
+      "alacarte-sushi.jpg",
+      "手毬寿司"
+    ]
+  ],
+  "sections": [
+    {
+      "title": {
+        "ja": "追加のお肉（各130g）",
+        "en": "Extra meat (130 g each)",
+        "zh-hans": "加点肉类（每份130g）",
+        "zh-hant": "加點肉類（每份130g）",
+        "ko": "고기 추가(각 130g)"
+      },
+      "items": [
+        {
+          "name": {
+            "ja": "近江牛",
+            "en": "Omi beef",
+            "zh-hans": "近江牛",
+            "zh-hant": "近江牛",
+            "ko": "오미규"
+          },
+          "price": 4280
+        },
+        {
+          "name": {
+            "ja": "黒毛和牛",
+            "en": "Kuroge Wagyu",
+            "zh-hans": "黑毛和牛",
+            "zh-hant": "黑毛和牛",
+            "ko": "흑모와규"
+          },
+          "price": 2380
+        },
+        {
+          "name": {
+            "ja": "飛驒豚 ロース",
+            "en": "Hida pork loin",
+            "zh-hans": "飞驒猪 里脊",
+            "zh-hant": "飛驒豬 里脊",
+            "ko": "히다 돼지 등심"
+          },
+          "price": 880
+        },
+        {
+          "name": {
+            "ja": "飛驒豚 バラ",
+            "en": "Hida pork belly",
+            "zh-hans": "飞驒猪 五花肉",
+            "zh-hant": "飛驒豬 五花肉",
+            "ko": "히다 돼지 삼겹살"
+          },
+          "price": 880
+        }
+      ]
+    },
+    {
+      "title": {
+        "ja": "お野菜",
+        "en": "Vegetables",
+        "zh-hans": "蔬菜",
+        "zh-hant": "蔬菜",
+        "ko": "채소"
+      },
+      "items": [
+        {
+          "name": {
+            "ja": "白菜",
+            "en": "Napa cabbage",
+            "zh-hans": "白菜",
+            "zh-hant": "白菜",
+            "ko": "배추"
+          },
+          "price": 160
+        },
+        {
+          "name": {
+            "ja": "長ねぎ",
+            "en": "Japanese leek",
+            "zh-hans": "大葱",
+            "zh-hant": "大蔥",
+            "ko": "대파"
+          },
+          "price": 160
+        },
+        {
+          "name": {
+            "ja": "春菊",
+            "en": "Shungiku greens",
+            "zh-hans": "茼蒿",
+            "zh-hant": "茼蒿",
+            "ko": "쑥갓"
+          },
+          "price": 180
+        },
+        {
+          "name": {
+            "ja": "豆腐",
+            "en": "Tofu",
+            "zh-hans": "豆腐",
+            "zh-hant": "豆腐",
+            "ko": "두부"
+          },
+          "price": 150
+        },
+        {
+          "name": {
+            "ja": "椎茸",
+            "en": "Shiitake",
+            "zh-hans": "香菇",
+            "zh-hant": "香菇",
+            "ko": "표고버섯"
+          },
+          "price": 220
+        },
+        {
+          "name": {
+            "ja": "山えのき",
+            "en": "Brown enoki",
+            "zh-hans": "山金针菇",
+            "zh-hant": "山金針菇",
+            "ko": "갈색 팽이버섯"
+          },
+          "price": 220
+        },
+        {
+          "name": {
+            "ja": "ぶなしめじ",
+            "en": "Bunashimeji",
+            "zh-hans": "蟹味菇",
+            "zh-hant": "鴻喜菇",
+            "ko": "만가닥버섯"
+          },
+          "price": 220
+        },
+        {
+          "name": {
+            "ja": "たもぎ茸",
+            "en": "Golden oyster mushroom",
+            "zh-hans": "金顶侧耳",
+            "zh-hant": "金頂側耳",
+            "ko": "노랑느타리버섯"
+          },
+          "price": 280
+        },
+        {
+          "name": {
+            "ja": "白舞茸",
+            "en": "White maitake",
+            "zh-hans": "白舞茸",
+            "zh-hant": "白舞茸",
+            "ko": "흰 잎새버섯"
+          },
+          "price": 220
+        },
+        {
+          "name": {
+            "ja": "しらたき",
+            "en": "Shirataki noodles",
+            "zh-hans": "魔芋丝",
+            "zh-hant": "蒟蒻絲",
+            "ko": "실곤약"
+          },
+          "price": 200
+        },
+        {
+          "name": {
+            "ja": "ときいろ平茸",
+            "en": "Pink oyster mushroom",
+            "zh-hans": "桃红侧耳",
+            "zh-hant": "桃紅側耳",
+            "ko": "분홍느타리버섯"
+          },
+          "price": 380
+        },
+        {
+          "name": {
+            "ja": "れんこん",
+            "en": "Lotus root",
+            "zh-hans": "莲藕",
+            "zh-hant": "蓮藕",
+            "ko": "연근"
+          },
+          "price": 160
+        },
+        {
+          "name": {
+            "ja": "さつまいも",
+            "en": "Sweet potato",
+            "zh-hans": "红薯",
+            "zh-hant": "地瓜",
+            "ko": "고구마"
+          },
+          "price": 220
+        }
+      ]
+    },
+    {
+      "title": {
+        "ja": "手毬寿司",
+        "en": "Temari sushi",
+        "zh-hans": "手鞠寿司",
+        "zh-hant": "手毬壽司",
+        "ko": "테마리 스시"
+      },
+      "note": {
+        "ja": "まぐろ・海老・いか・トラウトサーモン",
+        "en": "Tuna, shrimp, squid, trout salmon",
+        "zh-hans": "金枪鱼、虾、鱿鱼、鳟鱼三文鱼",
+        "zh-hant": "鮪魚、蝦、魷魚、鱒魚鮭魚",
+        "ko": "참치, 새우, 오징어, 트라우트 연어"
+      },
+      "items": [
+        {
+          "name": {
+            "ja": "1貫",
+            "en": "1 piece",
+            "zh-hans": "1贯",
+            "zh-hant": "1貫",
+            "ko": "1개"
+          },
+          "price": 200
+        }
+      ]
+    },
+    {
+      "title": {
+        "ja": "〆のお品",
+        "en": "To finish",
+        "zh-hans": "收尾",
+        "zh-hant": "收尾",
+        "ko": "마무리"
+      },
+      "items": [
+        {
+          "name": {
+            "ja": "うどん",
+            "en": "Udon noodles",
+            "zh-hans": "乌冬面",
+            "zh-hant": "烏龍麵",
+            "ko": "우동"
+          },
+          "price": 330
+        },
+        {
+          "name": {
+            "ja": "雑炊",
+            "en": "Zosui rice porridge",
+            "zh-hans": "杂烩粥",
+            "zh-hant": "雜炊粥",
+            "ko": "죽(조스이)"
+          },
+          "price": 400
+        },
+        {
+          "name": {
+            "ja": "ごはん",
+            "en": "Steamed rice",
+            "zh-hans": "白饭",
+            "zh-hant": "白飯",
+            "ko": "공깃밥"
+          },
+          "price": 300
+        }
+      ]
+    }
+  ]
+}

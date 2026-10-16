@@ -8,85 +8,69 @@
       "image": "course-premium-tabehoudai.jpg",
       "price": 13980,
       "name": {
-        "ja": "近江牛＆黒毛和牛 しゃぶしゃぶ＆すき焼き食べ放題コース",
-        "en": "Omi Beef & Kuroge Wagyu Shabu-Shabu & Sukiyaki All-You-Can-Eat Course",
-        "zh-hans": "近江牛＆黑毛和牛 涮涮锅＆寿喜烧无限畅吃套餐",
-        "zh-hant": "近江牛＆黑毛和牛 涮涮鍋＆壽喜燒吃到飽套餐",
-        "ko": "오미규＆흑모와규 샤부샤부＆스키야키 무제한 코스"
+        "ja": "近江牛 すき焼き・しゃぶしゃぶ食べ放題コース",
+        "en": "Omi Beef Sukiyaki & Shabu-shabu All-You-Can-Eat Course",
+        "zh-hans": "近江牛 寿喜烧・涮涮锅无限畅吃套餐",
+        "zh-hant": "近江牛 壽喜燒・涮涮鍋吃到飽套餐",
+        "ko": "오미규 스키야키·샤부샤부 무제한 코스"
       },
       "desc": {
-        "ja": "近江牛と黒毛和牛が食べ放題になる、いちばん贅沢なプラン。手毬寿司・近江牛・黒毛和牛・飛騨豚・季節のお野菜を、2時間たっぷりお楽しみいただけます。",
-        "en": "Our most indulgent plan, with Omi beef and Kuroge Wagyu included in the all-you-can-eat: temari sushi, Omi beef, Kuroge Wagyu, Hida pork and seasonal vegetables for two hours.",
-        "zh-hans": "近江牛与黑毛和牛均可无限畅吃的最豪华方案。2小时内手鞠寿司、近江牛、黑毛和牛、飞驒猪肉及时令蔬菜任您享用。",
-        "zh-hant": "近江牛及黑毛和牛均可吃到飽的最豪華方案。2小時內手毬壽司、近江牛、黑毛和牛、飛驒豬肉及時令蔬菜任您享用。",
-        "ko": "오미규와 흑모와규를 무제한으로 즐기는 가장 호화로운 플랜. 2시간 동안 테마리 스시, 오미규, 흑모와규, 히다 돼지고기, 제철 채소를 마음껏 즐기실 수 있습니다."
+        "ja": "近江牛・黒毛和牛・飛驒豚がすべて食べ放題になる、いちばん贅沢なプラン。お肉・季節のお野菜・手毬寿司・〆のうどんを、120分たっぷりお楽しみいただけます。",
+        "en": "Our most indulgent plan, with Omi beef, Kuroge Wagyu and Hida pork all included. Enjoy all-you-can-eat meat, seasonal vegetables, temari sushi and udon for 120 minutes.",
+        "zh-hans": "近江牛、黑毛和牛及飞驒猪全部无限畅吃的最豪华方案。肉类、时令蔬菜、手鞠寿司及收尾乌冬面，120分钟尽情享用。",
+        "zh-hant": "近江牛、黑毛和牛及飛驒豬全部吃到飽的最豪華方案。肉類、時令蔬菜、手毬壽司及收尾烏龍麵，120分鐘盡情享用。",
+        "ko": "오미규, 흑모와규, 히다 돼지고기를 모두 무제한으로 즐기는 가장 호화로운 플랜. 고기, 제철 채소, 테마리 스시, 마무리 우동을 120분 동안 마음껏 즐기실 수 있습니다."
       },
       "meta": {
-        "ja": "全6品・2時間制",
-        "en": "6 dishes, 2-hour seating",
-        "zh-hans": "共6道・用餐时间2小时",
-        "zh-hant": "共6道・用餐時間2小時",
-        "ko": "전 6품・2시간제"
+        "ja": "全6品・120分制（L.O.90分）",
+        "en": "6 dishes, 120 minutes (last order at 90 min)",
+        "zh-hans": "共6道・120分钟（最后点餐90分钟）",
+        "zh-hant": "共6道・120分鐘（最後點餐90分鐘）",
+        "ko": "전 6품・120분제(라스트 오더 90분)"
       },
       "items": [
         {
           "label": {
-            "ja": "先付",
-            "en": "Starter",
-            "zh-hans": "先付",
-            "zh-hant": "先付",
-            "ko": "전채"
+            "ja": "01",
+            "en": "01",
+            "zh-hans": "01",
+            "zh-hant": "01",
+            "ko": "01"
           },
           "value": {
-            "ja": "手毬寿司・前菜BOX（9種）",
-            "en": "Temari sushi & appetizer box (9 kinds)",
-            "zh-hans": "手鞠寿司・前菜拼盒（9种）",
-            "zh-hant": "手毬壽司・前菜拼盒（9款）",
-            "ko": "테마리 스시·전채 박스(9종)"
+            "ja": "九桝八寸｜前菜6種＋手毬寿司3貫",
+            "en": "Kumasu hassun | 6 appetizers + 3 temari sushi",
+            "zh-hans": "九格八寸｜前菜6种＋手鞠寿司3贯",
+            "zh-hant": "九格八寸｜前菜6種＋手毬壽司3貫",
+            "ko": "구칸 핫슨 | 전채 6종＋테마리 스시 3개"
           }
         },
         {
           "label": {
-            "ja": "出汁",
-            "en": "Broth",
-            "zh-hans": "汤底",
-            "zh-hant": "湯底",
-            "ko": "육수"
+            "ja": "02",
+            "en": "02",
+            "zh-hans": "02",
+            "zh-hant": "02",
+            "ko": "02"
           },
           "value": {
-            "ja": "「極み出汁」と「すき焼き風出汁」の2種",
-            "en": "Kiwami broth and sukiyaki-style broth",
-            "zh-hans": "极致高汤、寿喜烧风味高汤",
-            "zh-hant": "極致高湯、壽喜燒風味高湯",
-            "ko": "키와미 육수, 스키야키풍 육수"
+            "ja": "お肉｜近江牛・黒毛和牛・飛驒豚ロース・バラ",
+            "en": "Meat | Omi beef, Kuroge Wagyu, Hida pork loin and belly",
+            "zh-hans": "肉｜近江牛、黑毛和牛、飞驒猪里脊及五花肉",
+            "zh-hant": "肉｜近江牛、黑毛和牛、飛驒豬里脊及五花肉",
+            "ko": "고기 | 오미규, 흑모와규, 히다 돼지 등심·삼겹살"
           }
         },
         {
           "label": {
-            "ja": "肉",
-            "en": "Beef",
-            "zh-hans": "肉",
-            "zh-hant": "肉",
-            "ko": "고기"
+            "ja": "03",
+            "en": "03",
+            "zh-hans": "03",
+            "zh-hant": "03",
+            "ko": "03"
           },
           "value": {
-            "ja": "近江牛・黒毛和牛・飛騨豚バラ・ロース",
-            "en": "Omi beef, Kuroge Wagyu, Hida pork belly and loin",
-            "zh-hans": "近江牛、黑毛和牛、飞驒猪五花肉及里脊",
-            "zh-hant": "近江牛、黑毛和牛、飛驒豬五花肉及里脊",
-            "ko": "오미규, 흑모와규, 히다 돼지 삼겹살·등심"
-          }
-        },
-        {
-          "label": {
-            "ja": "野菜",
-            "en": "Vegetables",
-            "zh-hans": "蔬菜",
-            "zh-hant": "蔬菜",
-            "ko": "채소"
-          },
-          "value": {
-            "ja": "季節の野菜盛り合わせ",
+            "ja": "季節の野菜盛り",
             "en": "Seasonal vegetable platter",
             "zh-hans": "时令蔬菜拼盘",
             "zh-hant": "時令蔬菜拼盤",
@@ -95,43 +79,59 @@
         },
         {
           "label": {
-            "ja": "〆",
-            "en": "Finish",
-            "zh-hans": "收尾",
-            "zh-hant": "收尾",
-            "ko": "마무리"
+            "ja": "04",
+            "en": "04",
+            "zh-hans": "04",
+            "zh-hant": "04",
+            "ko": "04"
           },
           "value": {
-            "ja": "うどん または 雑炊",
-            "en": "Udon noodles or rice porridge",
-            "zh-hans": "乌冬面或杂烩粥",
-            "zh-hant": "烏龍麵或雜炊粥",
-            "ko": "우동 또는 죽"
+            "ja": "二色鍋｜関東風すき焼き・しゃぶしゃぶ",
+            "en": "Two-section pot | Kanto-style sukiyaki & shabu-shabu",
+            "zh-hans": "双色锅｜关东风寿喜烧・涮涮锅",
+            "zh-hant": "雙色鍋｜關東風壽喜燒・涮涮鍋",
+            "ko": "두 칸 냄비 | 간토식 스키야키·샤부샤부"
           }
         },
         {
           "label": {
-            "ja": "甘味",
-            "en": "Dessert",
-            "zh-hans": "甜品",
-            "zh-hant": "甜點",
-            "ko": "디저트"
+            "ja": "05",
+            "en": "05",
+            "zh-hans": "05",
+            "zh-hant": "05",
+            "ko": "05"
           },
           "value": {
-            "ja": "抹茶アイス",
-            "en": "Matcha ice cream",
-            "zh-hans": "抹茶冰淇淋",
-            "zh-hant": "抹茶冰淇淋",
-            "ko": "말차 아이스크림"
+            "ja": "〆のうどん",
+            "en": "Finish | Udon noodles",
+            "zh-hans": "收尾｜乌冬面",
+            "zh-hant": "收尾｜烏龍麵",
+            "ko": "마무리 | 우동"
+          }
+        },
+        {
+          "label": {
+            "ja": "06",
+            "en": "06",
+            "zh-hans": "06",
+            "zh-hant": "06",
+            "ko": "06"
+          },
+          "value": {
+            "ja": "甘味",
+            "en": "Dessert (Japanese-style sweet)",
+            "zh-hans": "日式甜品",
+            "zh-hant": "日式甜點",
+            "ko": "일본식 디저트"
           }
         }
       ],
       "upgrade": {
-        "ja": "前菜BOX・雑炊・抹茶アイスは食べ放題の対象外です。",
-        "en": "The appetizer box, rice porridge and matcha ice cream are not included in the all-you-can-eat.",
-        "zh-hans": "前菜拼盒、杂烩粥及抹茶冰淇淋不在无限畅吃范围内。",
-        "zh-hant": "前菜拼盒、雜炊粥及抹茶冰淇淋不在吃到飽範圍內。",
-        "ko": "전채 박스, 죽, 말차 아이스크림은 무제한 대상에서 제외됩니다."
+        "ja": "九桝八寸と甘味は食べ放題の対象外です。6〜10歳のお子様は11,980円（税込）です。",
+        "en": "The kumasu hassun and dessert are not part of the all-you-can-eat. Children aged 6–10: ¥11,980.",
+        "zh-hans": "九格八寸及甜品不在无限畅吃范围内。6至10岁儿童11,980日元（含税）。",
+        "zh-hant": "九格八寸及甜點不在吃到飽範圍內。6至10歲兒童11,980日圓（含稅）。",
+        "ko": "구칸 핫슨과 디저트는 무제한 대상에서 제외됩니다. 6~10세 어린이는 11,980엔(세금 포함)입니다."
       },
       "badge": {
         "ja": "食べ放題",
@@ -148,18 +148,18 @@
       "image": "course-unkai-premium.jpg",
       "price": 11980,
       "name": {
-        "ja": "近江牛＆黒毛和牛 特選すき焼きコース（雲海鍋）",
-        "en": "Omi Beef & Kuroge Wagyu Premium Sukiyaki Course (Unkai-nabe)",
-        "zh-hans": "近江牛＆黑毛和牛 特选寿喜烧套餐（云海锅）",
-        "zh-hant": "近江牛＆黑毛和牛 特選壽喜燒套餐（雲海鍋）",
-        "ko": "오미규＆흑모와규 특선 스키야키 코스(운카이나베)"
+        "ja": "雲海鍋 近江牛すき焼きコース",
+        "en": "Unkai-nabe Omi Beef Sukiyaki Course",
+        "zh-hans": "云海锅 近江牛寿喜烧套餐",
+        "zh-hant": "雲海鍋 近江牛壽喜燒套餐",
+        "ko": "운카이나베 오미규 스키야키 코스"
       },
       "desc": {
-        "ja": "近江牛と黒毛和牛を、ふわふわの“雲海鍋”で。体験型すき焼きのいちばん贅沢なコースです。手毬寿司と9種の前菜BOXから始まる全6品。お肉は自家製の特製割り下で焼き上げます。",
-        "en": "Omi beef and Kuroge Wagyu in Unkai-nabe, our fluffy 'sea of clouds' hot pot. The most indulgent way to try our interactive sukiyaki. Six courses, starting with temari sushi and a box of nine small appetizers. The beef is seared in our house-made special warishita sauce.",
-        "zh-hans": "以蓬松的“云海锅”享用近江牛与黑毛和牛，是体验型寿喜烧中最豪华的套餐。从手鞠寿司与9种前菜拼盒开始，共6道菜。牛肉以店内自制的特制割下酱汁煎烤。",
-        "zh-hant": "以鬆軟的「雲海鍋」享用近江牛及黑毛和牛，是體驗型壽喜燒中最豪華的套餐。從手毬壽司及9款前菜拼盒開始，共6道菜。牛肉以店內自製的特製割下醬汁煎烤。",
-        "ko": "오미규와 흑모와규를 폭신폭신한 '운카이나베'로. 체험형 스키야키 중 가장 호화로운 코스입니다. 테마리 스시와 9종 전채 박스로 시작하는 전 6품. 고기는 직접 만든 특제 와리시타 소스로 구워 드립니다."
+        "ja": "白い綿菓子が雲海のようにゆっくりとほどけ、すき焼きが姿を現す、目の前で完成していく体験型すき焼き。近江牛と黒毛和牛を130gずつ、合計260gで味わういちばん贅沢な雲海鍋です。お肉は自家製の割り下で焼き上げます。",
+        "en": "A cloud of white cotton candy melts away like a sea of clouds to reveal the sukiyaki, an experience that comes together before your eyes. Our most indulgent Unkai-nabe, with 130 g each of Omi beef and Kuroge Wagyu (260 g total), seared in our house-made warishita.",
+        "zh-hans": "洁白的棉花糖如云海般化开，寿喜烧随之现身，在您眼前完成的体验型寿喜烧。近江牛与黑毛和牛各130g，共260g，是最豪华的云海锅。牛肉以店内自制的割下酱汁煎烤。",
+        "zh-hant": "潔白的棉花糖如雲海般化開，壽喜燒隨之現身，在您眼前完成的體驗型壽喜燒。近江牛與黑毛和牛各130g，共260g，是最豪華的雲海鍋。牛肉以店內自製的割下醬汁煎烤。",
+        "ko": "하얀 솜사탕이 운해처럼 녹아내리며 스키야키가 모습을 드러내는, 눈앞에서 완성되는 체험형 스키야키. 오미규와 흑모와규 각 130g, 총 260g을 즐기는 가장 호화로운 운카이나베입니다. 고기는 직접 만든 와리시타로 구워 드립니다."
       },
       "meta": {
         "ja": "全6品・2時間制",
@@ -171,62 +171,46 @@
       "items": [
         {
           "label": {
-            "ja": "先付",
-            "en": "Starter",
-            "zh-hans": "先付",
-            "zh-hant": "先付",
-            "ko": "전채"
+            "ja": "01",
+            "en": "01",
+            "zh-hans": "01",
+            "zh-hant": "01",
+            "ko": "01"
           },
           "value": {
-            "ja": "手毬寿司・前菜BOX（9種）",
-            "en": "Temari sushi & appetizer box (9 kinds)",
-            "zh-hans": "手鞠寿司・前菜拼盒（9种）",
-            "zh-hant": "手毬壽司・前菜拼盒（9款）",
-            "ko": "테마리 스시·전채 박스(9종)"
+            "ja": "九桝八寸｜前菜6種＋手毬寿司3貫",
+            "en": "Kumasu hassun | 6 appetizers + 3 temari sushi",
+            "zh-hans": "九格八寸｜前菜6种＋手鞠寿司3贯",
+            "zh-hant": "九格八寸｜前菜6種＋手毬壽司3貫",
+            "ko": "구칸 핫슨 | 전채 6종＋테마리 스시 3개"
           }
         },
         {
           "label": {
-            "ja": "鍋",
-            "en": "Hot pot",
-            "zh-hans": "锅",
-            "zh-hant": "鍋",
-            "ko": "냄비"
+            "ja": "02",
+            "en": "02",
+            "zh-hans": "02",
+            "zh-hant": "02",
+            "ko": "02"
           },
           "value": {
-            "ja": "雲海鍋",
-            "en": "Unkai-nabe (sea of clouds hot pot)",
-            "zh-hans": "云海锅",
-            "zh-hant": "雲海鍋",
-            "ko": "운카이나베"
+            "ja": "お肉｜近江牛130g＋黒毛和牛130g（合計260g）",
+            "en": "Meat | Omi beef 130 g + Kuroge Wagyu 130 g (260 g total)",
+            "zh-hans": "肉｜近江牛130g＋黑毛和牛130g（共260g）",
+            "zh-hant": "肉｜近江牛130g＋黑毛和牛130g（共260g）",
+            "ko": "고기 | 오미규 130g＋흑모와규 130g(총 260g)"
           }
         },
         {
           "label": {
-            "ja": "肉",
-            "en": "Beef",
-            "zh-hans": "肉",
-            "zh-hant": "肉",
-            "ko": "고기"
+            "ja": "03",
+            "en": "03",
+            "zh-hans": "03",
+            "zh-hant": "03",
+            "ko": "03"
           },
           "value": {
-            "ja": "近江牛・黒毛和牛",
-            "en": "Omi beef and Kuroge Wagyu",
-            "zh-hans": "近江牛、黑毛和牛",
-            "zh-hant": "近江牛、黑毛和牛",
-            "ko": "오미규, 흑모와규"
-          }
-        },
-        {
-          "label": {
-            "ja": "野菜",
-            "en": "Vegetables",
-            "zh-hans": "蔬菜",
-            "zh-hant": "蔬菜",
-            "ko": "채소"
-          },
-          "value": {
-            "ja": "季節の野菜盛り合わせ",
+            "ja": "季節の野菜盛り",
             "en": "Seasonal vegetable platter",
             "zh-hans": "时令蔬菜拼盘",
             "zh-hant": "時令蔬菜拼盤",
@@ -235,34 +219,50 @@
         },
         {
           "label": {
-            "ja": "〆",
-            "en": "Finish",
-            "zh-hans": "收尾",
-            "zh-hant": "收尾",
-            "ko": "마무리"
+            "ja": "04",
+            "en": "04",
+            "zh-hans": "04",
+            "zh-hant": "04",
+            "ko": "04"
           },
           "value": {
-            "ja": "うどん",
-            "en": "Udon noodles",
-            "zh-hans": "乌冬面",
-            "zh-hant": "烏龍麵",
-            "ko": "우동"
+            "ja": "雲海鍋",
+            "en": "Unkai-nabe (sea of clouds sukiyaki)",
+            "zh-hans": "云海锅",
+            "zh-hant": "雲海鍋",
+            "ko": "운카이나베"
           }
         },
         {
           "label": {
-            "ja": "甘味",
-            "en": "Dessert",
-            "zh-hans": "甜品",
-            "zh-hant": "甜點",
-            "ko": "디저트"
+            "ja": "05",
+            "en": "05",
+            "zh-hans": "05",
+            "zh-hant": "05",
+            "ko": "05"
           },
           "value": {
-            "ja": "抹茶アイス",
-            "en": "Matcha ice cream",
-            "zh-hans": "抹茶冰淇淋",
-            "zh-hant": "抹茶冰淇淋",
-            "ko": "말차 아이스크림"
+            "ja": "〆のうどん",
+            "en": "Finish | Udon noodles",
+            "zh-hans": "收尾｜乌冬面",
+            "zh-hant": "收尾｜烏龍麵",
+            "ko": "마무리 | 우동"
+          }
+        },
+        {
+          "label": {
+            "ja": "06",
+            "en": "06",
+            "zh-hans": "06",
+            "zh-hant": "06",
+            "ko": "06"
+          },
+          "value": {
+            "ja": "甘味",
+            "en": "Dessert (Japanese-style sweet)",
+            "zh-hans": "日式甜品",
+            "zh-hant": "日式甜點",
+            "ko": "일본식 디저트"
           }
         }
       ],
@@ -281,18 +281,18 @@
       "image": "course-premium.jpg",
       "price": 10980,
       "name": {
-        "ja": "近江牛＆黒毛和牛 しゃぶしゃぶ＆すき焼きコース",
-        "en": "Omi Beef & Kuroge Wagyu Shabu-Shabu & Sukiyaki Course",
-        "zh-hans": "近江牛＆黑毛和牛 涮涮锅＆寿喜烧套餐",
-        "zh-hant": "近江牛＆黑毛和牛 涮涮鍋＆壽喜燒套餐",
-        "ko": "오미규＆흑모와규 샤부샤부＆스키야키 코스"
+        "ja": "近江牛＋黒毛和牛 特選食べ比べコース",
+        "en": "Omi Beef & Kuroge Wagyu Premium Tasting Course",
+        "zh-hans": "近江牛＋黑毛和牛 特选品鉴套餐",
+        "zh-hant": "近江牛＋黑毛和牛 特選品鑑套餐",
+        "ko": "오미규＋흑모와규 특선 비교 코스"
       },
       "desc": {
-        "ja": "当店イチオシ。近江牛と黒毛和牛を食べ比べられる、いちばん贅沢なコースです。2種類のお出汁で、手毬寿司と9種の前菜BOXから始まる全6品。",
-        "en": "Our top pick and most indulgent course: Omi beef and Kuroge Wagyu side by side, in two broths. Six courses, starting with temari sushi and a box of nine small appetizers.",
-        "zh-hans": "本店推荐，可对比品尝近江牛与黑毛和牛的豪华套餐。两种汤底，从手鞠寿司与9种前菜拼盒开始，共6道菜。",
-        "zh-hant": "本店推薦，可對比品嚐近江牛及黑毛和牛的豪華套餐。兩種湯底，從手毬壽司及9款前菜拼盒開始，共6道菜。",
-        "ko": "추천 코스. 오미규와 흑모와규를 비교하며 즐기는 가장 호화로운 코스입니다. 두 가지 육수로, 테마리 스시와 9종 전채 박스로 시작하는 전 6품."
+        "ja": "当店イチオシ。近江牛と黒毛和牛を130gずつ、すき焼きとしゃぶしゃぶの二色鍋で食べ比べる特選コースです。",
+        "en": "Our top recommendation: 130 g each of Omi beef and Kuroge Wagyu, compared side by side as sukiyaki and shabu-shabu in our two-section pot.",
+        "zh-hans": "本店力荐。近江牛与黑毛和牛各130g，以寿喜烧与涮涮锅的双色锅对比品尝的特选套餐。",
+        "zh-hant": "本店推薦。近江牛與黑毛和牛各130g，以壽喜燒與涮涮鍋的雙色鍋比較品嚐的特選套餐。",
+        "ko": "가게 추천. 오미규와 흑모와규 각 130g을 스키야키와 샤부샤부 두 가지 냄비로 비교하며 즐기는 특선 코스입니다."
       },
       "meta": {
         "ja": "全6品・2時間制",
@@ -304,62 +304,46 @@
       "items": [
         {
           "label": {
-            "ja": "先付",
-            "en": "Starter",
-            "zh-hans": "先付",
-            "zh-hant": "先付",
-            "ko": "전채"
+            "ja": "01",
+            "en": "01",
+            "zh-hans": "01",
+            "zh-hant": "01",
+            "ko": "01"
           },
           "value": {
-            "ja": "手毬寿司・前菜BOX（9種）",
-            "en": "Temari sushi & appetizer box (9 kinds)",
-            "zh-hans": "手鞠寿司・前菜拼盒（9种）",
-            "zh-hant": "手毬壽司・前菜拼盒（9款）",
-            "ko": "테마리 스시·전채 박스(9종)"
+            "ja": "九桝八寸｜前菜6種＋手毬寿司3貫",
+            "en": "Kumasu hassun | 6 appetizers + 3 temari sushi",
+            "zh-hans": "九格八寸｜前菜6种＋手鞠寿司3贯",
+            "zh-hant": "九格八寸｜前菜6種＋手毬壽司3貫",
+            "ko": "구칸 핫슨 | 전채 6종＋테마리 스시 3개"
           }
         },
         {
           "label": {
-            "ja": "出汁",
-            "en": "Broth",
-            "zh-hans": "汤底",
-            "zh-hant": "湯底",
-            "ko": "육수"
+            "ja": "02",
+            "en": "02",
+            "zh-hans": "02",
+            "zh-hant": "02",
+            "ko": "02"
           },
           "value": {
-            "ja": "「極み出汁」と「すき焼き風出汁」の2種",
-            "en": "Kiwami broth and sukiyaki-style broth",
-            "zh-hans": "极致高汤、寿喜烧风味高汤",
-            "zh-hant": "極致高湯、壽喜燒風味高湯",
-            "ko": "키와미 육수, 스키야키풍 육수"
+            "ja": "お肉｜近江牛130g＋黒毛和牛130g（合計260g）",
+            "en": "Meat | Omi beef 130 g + Kuroge Wagyu 130 g (260 g total)",
+            "zh-hans": "肉｜近江牛130g＋黑毛和牛130g（共260g）",
+            "zh-hant": "肉｜近江牛130g＋黑毛和牛130g（共260g）",
+            "ko": "고기 | 오미규 130g＋흑모와규 130g(총 260g)"
           }
         },
         {
           "label": {
-            "ja": "肉",
-            "en": "Beef",
-            "zh-hans": "肉",
-            "zh-hant": "肉",
-            "ko": "고기"
+            "ja": "03",
+            "en": "03",
+            "zh-hans": "03",
+            "zh-hant": "03",
+            "ko": "03"
           },
           "value": {
-            "ja": "近江牛・黒毛和牛",
-            "en": "Omi beef and Kuroge Wagyu",
-            "zh-hans": "近江牛、黑毛和牛",
-            "zh-hant": "近江牛、黑毛和牛",
-            "ko": "오미규, 흑모와규"
-          }
-        },
-        {
-          "label": {
-            "ja": "野菜",
-            "en": "Vegetables",
-            "zh-hans": "蔬菜",
-            "zh-hant": "蔬菜",
-            "ko": "채소"
-          },
-          "value": {
-            "ja": "季節の野菜盛り合わせ",
+            "ja": "季節の野菜盛り",
             "en": "Seasonal vegetable platter",
             "zh-hans": "时令蔬菜拼盘",
             "zh-hant": "時令蔬菜拼盤",
@@ -368,43 +352,59 @@
         },
         {
           "label": {
-            "ja": "〆",
-            "en": "Finish",
-            "zh-hans": "收尾",
-            "zh-hant": "收尾",
-            "ko": "마무리"
+            "ja": "04",
+            "en": "04",
+            "zh-hans": "04",
+            "zh-hant": "04",
+            "ko": "04"
           },
           "value": {
-            "ja": "うどん または 雑炊",
-            "en": "Udon noodles or rice porridge",
-            "zh-hans": "乌冬面或杂烩粥",
-            "zh-hant": "烏龍麵或雜炊粥",
-            "ko": "우동 또는 죽"
+            "ja": "二色鍋｜関東風すき焼き・しゃぶしゃぶ",
+            "en": "Two-section pot | Kanto-style sukiyaki & shabu-shabu",
+            "zh-hans": "双色锅｜关东风寿喜烧・涮涮锅",
+            "zh-hant": "雙色鍋｜關東風壽喜燒・涮涮鍋",
+            "ko": "두 칸 냄비 | 간토식 스키야키·샤부샤부"
           }
         },
         {
           "label": {
-            "ja": "甘味",
-            "en": "Dessert",
-            "zh-hans": "甜品",
-            "zh-hant": "甜點",
-            "ko": "디저트"
+            "ja": "05",
+            "en": "05",
+            "zh-hans": "05",
+            "zh-hant": "05",
+            "ko": "05"
           },
           "value": {
-            "ja": "抹茶アイス",
-            "en": "Matcha ice cream",
-            "zh-hans": "抹茶冰淇淋",
-            "zh-hant": "抹茶冰淇淋",
-            "ko": "말차 아이스크림"
+            "ja": "〆｜うどん または 雑炊",
+            "en": "Finish | Udon or zosui rice porridge",
+            "zh-hans": "收尾｜乌冬面或杂烩粥",
+            "zh-hant": "收尾｜烏龍麵或雜炊粥",
+            "ko": "마무리 | 우동 또는 죽(조스이)"
+          }
+        },
+        {
+          "label": {
+            "ja": "06",
+            "en": "06",
+            "zh-hans": "06",
+            "zh-hant": "06",
+            "ko": "06"
+          },
+          "value": {
+            "ja": "甘味",
+            "en": "Dessert (Japanese-style sweet)",
+            "zh-hans": "日式甜品",
+            "zh-hant": "日式甜點",
+            "ko": "일본식 디저트"
           }
         }
       ],
       "upgrade": {
-        "ja": "＋3,000円で、手毬寿司・近江牛・黒毛和牛・飛騨豚・季節のお野菜が食べ放題になります。",
-        "en": "Add ¥3,000 to make the temari sushi, Omi beef, Kuroge Wagyu, Hida pork and seasonal vegetables all-you-can-eat.",
-        "zh-hans": "加3,000日元，手鞠寿司、近江牛、黑毛和牛、飞驒猪肉及时令蔬菜即可无限畅吃。",
-        "zh-hant": "加3,000日圓，手毬壽司、近江牛、黑毛和牛、飛驒豬肉及時令蔬菜即可吃到飽。",
-        "ko": "3,000엔을 추가하시면 테마리 스시, 오미규, 흑모와규, 히다 돼지고기, 제철 채소를 무제한으로 즐기실 수 있습니다."
+        "ja": "＋3,000円で「近江牛 すき焼き・しゃぶしゃぶ食べ放題コース」に変更できます。",
+        "en": "Add ¥3,000 to switch to the Omi Beef Sukiyaki & Shabu-shabu All-You-Can-Eat Course.",
+        "zh-hans": "加3,000日元即可升级为「近江牛 寿喜烧・涮涮锅无限畅吃套餐」。",
+        "zh-hant": "加3,000日圓即可升級為「近江牛 壽喜燒・涮涮鍋吃到飽套餐」。",
+        "ko": "3,000엔을 추가하면 '오미규 스키야키·샤부샤부 무제한 코스'로 변경할 수 있습니다."
       },
       "badge": {
         "ja": "イチオシ",
@@ -421,18 +421,18 @@
       "image": "course-unkai.jpg",
       "price": 9980,
       "name": {
-        "ja": "黒毛和牛 特選すき焼きコース（雲海鍋）",
-        "en": "Kuroge Wagyu Premium Sukiyaki Course (Unkai-nabe)",
-        "zh-hans": "黑毛和牛 特选寿喜烧套餐（云海锅）",
-        "zh-hant": "黑毛和牛 特選壽喜燒套餐（雲海鍋）",
-        "ko": "흑모와규 특선 스키야키 코스(운카이나베)"
+        "ja": "雲海鍋 黒毛和牛すき焼きコース",
+        "en": "Unkai-nabe Kuroge Wagyu Sukiyaki Course",
+        "zh-hans": "云海锅 黑毛和牛寿喜烧套餐",
+        "zh-hant": "雲海鍋 黑毛和牛壽喜燒套餐",
+        "ko": "운카이나베 흑모와규 스키야키 코스"
       },
       "desc": {
-        "ja": "ふわふわの“雲海鍋”で楽しむ、体験型の黒毛和牛すき焼き。見た目にも楽しく、記念日やデートにおすすめです。手毬寿司と9種の前菜BOXから始まる全6品。お肉は自家製の特製割り下で焼き上げます。",
-        "en": "Kuroge Wagyu sukiyaki served as Unkai-nabe, a fluffy 'sea of clouds' hot pot that is as fun to watch as it is to eat. Great for dates and celebrations. Six courses, starting with temari sushi and a box of nine small appetizers. The beef is seared in our house-made special warishita sauce.",
-        "zh-hans": "以蓬松的“云海锅”享用的体验型黑毛和牛寿喜烧，视觉上也充满乐趣，适合纪念日或约会。从手鞠寿司与9种前菜拼盒开始，共6道菜。牛肉以店内自制的特制割下酱汁煎烤。",
-        "zh-hant": "以鬆軟的「雲海鍋」享用的體驗型黑毛和牛壽喜燒，視覺上也充滿樂趣，適合紀念日或約會。從手毬壽司及9款前菜拼盒開始，共6道菜。牛肉以店內自製的特製割下醬汁煎烤。",
-        "ko": "폭신폭신한 '운카이나베(구름바다 냄비)'로 즐기는 체험형 흑모와규 스키야키. 보는 재미도 있어 기념일이나 데이트에 추천합니다. 테마리 스시와 9종 전채 박스로 시작하는 전 6품. 고기는 직접 만든 특제 와리시타 소스로 구워 드립니다."
+        "ja": "白い綿菓子が雲海のようにゆっくりとほどけ、すき焼きが姿を現す、目の前で完成していく体験型すき焼き。黒毛和牛260gをたっぷりと。記念日やデートにもおすすめです。お肉は自家製の割り下で焼き上げます。",
+        "en": "A cloud of white cotton candy melts away like a sea of clouds to reveal the sukiyaki, an experience that comes together before your eyes. A generous 260 g of Kuroge Wagyu, seared in our house-made warishita. Perfect for dates and celebrations.",
+        "zh-hans": "洁白的棉花糖如云海般化开，寿喜烧随之现身，在您眼前完成的体验型寿喜烧。黑毛和牛260g，分量十足，适合纪念日或约会。牛肉以店内自制的割下酱汁煎烤。",
+        "zh-hant": "潔白的棉花糖如雲海般化開，壽喜燒隨之現身，在您眼前完成的體驗型壽喜燒。黑毛和牛260g，份量十足，適合紀念日或約會。牛肉以店內自製的割下醬汁煎烤。",
+        "ko": "하얀 솜사탕이 운해처럼 녹아내리며 스키야키가 모습을 드러내는, 눈앞에서 완성되는 체험형 스키야키. 흑모와규 260g을 듬뿍. 기념일이나 데이트에도 추천합니다. 고기는 직접 만든 와리시타로 구워 드립니다."
       },
       "meta": {
         "ja": "全6品・2時間制",
@@ -444,62 +444,46 @@
       "items": [
         {
           "label": {
-            "ja": "先付",
-            "en": "Starter",
-            "zh-hans": "先付",
-            "zh-hant": "先付",
-            "ko": "전채"
+            "ja": "01",
+            "en": "01",
+            "zh-hans": "01",
+            "zh-hant": "01",
+            "ko": "01"
           },
           "value": {
-            "ja": "手毬寿司・前菜BOX（9種）",
-            "en": "Temari sushi & appetizer box (9 kinds)",
-            "zh-hans": "手鞠寿司・前菜拼盒（9种）",
-            "zh-hant": "手毬壽司・前菜拼盒（9款）",
-            "ko": "테마리 스시·전채 박스(9종)"
+            "ja": "九桝八寸｜前菜6種＋手毬寿司3貫",
+            "en": "Kumasu hassun | 6 appetizers + 3 temari sushi",
+            "zh-hans": "九格八寸｜前菜6种＋手鞠寿司3贯",
+            "zh-hant": "九格八寸｜前菜6種＋手毬壽司3貫",
+            "ko": "구칸 핫슨 | 전채 6종＋테마리 스시 3개"
           }
         },
         {
           "label": {
-            "ja": "鍋",
-            "en": "Hot pot",
-            "zh-hans": "锅",
-            "zh-hant": "鍋",
-            "ko": "냄비"
+            "ja": "02",
+            "en": "02",
+            "zh-hans": "02",
+            "zh-hant": "02",
+            "ko": "02"
           },
           "value": {
-            "ja": "雲海鍋",
-            "en": "Unkai-nabe (sea of clouds hot pot)",
-            "zh-hans": "云海锅",
-            "zh-hant": "雲海鍋",
-            "ko": "운카이나베"
+            "ja": "お肉｜黒毛和牛 260g",
+            "en": "Meat | Kuroge Wagyu, 260 g",
+            "zh-hans": "肉｜黑毛和牛 260g",
+            "zh-hant": "肉｜黑毛和牛 260g",
+            "ko": "고기 | 흑모와규 260g"
           }
         },
         {
           "label": {
-            "ja": "肉",
-            "en": "Beef",
-            "zh-hans": "肉",
-            "zh-hant": "肉",
-            "ko": "고기"
+            "ja": "03",
+            "en": "03",
+            "zh-hans": "03",
+            "zh-hant": "03",
+            "ko": "03"
           },
           "value": {
-            "ja": "黒毛和牛",
-            "en": "Kuroge Wagyu",
-            "zh-hans": "黑毛和牛",
-            "zh-hant": "黑毛和牛",
-            "ko": "흑모와규"
-          }
-        },
-        {
-          "label": {
-            "ja": "野菜",
-            "en": "Vegetables",
-            "zh-hans": "蔬菜",
-            "zh-hant": "蔬菜",
-            "ko": "채소"
-          },
-          "value": {
-            "ja": "季節の野菜盛り合わせ",
+            "ja": "季節の野菜盛り",
             "en": "Seasonal vegetable platter",
             "zh-hans": "时令蔬菜拼盘",
             "zh-hant": "時令蔬菜拼盤",
@@ -508,34 +492,50 @@
         },
         {
           "label": {
-            "ja": "〆",
-            "en": "Finish",
-            "zh-hans": "收尾",
-            "zh-hant": "收尾",
-            "ko": "마무리"
+            "ja": "04",
+            "en": "04",
+            "zh-hans": "04",
+            "zh-hant": "04",
+            "ko": "04"
           },
           "value": {
-            "ja": "うどん",
-            "en": "Udon noodles",
-            "zh-hans": "乌冬面",
-            "zh-hant": "烏龍麵",
-            "ko": "우동"
+            "ja": "雲海鍋",
+            "en": "Unkai-nabe (sea of clouds sukiyaki)",
+            "zh-hans": "云海锅",
+            "zh-hant": "雲海鍋",
+            "ko": "운카이나베"
           }
         },
         {
           "label": {
-            "ja": "甘味",
-            "en": "Dessert",
-            "zh-hans": "甜品",
-            "zh-hant": "甜點",
-            "ko": "디저트"
+            "ja": "05",
+            "en": "05",
+            "zh-hans": "05",
+            "zh-hant": "05",
+            "ko": "05"
           },
           "value": {
-            "ja": "抹茶アイス",
-            "en": "Matcha ice cream",
-            "zh-hans": "抹茶冰淇淋",
-            "zh-hant": "抹茶冰淇淋",
-            "ko": "말차 아이스크림"
+            "ja": "〆のうどん",
+            "en": "Finish | Udon noodles",
+            "zh-hans": "收尾｜乌冬面",
+            "zh-hant": "收尾｜烏龍麵",
+            "ko": "마무리 | 우동"
+          }
+        },
+        {
+          "label": {
+            "ja": "06",
+            "en": "06",
+            "zh-hans": "06",
+            "zh-hant": "06",
+            "ko": "06"
+          },
+          "value": {
+            "ja": "甘味",
+            "en": "Dessert (Japanese-style sweet)",
+            "zh-hans": "日式甜品",
+            "zh-hant": "日式甜點",
+            "ko": "일본식 디저트"
           }
         }
       ],
@@ -554,18 +554,18 @@
       "image": "course-omi.jpg",
       "price": 9480,
       "name": {
-        "ja": "近江牛 しゃぶしゃぶ＆すき焼きコース",
-        "en": "Omi Beef Shabu-Shabu & Sukiyaki Course",
-        "zh-hans": "近江牛 涮涮锅＆寿喜烧套餐",
-        "zh-hant": "近江牛 涮涮鍋＆壽喜燒套餐",
-        "ko": "오미규 샤부샤부＆스키야키 코스"
+        "ja": "近江牛 すき焼き・しゃぶしゃぶコース",
+        "en": "Omi Beef Sukiyaki & Shabu-shabu Course",
+        "zh-hans": "近江牛 寿喜烧・涮涮锅套餐",
+        "zh-hant": "近江牛 壽喜燒・涮涮鍋套餐",
+        "ko": "오미규 스키야키·샤부샤부 코스"
       },
       "desc": {
-        "ja": "当店いちばん人気。滋賀のブランド牛「近江牛」を、「極み出汁」と「すき焼き風出汁」の2種類で。手毬寿司と9種の前菜BOXから始まる全6品です。",
-        "en": "Our most popular course. Omi beef, the celebrated wagyu of Shiga, enjoyed in our Kiwami broth and a sukiyaki-style broth. Six courses, starting with temari sushi and a box of nine small appetizers.",
-        "zh-hans": "本店人气第一。以“极致高汤”与“寿喜烧风味高汤”两种汤底品尝滋贺县的品牌和牛“近江牛”。从手鞠寿司与9种前菜拼盒开始，共6道菜。",
-        "zh-hant": "本店最受歡迎。以「極致高湯」及「壽喜燒風味高湯」兩種湯底品嚐滋賀縣的品牌和牛「近江牛」。從手毬壽司及9款前菜拼盒開始，共6道菜。",
-        "ko": "가장 인기 있는 코스. 시가현의 브랜드 와규 '오미규'를 '키와미 육수'와 '스키야키풍 육수' 두 가지로 즐깁니다. 테마리 스시와 9종 전채 박스로 시작하는 전 6품."
+        "ja": "当店いちばん人気。およそ400年の歴史を持つ滋賀のブランド牛「近江牛」を、すき焼きとしゃぶしゃぶの二色鍋で。個体識別情報・証明書は店舗入口にてご覧いただけます。",
+        "en": "Our most popular course. Omi beef, a Shiga Prefecture brand with some 400 years of history, enjoyed as sukiyaki and shabu-shabu in our two-section pot. Traceability records and certificates are displayed at our entrance.",
+        "zh-hans": "本店最受欢迎。拥有约400年历史的滋贺县品牌和牛「近江牛」，以寿喜烧与涮涮锅双色锅品尝。个体识别信息及证明书可于店铺入口查看。",
+        "zh-hant": "本店最受歡迎。擁有約400年歷史的滋賀縣品牌和牛「近江牛」，以壽喜燒與涮涮鍋雙色鍋品嚐。個體識別資訊及證明書可於店門口查看。",
+        "ko": "가게 최고 인기. 약 400년의 역사를 지닌 시가현 브랜드 와규 '오미규'를 스키야키와 샤부샤부 두 가지 냄비로. 개체 식별 정보와 증명서는 가게 입구에서 보실 수 있습니다."
       },
       "meta": {
         "ja": "全6品・2時間制",
@@ -577,62 +577,46 @@
       "items": [
         {
           "label": {
-            "ja": "先付",
-            "en": "Starter",
-            "zh-hans": "先付",
-            "zh-hant": "先付",
-            "ko": "전채"
+            "ja": "01",
+            "en": "01",
+            "zh-hans": "01",
+            "zh-hant": "01",
+            "ko": "01"
           },
           "value": {
-            "ja": "手毬寿司・前菜BOX（9種）",
-            "en": "Temari sushi & appetizer box (9 kinds)",
-            "zh-hans": "手鞠寿司・前菜拼盒（9种）",
-            "zh-hant": "手毬壽司・前菜拼盒（9款）",
-            "ko": "테마리 스시·전채 박스(9종)"
+            "ja": "九桝八寸｜前菜6種＋手毬寿司3貫",
+            "en": "Kumasu hassun | 6 appetizers + 3 temari sushi",
+            "zh-hans": "九格八寸｜前菜6种＋手鞠寿司3贯",
+            "zh-hant": "九格八寸｜前菜6種＋手毬壽司3貫",
+            "ko": "구칸 핫슨 | 전채 6종＋테마리 스시 3개"
           }
         },
         {
           "label": {
-            "ja": "出汁",
-            "en": "Broth",
-            "zh-hans": "汤底",
-            "zh-hant": "湯底",
-            "ko": "육수"
+            "ja": "02",
+            "en": "02",
+            "zh-hans": "02",
+            "zh-hant": "02",
+            "ko": "02"
           },
           "value": {
-            "ja": "「極み出汁」と「すき焼き風出汁」の2種",
-            "en": "Kiwami broth and sukiyaki-style broth",
-            "zh-hans": "极致高汤、寿喜烧风味高汤",
-            "zh-hant": "極致高湯、壽喜燒風味高湯",
-            "ko": "키와미 육수, 스키야키풍 육수"
+            "ja": "お肉｜近江牛 130g",
+            "en": "Meat | Omi beef, 130 g",
+            "zh-hans": "肉｜近江牛 130g",
+            "zh-hant": "肉｜近江牛 130g",
+            "ko": "고기 | 오미규 130g"
           }
         },
         {
           "label": {
-            "ja": "肉",
-            "en": "Beef",
-            "zh-hans": "肉",
-            "zh-hant": "肉",
-            "ko": "고기"
+            "ja": "03",
+            "en": "03",
+            "zh-hans": "03",
+            "zh-hant": "03",
+            "ko": "03"
           },
           "value": {
-            "ja": "近江牛",
-            "en": "Omi beef",
-            "zh-hans": "近江牛",
-            "zh-hant": "近江牛",
-            "ko": "오미규"
-          }
-        },
-        {
-          "label": {
-            "ja": "野菜",
-            "en": "Vegetables",
-            "zh-hans": "蔬菜",
-            "zh-hant": "蔬菜",
-            "ko": "채소"
-          },
-          "value": {
-            "ja": "季節の野菜盛り合わせ",
+            "ja": "季節の野菜盛り",
             "en": "Seasonal vegetable platter",
             "zh-hans": "时令蔬菜拼盘",
             "zh-hant": "時令蔬菜拼盤",
@@ -641,43 +625,59 @@
         },
         {
           "label": {
-            "ja": "〆",
-            "en": "Finish",
-            "zh-hans": "收尾",
-            "zh-hant": "收尾",
-            "ko": "마무리"
+            "ja": "04",
+            "en": "04",
+            "zh-hans": "04",
+            "zh-hant": "04",
+            "ko": "04"
           },
           "value": {
-            "ja": "うどん または 雑炊",
-            "en": "Udon noodles or rice porridge",
-            "zh-hans": "乌冬面或杂烩粥",
-            "zh-hant": "烏龍麵或雜炊粥",
-            "ko": "우동 또는 죽"
+            "ja": "二色鍋｜関東風すき焼き・しゃぶしゃぶ",
+            "en": "Two-section pot | Kanto-style sukiyaki & shabu-shabu",
+            "zh-hans": "双色锅｜关东风寿喜烧・涮涮锅",
+            "zh-hant": "雙色鍋｜關東風壽喜燒・涮涮鍋",
+            "ko": "두 칸 냄비 | 간토식 스키야키·샤부샤부"
           }
         },
         {
           "label": {
-            "ja": "甘味",
-            "en": "Dessert",
-            "zh-hans": "甜品",
-            "zh-hant": "甜點",
-            "ko": "디저트"
+            "ja": "05",
+            "en": "05",
+            "zh-hans": "05",
+            "zh-hant": "05",
+            "ko": "05"
           },
           "value": {
-            "ja": "抹茶アイス",
-            "en": "Matcha ice cream",
-            "zh-hans": "抹茶冰淇淋",
-            "zh-hant": "抹茶冰淇淋",
-            "ko": "말차 아이스크림"
+            "ja": "〆｜うどん または 雑炊",
+            "en": "Finish | Udon or zosui rice porridge",
+            "zh-hans": "收尾｜乌冬面或杂烩粥",
+            "zh-hant": "收尾｜烏龍麵或雜炊粥",
+            "ko": "마무리 | 우동 또는 죽(조스이)"
+          }
+        },
+        {
+          "label": {
+            "ja": "06",
+            "en": "06",
+            "zh-hans": "06",
+            "zh-hant": "06",
+            "ko": "06"
+          },
+          "value": {
+            "ja": "甘味",
+            "en": "Dessert (Japanese-style sweet)",
+            "zh-hans": "日式甜品",
+            "zh-hant": "日式甜點",
+            "ko": "일본식 디저트"
           }
         }
       ],
       "upgrade": {
-        "ja": "＋4,500円で、手毬寿司・近江牛・黒毛和牛・飛騨豚・季節のお野菜が食べ放題になります。",
-        "en": "Add ¥4,500 to make the temari sushi, Omi beef, Kuroge Wagyu, Hida pork and seasonal vegetables all-you-can-eat.",
-        "zh-hans": "加4,500日元，手鞠寿司、近江牛、黑毛和牛、飞驒猪肉及时令蔬菜即可无限畅吃。",
-        "zh-hant": "加4,500日圓，手毬壽司、近江牛、黑毛和牛、飛驒豬肉及時令蔬菜即可吃到飽。",
-        "ko": "4,500엔을 추가하시면 테마리 스시, 오미규, 흑모와규, 히다 돼지고기, 제철 채소를 무제한으로 즐기실 수 있습니다."
+        "ja": "＋4,500円で「近江牛 すき焼き・しゃぶしゃぶ食べ放題コース」に変更できます。",
+        "en": "Add ¥4,500 to switch to the Omi Beef Sukiyaki & Shabu-shabu All-You-Can-Eat Course.",
+        "zh-hans": "加4,500日元即可升级为「近江牛 寿喜烧・涮涮锅无限畅吃套餐」。",
+        "zh-hant": "加4,500日圓即可升級為「近江牛 壽喜燒・涮涮鍋吃到飽套餐」。",
+        "ko": "4,500엔을 추가하면 '오미규 스키야키·샤부샤부 무제한 코스'로 변경할 수 있습니다."
       },
       "badge": {
         "ja": "一番人気",
@@ -694,85 +694,69 @@
       "image": "course-wagyu-tabehoudai.jpg",
       "price": 8980,
       "name": {
-        "ja": "黒毛和牛 しゃぶしゃぶ＆すき焼き食べ放題コース",
-        "en": "Kuroge Wagyu Shabu-Shabu & Sukiyaki All-You-Can-Eat Course",
-        "zh-hans": "黑毛和牛 涮涮锅＆寿喜烧无限畅吃套餐",
-        "zh-hant": "黑毛和牛 涮涮鍋＆壽喜燒吃到飽套餐",
-        "ko": "흑모와규 샤부샤부＆스키야키 무제한 코스"
+        "ja": "黒毛和牛 すき焼き・しゃぶしゃぶ食べ放題コース",
+        "en": "Kuroge Wagyu Sukiyaki & Shabu-shabu All-You-Can-Eat Course",
+        "zh-hans": "黑毛和牛 寿喜烧・涮涮锅无限畅吃套餐",
+        "zh-hant": "黑毛和牛 壽喜燒・涮涮鍋吃到飽套餐",
+        "ko": "흑모와규 스키야키·샤부샤부 무제한 코스"
       },
       "desc": {
-        "ja": "黒毛和牛コースの食べ放題版。手毬寿司・黒毛和牛・飛騨豚・季節のお野菜を、2時間たっぷりお楽しみいただけます。",
-        "en": "The all-you-can-eat version of our Kuroge Wagyu course: temari sushi, Kuroge Wagyu, Hida pork and seasonal vegetables for two hours.",
-        "zh-hans": "黑毛和牛套餐的无限畅吃版，2小时内手鞠寿司、黑毛和牛、飞驒猪肉及时令蔬菜任您享用。",
-        "zh-hant": "黑毛和牛套餐的吃到飽版，2小時內手毬壽司、黑毛和牛、飛驒豬肉及時令蔬菜任您享用。",
-        "ko": "흑모와규 코스의 무제한 버전. 2시간 동안 테마리 스시, 흑모와규, 히다 돼지고기, 제철 채소를 마음껏 즐기실 수 있습니다."
+        "ja": "黒毛和牛と飛驒豚が食べ放題。お肉・季節のお野菜・手毬寿司・〆のうどんを、120分たっぷりお楽しみいただけます。",
+        "en": "All-you-can-eat Kuroge Wagyu and Hida pork, with seasonal vegetables, temari sushi and udon, for 120 minutes.",
+        "zh-hans": "黑毛和牛与飞驒猪无限畅吃。肉类、时令蔬菜、手鞠寿司及收尾乌冬面，120分钟尽情享用。",
+        "zh-hant": "黑毛和牛與飛驒豬吃到飽。肉類、時令蔬菜、手毬壽司及收尾烏龍麵，120分鐘盡情享用。",
+        "ko": "흑모와규와 히다 돼지고기를 무제한으로. 고기, 제철 채소, 테마리 스시, 마무리 우동을 120분 동안 마음껏 즐기실 수 있습니다."
       },
       "meta": {
-        "ja": "全6品・2時間制",
-        "en": "6 dishes, 2-hour seating",
-        "zh-hans": "共6道・用餐时间2小时",
-        "zh-hant": "共6道・用餐時間2小時",
-        "ko": "전 6품・2시간제"
+        "ja": "全6品・120分制（L.O.90分）",
+        "en": "6 dishes, 120 minutes (last order at 90 min)",
+        "zh-hans": "共6道・120分钟（最后点餐90分钟）",
+        "zh-hant": "共6道・120分鐘（最後點餐90分鐘）",
+        "ko": "전 6품・120분제(라스트 오더 90분)"
       },
       "items": [
         {
           "label": {
-            "ja": "先付",
-            "en": "Starter",
-            "zh-hans": "先付",
-            "zh-hant": "先付",
-            "ko": "전채"
+            "ja": "01",
+            "en": "01",
+            "zh-hans": "01",
+            "zh-hant": "01",
+            "ko": "01"
           },
           "value": {
-            "ja": "手毬寿司・前菜BOX（9種）",
-            "en": "Temari sushi & appetizer box (9 kinds)",
-            "zh-hans": "手鞠寿司・前菜拼盒（9种）",
-            "zh-hant": "手毬壽司・前菜拼盒（9款）",
-            "ko": "테마리 스시·전채 박스(9종)"
+            "ja": "九桝八寸｜前菜6種＋手毬寿司3貫",
+            "en": "Kumasu hassun | 6 appetizers + 3 temari sushi",
+            "zh-hans": "九格八寸｜前菜6种＋手鞠寿司3贯",
+            "zh-hant": "九格八寸｜前菜6種＋手毬壽司3貫",
+            "ko": "구칸 핫슨 | 전채 6종＋테마리 스시 3개"
           }
         },
         {
           "label": {
-            "ja": "出汁",
-            "en": "Broth",
-            "zh-hans": "汤底",
-            "zh-hant": "湯底",
-            "ko": "육수"
+            "ja": "02",
+            "en": "02",
+            "zh-hans": "02",
+            "zh-hant": "02",
+            "ko": "02"
           },
           "value": {
-            "ja": "「極み出汁」と「すき焼き風出汁」の2種",
-            "en": "Kiwami broth and sukiyaki-style broth",
-            "zh-hans": "极致高汤、寿喜烧风味高汤",
-            "zh-hant": "極致高湯、壽喜燒風味高湯",
-            "ko": "키와미 육수, 스키야키풍 육수"
+            "ja": "お肉｜黒毛和牛・飛驒豚ロース・バラ",
+            "en": "Meat | Kuroge Wagyu, Hida pork loin and belly",
+            "zh-hans": "肉｜黑毛和牛、飞驒猪里脊及五花肉",
+            "zh-hant": "肉｜黑毛和牛、飛驒豬里脊及五花肉",
+            "ko": "고기 | 흑모와규, 히다 돼지 등심·삼겹살"
           }
         },
         {
           "label": {
-            "ja": "肉",
-            "en": "Beef",
-            "zh-hans": "肉",
-            "zh-hant": "肉",
-            "ko": "고기"
+            "ja": "03",
+            "en": "03",
+            "zh-hans": "03",
+            "zh-hant": "03",
+            "ko": "03"
           },
           "value": {
-            "ja": "黒毛和牛",
-            "en": "Kuroge Wagyu",
-            "zh-hans": "黑毛和牛",
-            "zh-hant": "黑毛和牛",
-            "ko": "흑모와규"
-          }
-        },
-        {
-          "label": {
-            "ja": "野菜",
-            "en": "Vegetables",
-            "zh-hans": "蔬菜",
-            "zh-hant": "蔬菜",
-            "ko": "채소"
-          },
-          "value": {
-            "ja": "季節の野菜盛り合わせ",
+            "ja": "季節の野菜盛り",
             "en": "Seasonal vegetable platter",
             "zh-hans": "时令蔬菜拼盘",
             "zh-hant": "時令蔬菜拼盤",
@@ -781,43 +765,59 @@
         },
         {
           "label": {
-            "ja": "〆",
-            "en": "Finish",
-            "zh-hans": "收尾",
-            "zh-hant": "收尾",
-            "ko": "마무리"
+            "ja": "04",
+            "en": "04",
+            "zh-hans": "04",
+            "zh-hant": "04",
+            "ko": "04"
           },
           "value": {
-            "ja": "うどん または 雑炊",
-            "en": "Udon noodles or rice porridge",
-            "zh-hans": "乌冬面或杂烩粥",
-            "zh-hant": "烏龍麵或雜炊粥",
-            "ko": "우동 또는 죽"
+            "ja": "二色鍋｜関東風すき焼き・しゃぶしゃぶ",
+            "en": "Two-section pot | Kanto-style sukiyaki & shabu-shabu",
+            "zh-hans": "双色锅｜关东风寿喜烧・涮涮锅",
+            "zh-hant": "雙色鍋｜關東風壽喜燒・涮涮鍋",
+            "ko": "두 칸 냄비 | 간토식 스키야키·샤부샤부"
           }
         },
         {
           "label": {
-            "ja": "甘味",
-            "en": "Dessert",
-            "zh-hans": "甜品",
-            "zh-hant": "甜點",
-            "ko": "디저트"
+            "ja": "05",
+            "en": "05",
+            "zh-hans": "05",
+            "zh-hant": "05",
+            "ko": "05"
           },
           "value": {
-            "ja": "抹茶アイス",
-            "en": "Matcha ice cream",
-            "zh-hans": "抹茶冰淇淋",
-            "zh-hant": "抹茶冰淇淋",
-            "ko": "말차 아이스크림"
+            "ja": "〆のうどん",
+            "en": "Finish | Udon noodles",
+            "zh-hans": "收尾｜乌冬面",
+            "zh-hant": "收尾｜烏龍麵",
+            "ko": "마무리 | 우동"
+          }
+        },
+        {
+          "label": {
+            "ja": "06",
+            "en": "06",
+            "zh-hans": "06",
+            "zh-hant": "06",
+            "ko": "06"
+          },
+          "value": {
+            "ja": "甘味",
+            "en": "Dessert (Japanese-style sweet)",
+            "zh-hans": "日式甜品",
+            "zh-hant": "日式甜點",
+            "ko": "일본식 디저트"
           }
         }
       ],
       "upgrade": {
-        "ja": "前菜BOX・雑炊・抹茶アイスは食べ放題の対象外です。",
-        "en": "The appetizer box, rice porridge and matcha ice cream are not included in the all-you-can-eat.",
-        "zh-hans": "前菜拼盒、杂烩粥及抹茶冰淇淋不在无限畅吃范围内。",
-        "zh-hant": "前菜拼盒、雜炊粥及抹茶冰淇淋不在吃到飽範圍內。",
-        "ko": "전채 박스, 죽, 말차 아이스크림은 무제한 대상에서 제외됩니다."
+        "ja": "九桝八寸と甘味は食べ放題の対象外です。6〜10歳のお子様は6,980円（税込）です。",
+        "en": "The kumasu hassun and dessert are not part of the all-you-can-eat. Children aged 6–10: ¥6,980.",
+        "zh-hans": "九格八寸及甜品不在无限畅吃范围内。6至10岁儿童6,980日元（含税）。",
+        "zh-hant": "九格八寸及甜點不在吃到飽範圍內。6至10歲兒童6,980日圓（含稅）。",
+        "ko": "구칸 핫슨과 디저트는 무제한 대상에서 제외됩니다. 6~10세 어린이는 6,980엔(세금 포함)입니다."
       },
       "badge": {
         "ja": "食べ放題",
@@ -834,85 +834,69 @@
       "image": "course-hida-tabehoudai.jpg",
       "price": 6480,
       "name": {
-        "ja": "飛騨豚 しゃぶしゃぶ＆すき焼き食べ放題コース",
-        "en": "Hida Pork Shabu-Shabu & Sukiyaki All-You-Can-Eat Course",
-        "zh-hans": "飞驒猪 涮涮锅＆寿喜烧无限畅吃套餐",
-        "zh-hant": "飛驒豬 涮涮鍋＆壽喜燒吃到飽套餐",
-        "ko": "히다 돼지고기 샤부샤부＆스키야키 무제한 코스"
+        "ja": "飛驒豚 すき焼き・しゃぶしゃぶ食べ放題コース",
+        "en": "Hida Pork Sukiyaki & Shabu-shabu All-You-Can-Eat Course",
+        "zh-hans": "飞驒猪 寿喜烧・涮涮锅无限畅吃套餐",
+        "zh-hant": "飛驒豬 壽喜燒・涮涮鍋吃到飽套餐",
+        "ko": "히다 돼지고기 스키야키·샤부샤부 무제한 코스"
       },
       "desc": {
-        "ja": "飛騨豚コースの食べ放題版。手毬寿司・飛騨豚・季節のお野菜を、2時間たっぷりお楽しみいただけます。飲み会やご宴会にも。",
-        "en": "The all-you-can-eat version of our Hida pork course: temari sushi, Hida pork and seasonal vegetables for two hours. Great for parties.",
-        "zh-hans": "飞驒猪套餐的无限畅吃版，2小时内手鞠寿司、飞驒猪肉及时令蔬菜任您享用，适合聚餐及宴会。",
-        "zh-hant": "飛驒豬套餐的吃到飽版，2小時內手毬壽司、飛驒豬肉及時令蔬菜任您享用，適合聚餐及宴會。",
-        "ko": "히다 돼지고기 코스의 무제한 버전. 2시간 동안 테마리 스시, 히다 돼지고기, 제철 채소를 마음껏. 회식이나 연회에도 좋습니다."
+        "ja": "飛驒豚のロース・バラが食べ放題。お肉・季節のお野菜・手毬寿司・〆のうどんを120分。飲み会やご宴会にも。",
+        "en": "All-you-can-eat Hida pork loin and belly, with seasonal vegetables, temari sushi and udon, for 120 minutes. Great for groups and parties.",
+        "zh-hans": "飞驒猪里脊及五花肉无限畅吃。肉类、时令蔬菜、手鞠寿司及收尾乌冬面，120分钟。适合聚餐及宴会。",
+        "zh-hant": "飛驒豬里脊及五花肉吃到飽。肉類、時令蔬菜、手毬壽司及收尾烏龍麵，120分鐘。適合聚餐及宴會。",
+        "ko": "히다 돼지 등심·삼겹살을 무제한으로. 고기, 제철 채소, 테마리 스시, 마무리 우동을 120분 동안. 회식이나 연회에도."
       },
       "meta": {
-        "ja": "全6品・2時間制",
-        "en": "6 dishes, 2-hour seating",
-        "zh-hans": "共6道・用餐时间2小时",
-        "zh-hant": "共6道・用餐時間2小時",
-        "ko": "전 6품・2시간제"
+        "ja": "全6品・120分制（L.O.90分）",
+        "en": "6 dishes, 120 minutes (last order at 90 min)",
+        "zh-hans": "共6道・120分钟（最后点餐90分钟）",
+        "zh-hant": "共6道・120分鐘（最後點餐90分鐘）",
+        "ko": "전 6품・120분제(라스트 오더 90분)"
       },
       "items": [
         {
           "label": {
-            "ja": "先付",
-            "en": "Starter",
-            "zh-hans": "先付",
-            "zh-hant": "先付",
-            "ko": "전채"
+            "ja": "01",
+            "en": "01",
+            "zh-hans": "01",
+            "zh-hant": "01",
+            "ko": "01"
           },
           "value": {
-            "ja": "手毬寿司・前菜BOX（9種）",
-            "en": "Temari sushi & appetizer box (9 kinds)",
-            "zh-hans": "手鞠寿司・前菜拼盒（9种）",
-            "zh-hant": "手毬壽司・前菜拼盒（9款）",
-            "ko": "테마리 스시·전채 박스(9종)"
+            "ja": "九桝八寸｜前菜6種＋手毬寿司3貫",
+            "en": "Kumasu hassun | 6 appetizers + 3 temari sushi",
+            "zh-hans": "九格八寸｜前菜6种＋手鞠寿司3贯",
+            "zh-hant": "九格八寸｜前菜6種＋手毬壽司3貫",
+            "ko": "구칸 핫슨 | 전채 6종＋테마리 스시 3개"
           }
         },
         {
           "label": {
-            "ja": "出汁",
-            "en": "Broth",
-            "zh-hans": "汤底",
-            "zh-hant": "湯底",
-            "ko": "육수"
+            "ja": "02",
+            "en": "02",
+            "zh-hans": "02",
+            "zh-hant": "02",
+            "ko": "02"
           },
           "value": {
-            "ja": "「極み出汁」と「すき焼き風出汁」の2種",
-            "en": "Kiwami broth and sukiyaki-style broth",
-            "zh-hans": "极致高汤、寿喜烧风味高汤",
-            "zh-hant": "極致高湯、壽喜燒風味高湯",
-            "ko": "키와미 육수, 스키야키풍 육수"
+            "ja": "お肉｜飛驒豚ロース・バラ",
+            "en": "Meat | Hida pork loin and belly",
+            "zh-hans": "肉｜飞驒猪里脊及五花肉",
+            "zh-hant": "肉｜飛驒豬里脊及五花肉",
+            "ko": "고기 | 히다 돼지 등심·삼겹살"
           }
         },
         {
           "label": {
-            "ja": "肉",
-            "en": "Meat",
-            "zh-hans": "肉",
-            "zh-hant": "肉",
-            "ko": "고기"
+            "ja": "03",
+            "en": "03",
+            "zh-hans": "03",
+            "zh-hant": "03",
+            "ko": "03"
           },
           "value": {
-            "ja": "飛騨豚バラ・ロース",
-            "en": "Hida pork belly and loin",
-            "zh-hans": "飞驒猪五花肉、里脊",
-            "zh-hant": "飛驒豬五花肉、里脊",
-            "ko": "히다 돼지 삼겹살·등심"
-          }
-        },
-        {
-          "label": {
-            "ja": "野菜",
-            "en": "Vegetables",
-            "zh-hans": "蔬菜",
-            "zh-hant": "蔬菜",
-            "ko": "채소"
-          },
-          "value": {
-            "ja": "季節の野菜盛り合わせ",
+            "ja": "季節の野菜盛り",
             "en": "Seasonal vegetable platter",
             "zh-hans": "时令蔬菜拼盘",
             "zh-hant": "時令蔬菜拼盤",
@@ -921,43 +905,59 @@
         },
         {
           "label": {
-            "ja": "〆",
-            "en": "Finish",
-            "zh-hans": "收尾",
-            "zh-hant": "收尾",
-            "ko": "마무리"
+            "ja": "04",
+            "en": "04",
+            "zh-hans": "04",
+            "zh-hant": "04",
+            "ko": "04"
           },
           "value": {
-            "ja": "うどん または 雑炊",
-            "en": "Udon noodles or rice porridge",
-            "zh-hans": "乌冬面或杂烩粥",
-            "zh-hant": "烏龍麵或雜炊粥",
-            "ko": "우동 또는 죽"
+            "ja": "二色鍋｜関東風すき焼き・しゃぶしゃぶ",
+            "en": "Two-section pot | Kanto-style sukiyaki & shabu-shabu",
+            "zh-hans": "双色锅｜关东风寿喜烧・涮涮锅",
+            "zh-hant": "雙色鍋｜關東風壽喜燒・涮涮鍋",
+            "ko": "두 칸 냄비 | 간토식 스키야키·샤부샤부"
           }
         },
         {
           "label": {
-            "ja": "甘味",
-            "en": "Dessert",
-            "zh-hans": "甜品",
-            "zh-hant": "甜點",
-            "ko": "디저트"
+            "ja": "05",
+            "en": "05",
+            "zh-hans": "05",
+            "zh-hant": "05",
+            "ko": "05"
           },
           "value": {
-            "ja": "抹茶アイス",
-            "en": "Matcha ice cream",
-            "zh-hans": "抹茶冰淇淋",
-            "zh-hant": "抹茶冰淇淋",
-            "ko": "말차 아이스크림"
+            "ja": "〆のうどん",
+            "en": "Finish | Udon noodles",
+            "zh-hans": "收尾｜乌冬面",
+            "zh-hant": "收尾｜烏龍麵",
+            "ko": "마무리 | 우동"
+          }
+        },
+        {
+          "label": {
+            "ja": "06",
+            "en": "06",
+            "zh-hans": "06",
+            "zh-hant": "06",
+            "ko": "06"
+          },
+          "value": {
+            "ja": "甘味",
+            "en": "Dessert (Japanese-style sweet)",
+            "zh-hans": "日式甜品",
+            "zh-hant": "日式甜點",
+            "ko": "일본식 디저트"
           }
         }
       ],
       "upgrade": {
-        "ja": "前菜BOX・雑炊・抹茶アイスは食べ放題の対象外です。",
-        "en": "The appetizer box, rice porridge and matcha ice cream are not included in the all-you-can-eat.",
-        "zh-hans": "前菜拼盒、杂烩粥及抹茶冰淇淋不在无限畅吃范围内。",
-        "zh-hant": "前菜拼盒、雜炊粥及抹茶冰淇淋不在吃到飽範圍內。",
-        "ko": "전채 박스, 죽, 말차 아이스크림은 무제한 대상에서 제외됩니다."
+        "ja": "九桝八寸と甘味は食べ放題の対象外です。6〜10歳のお子様は4,480円（税込）です。",
+        "en": "The kumasu hassun and dessert are not part of the all-you-can-eat. Children aged 6–10: ¥4,480.",
+        "zh-hans": "九格八寸及甜品不在无限畅吃范围内。6至10岁儿童4,480日元（含税）。",
+        "zh-hant": "九格八寸及甜點不在吃到飽範圍內。6至10歲兒童4,480日圓（含稅）。",
+        "ko": "구칸 핫슨과 디저트는 무제한 대상에서 제외됩니다. 6~10세 어린이는 4,480엔(세금 포함)입니다."
       },
       "badge": {
         "ja": "食べ放題",
@@ -974,18 +974,18 @@
       "image": "course-wagyu.jpg",
       "price": 5980,
       "name": {
-        "ja": "黒毛和牛 しゃぶしゃぶ＆すき焼きコース",
-        "en": "Kuroge Wagyu Shabu-Shabu & Sukiyaki Course",
-        "zh-hans": "黑毛和牛 涮涮锅＆寿喜烧套餐",
-        "zh-hant": "黑毛和牛 涮涮鍋＆壽喜燒套餐",
-        "ko": "흑모와규 샤부샤부＆스키야키 코스"
+        "ja": "黒毛和牛 すき焼き・しゃぶしゃぶコース",
+        "en": "Kuroge Wagyu Sukiyaki & Shabu-shabu Course",
+        "zh-hans": "黑毛和牛 寿喜烧・涮涮锅套餐",
+        "zh-hant": "黑毛和牛 壽喜燒・涮涮鍋套餐",
+        "ko": "흑모와규 스키야키·샤부샤부 코스"
       },
       "desc": {
-        "ja": "国産黒毛和牛を、「極み出汁」と「すき焼き風出汁」の2種類で食べ比べ。手毬寿司と9種の前菜BOXから始まる全6品です。",
-        "en": "Japanese Kuroge Wagyu enjoyed two ways: in our signature Kiwami broth and in a sukiyaki-style broth. Six courses, starting with temari sushi and a box of nine small appetizers.",
-        "zh-hans": "以“极致高汤”与“寿喜烧风味高汤”两种汤底品尝日本国产黑毛和牛。从手鞠寿司与9种前菜拼盒开始，共6道菜。",
-        "zh-hant": "以「極致高湯」及「壽喜燒風味高湯」兩種湯底品嚐日本國產黑毛和牛。從手毬壽司及9款前菜拼盒開始，共6道菜。",
-        "ko": "일본산 흑모와규를 '키와미 육수'와 '스키야키풍 육수' 두 가지로 비교하며 즐기는 코스. 테마리 스시와 9종 전채 박스로 시작하는 전 6품."
+        "ja": "黒毛和牛専門の卸業者と連携し、仕入れ時に肉質を見極めた黒毛和牛を、すき焼きとしゃぶしゃぶの二色鍋で。初めての方にもおすすめです。",
+        "en": "Kuroge Wagyu hand-selected at purchase with a specialist wholesaler, enjoyed as sukiyaki and shabu-shabu in our two-section pot. A great first course.",
+        "zh-hans": "与黑毛和牛专业批发商合作，进货时严选肉质的黑毛和牛，以寿喜烧与涮涮锅双色锅品尝。初次品尝也推荐。",
+        "zh-hant": "與黑毛和牛專業批發商合作，進貨時嚴選肉質的黑毛和牛，以壽喜燒與涮涮鍋雙色鍋品嚐。初次品嚐也推薦。",
+        "ko": "흑모와규 전문 도매업체와 협력해 매입 시 육질을 꼼꼼히 살핀 흑모와규를 스키야키와 샤부샤부 두 가지 냄비로. 처음 오신 분께도 추천합니다."
       },
       "meta": {
         "ja": "全6品・2時間制",
@@ -997,62 +997,46 @@
       "items": [
         {
           "label": {
-            "ja": "先付",
-            "en": "Starter",
-            "zh-hans": "先付",
-            "zh-hant": "先付",
-            "ko": "전채"
+            "ja": "01",
+            "en": "01",
+            "zh-hans": "01",
+            "zh-hant": "01",
+            "ko": "01"
           },
           "value": {
-            "ja": "手毬寿司・前菜BOX（9種）",
-            "en": "Temari sushi & appetizer box (9 kinds)",
-            "zh-hans": "手鞠寿司・前菜拼盒（9种）",
-            "zh-hant": "手毬壽司・前菜拼盒（9款）",
-            "ko": "테마리 스시·전채 박스(9종)"
+            "ja": "九桝八寸｜前菜6種＋手毬寿司3貫",
+            "en": "Kumasu hassun | 6 appetizers + 3 temari sushi",
+            "zh-hans": "九格八寸｜前菜6种＋手鞠寿司3贯",
+            "zh-hant": "九格八寸｜前菜6種＋手毬壽司3貫",
+            "ko": "구칸 핫슨 | 전채 6종＋테마리 스시 3개"
           }
         },
         {
           "label": {
-            "ja": "出汁",
-            "en": "Broth",
-            "zh-hans": "汤底",
-            "zh-hant": "湯底",
-            "ko": "육수"
+            "ja": "02",
+            "en": "02",
+            "zh-hans": "02",
+            "zh-hant": "02",
+            "ko": "02"
           },
           "value": {
-            "ja": "「極み出汁」と「すき焼き風出汁」の2種",
-            "en": "Kiwami broth and sukiyaki-style broth",
-            "zh-hans": "极致高汤、寿喜烧风味高汤",
-            "zh-hant": "極致高湯、壽喜燒風味高湯",
-            "ko": "키와미 육수, 스키야키풍 육수"
+            "ja": "お肉｜黒毛和牛 130g",
+            "en": "Meat | Kuroge Wagyu, 130 g",
+            "zh-hans": "肉｜黑毛和牛 130g",
+            "zh-hant": "肉｜黑毛和牛 130g",
+            "ko": "고기 | 흑모와규 130g"
           }
         },
         {
           "label": {
-            "ja": "肉",
-            "en": "Beef",
-            "zh-hans": "肉",
-            "zh-hant": "肉",
-            "ko": "고기"
+            "ja": "03",
+            "en": "03",
+            "zh-hans": "03",
+            "zh-hant": "03",
+            "ko": "03"
           },
           "value": {
-            "ja": "黒毛和牛",
-            "en": "Kuroge Wagyu",
-            "zh-hans": "黑毛和牛",
-            "zh-hant": "黑毛和牛",
-            "ko": "흑모와규"
-          }
-        },
-        {
-          "label": {
-            "ja": "野菜",
-            "en": "Vegetables",
-            "zh-hans": "蔬菜",
-            "zh-hant": "蔬菜",
-            "ko": "채소"
-          },
-          "value": {
-            "ja": "季節の野菜盛り合わせ",
+            "ja": "季節の野菜盛り",
             "en": "Seasonal vegetable platter",
             "zh-hans": "时令蔬菜拼盘",
             "zh-hant": "時令蔬菜拼盤",
@@ -1061,43 +1045,59 @@
         },
         {
           "label": {
-            "ja": "〆",
-            "en": "Finish",
-            "zh-hans": "收尾",
-            "zh-hant": "收尾",
-            "ko": "마무리"
+            "ja": "04",
+            "en": "04",
+            "zh-hans": "04",
+            "zh-hant": "04",
+            "ko": "04"
           },
           "value": {
-            "ja": "うどん または 雑炊",
-            "en": "Udon noodles or rice porridge",
-            "zh-hans": "乌冬面或杂烩粥",
-            "zh-hant": "烏龍麵或雜炊粥",
-            "ko": "우동 또는 죽"
+            "ja": "二色鍋｜関東風すき焼き・しゃぶしゃぶ",
+            "en": "Two-section pot | Kanto-style sukiyaki & shabu-shabu",
+            "zh-hans": "双色锅｜关东风寿喜烧・涮涮锅",
+            "zh-hant": "雙色鍋｜關東風壽喜燒・涮涮鍋",
+            "ko": "두 칸 냄비 | 간토식 스키야키·샤부샤부"
           }
         },
         {
           "label": {
-            "ja": "甘味",
-            "en": "Dessert",
-            "zh-hans": "甜品",
-            "zh-hant": "甜點",
-            "ko": "디저트"
+            "ja": "05",
+            "en": "05",
+            "zh-hans": "05",
+            "zh-hant": "05",
+            "ko": "05"
           },
           "value": {
-            "ja": "抹茶アイス",
-            "en": "Matcha ice cream",
-            "zh-hans": "抹茶冰淇淋",
-            "zh-hant": "抹茶冰淇淋",
-            "ko": "말차 아이스크림"
+            "ja": "〆｜うどん または 雑炊",
+            "en": "Finish | Udon or zosui rice porridge",
+            "zh-hans": "收尾｜乌冬面或杂烩粥",
+            "zh-hant": "收尾｜烏龍麵或雜炊粥",
+            "ko": "마무리 | 우동 또는 죽(조스이)"
+          }
+        },
+        {
+          "label": {
+            "ja": "06",
+            "en": "06",
+            "zh-hans": "06",
+            "zh-hant": "06",
+            "ko": "06"
+          },
+          "value": {
+            "ja": "甘味",
+            "en": "Dessert (Japanese-style sweet)",
+            "zh-hans": "日式甜品",
+            "zh-hant": "日式甜點",
+            "ko": "일본식 디저트"
           }
         }
       ],
       "upgrade": {
-        "ja": "＋3,000円で、手毬寿司・黒毛和牛・飛騨豚・季節のお野菜が食べ放題になります。",
-        "en": "Add ¥3,000 to make the temari sushi, Kuroge Wagyu, Hida pork and seasonal vegetables all-you-can-eat.",
-        "zh-hans": "加3,000日元，手鞠寿司、黑毛和牛、飞驒猪肉及时令蔬菜即可无限畅吃。",
-        "zh-hant": "加3,000日圓，手毬壽司、黑毛和牛、飛驒豬肉及時令蔬菜即可吃到飽。",
-        "ko": "3,000엔을 추가하시면 테마리 스시, 흑모와규, 히다 돼지고기, 제철 채소를 무제한으로 즐기실 수 있습니다."
+        "ja": "＋3,000円で「黒毛和牛 すき焼き・しゃぶしゃぶ食べ放題コース」に変更できます。",
+        "en": "Add ¥3,000 to switch to the Kuroge Wagyu Sukiyaki & Shabu-shabu All-You-Can-Eat Course.",
+        "zh-hans": "加3,000日元即可升级为「黑毛和牛 寿喜烧・涮涮锅无限畅吃套餐」。",
+        "zh-hant": "加3,000日圓即可升級為「黑毛和牛 壽喜燒・涮涮鍋吃到飽套餐」。",
+        "ko": "3,000엔을 추가하면 '흑모와규 스키야키·샤부샤부 무제한 코스'로 변경할 수 있습니다."
       }
     },
     {
@@ -1107,18 +1107,18 @@
       "image": "course-hida.jpg",
       "price": 4480,
       "name": {
-        "ja": "飛騨豚 しゃぶしゃぶ＆すき焼きコース",
-        "en": "Hida Pork Shabu-Shabu & Sukiyaki Course",
-        "zh-hans": "飞驒猪 涮涮锅＆寿喜烧套餐",
-        "zh-hant": "飛驒豬 涮涮鍋＆壽喜燒套餐",
-        "ko": "히다 돼지고기 샤부샤부＆스키야키 코스"
+        "ja": "飛驒豚 すき焼き・しゃぶしゃぶコース",
+        "en": "Hida Pork Sukiyaki & Shabu-shabu Course",
+        "zh-hans": "飞驒猪 寿喜烧・涮涮锅套餐",
+        "zh-hant": "飛驒豬 壽喜燒・涮涮鍋套餐",
+        "ko": "히다 돼지고기 스키야키·샤부샤부 코스"
       },
       "desc": {
-        "ja": "岐阜のブランド豚「飛騨豚」の上質な部位だけを使った、気軽に楽しめるコース。普段の飲み会からご宴会まで。2種類のお出汁で、手毬寿司と9種の前菜BOXから始まる全6品。",
-        "en": "An easygoing course using only the finest cuts of Hida pork, a premium breed from Gifu. Good for casual nights out and parties alike. Two broths and six courses, starting with temari sushi and a box of nine small appetizers.",
-        "zh-hans": "只选用岐阜县品牌猪“飞驒猪”优质部位的实惠套餐，日常聚餐或宴会皆宜。两种汤底，从手鞠寿司与9种前菜拼盒开始，共6道菜。",
-        "zh-hant": "只選用岐阜縣品牌豬「飛驒豬」優質部位的實惠套餐，日常聚餐或宴會皆宜。兩種湯底，從手毬壽司及9款前菜拼盒開始，共6道菜。",
-        "ko": "기후현의 브랜드 돼지 '히다 돼지'의 좋은 부위만 사용한 부담 없는 코스. 가벼운 모임부터 연회까지. 두 가지 육수로, 테마리 스시와 9종 전채 박스로 시작하는 전 6품."
+        "ja": "岐阜のブランド豚「飛驒豚」のロースとバラを、すき焼きとしゃぶしゃぶの二色鍋で。普段の飲み会からご宴会まで、気軽に楽しめるコースです。",
+        "en": "Loin and belly of Hida pork, a Gifu Prefecture brand, enjoyed as sukiyaki and shabu-shabu in our two-section pot. An easygoing course for casual dinners and parties alike.",
+        "zh-hans": "岐阜县品牌猪「飞驒猪」的里脊与五花肉，以寿喜烧与涮涮锅双色锅品尝。日常聚餐或宴会皆宜的实惠套餐。",
+        "zh-hant": "岐阜縣品牌豬「飛驒豬」的里脊與五花肉，以壽喜燒與涮涮鍋雙色鍋品嚐。日常聚餐或宴會皆宜的實惠套餐。",
+        "ko": "기후현 브랜드 돼지 '히다 돼지고기'의 등심과 삼겹살을 스키야키와 샤부샤부 두 가지 냄비로. 평소 회식부터 연회까지 부담 없이 즐기는 코스입니다."
       },
       "meta": {
         "ja": "全6品・2時間制",
@@ -1130,62 +1130,46 @@
       "items": [
         {
           "label": {
-            "ja": "先付",
-            "en": "Starter",
-            "zh-hans": "先付",
-            "zh-hant": "先付",
-            "ko": "전채"
+            "ja": "01",
+            "en": "01",
+            "zh-hans": "01",
+            "zh-hant": "01",
+            "ko": "01"
           },
           "value": {
-            "ja": "手毬寿司・前菜BOX（9種）",
-            "en": "Temari sushi & appetizer box (9 kinds)",
-            "zh-hans": "手鞠寿司・前菜拼盒（9种）",
-            "zh-hant": "手毬壽司・前菜拼盒（9款）",
-            "ko": "테마리 스시·전채 박스(9종)"
+            "ja": "九桝八寸｜前菜6種＋手毬寿司3貫",
+            "en": "Kumasu hassun | 6 appetizers + 3 temari sushi",
+            "zh-hans": "九格八寸｜前菜6种＋手鞠寿司3贯",
+            "zh-hant": "九格八寸｜前菜6種＋手毬壽司3貫",
+            "ko": "구칸 핫슨 | 전채 6종＋테마리 스시 3개"
           }
         },
         {
           "label": {
-            "ja": "出汁",
-            "en": "Broth",
-            "zh-hans": "汤底",
-            "zh-hant": "湯底",
-            "ko": "육수"
+            "ja": "02",
+            "en": "02",
+            "zh-hans": "02",
+            "zh-hant": "02",
+            "ko": "02"
           },
           "value": {
-            "ja": "「極み出汁」と「すき焼き風出汁」の2種",
-            "en": "Kiwami broth and sukiyaki-style broth",
-            "zh-hans": "极致高汤、寿喜烧风味高汤",
-            "zh-hant": "極致高湯、壽喜燒風味高湯",
-            "ko": "키와미 육수, 스키야키풍 육수"
+            "ja": "お肉｜飛驒豚ロース・バラ 合計130g",
+            "en": "Meat | Hida pork loin and belly, 130 g total",
+            "zh-hans": "肉｜飞驒猪里脊、五花肉 共130g",
+            "zh-hant": "肉｜飛驒豬里脊、五花肉 共130g",
+            "ko": "고기 | 히다 돼지 등심·삼겹살 총 130g"
           }
         },
         {
           "label": {
-            "ja": "肉",
-            "en": "Meat",
-            "zh-hans": "肉",
-            "zh-hant": "肉",
-            "ko": "고기"
+            "ja": "03",
+            "en": "03",
+            "zh-hans": "03",
+            "zh-hant": "03",
+            "ko": "03"
           },
           "value": {
-            "ja": "飛騨豚バラ・ロース",
-            "en": "Hida pork belly and loin",
-            "zh-hans": "飞驒猪五花肉、里脊",
-            "zh-hant": "飛驒豬五花肉、里脊",
-            "ko": "히다 돼지 삼겹살·등심"
-          }
-        },
-        {
-          "label": {
-            "ja": "野菜",
-            "en": "Vegetables",
-            "zh-hans": "蔬菜",
-            "zh-hant": "蔬菜",
-            "ko": "채소"
-          },
-          "value": {
-            "ja": "季節の野菜盛り合わせ",
+            "ja": "季節の野菜盛り",
             "en": "Seasonal vegetable platter",
             "zh-hans": "时令蔬菜拼盘",
             "zh-hant": "時令蔬菜拼盤",
@@ -1194,43 +1178,59 @@
         },
         {
           "label": {
-            "ja": "〆",
-            "en": "Finish",
-            "zh-hans": "收尾",
-            "zh-hant": "收尾",
-            "ko": "마무리"
+            "ja": "04",
+            "en": "04",
+            "zh-hans": "04",
+            "zh-hant": "04",
+            "ko": "04"
           },
           "value": {
-            "ja": "うどん または 雑炊",
-            "en": "Udon noodles or rice porridge",
-            "zh-hans": "乌冬面或杂烩粥",
-            "zh-hant": "烏龍麵或雜炊粥",
-            "ko": "우동 또는 죽"
+            "ja": "二色鍋｜関東風すき焼き・しゃぶしゃぶ",
+            "en": "Two-section pot | Kanto-style sukiyaki & shabu-shabu",
+            "zh-hans": "双色锅｜关东风寿喜烧・涮涮锅",
+            "zh-hant": "雙色鍋｜關東風壽喜燒・涮涮鍋",
+            "ko": "두 칸 냄비 | 간토식 스키야키·샤부샤부"
           }
         },
         {
           "label": {
-            "ja": "甘味",
-            "en": "Dessert",
-            "zh-hans": "甜品",
-            "zh-hant": "甜點",
-            "ko": "디저트"
+            "ja": "05",
+            "en": "05",
+            "zh-hans": "05",
+            "zh-hant": "05",
+            "ko": "05"
           },
           "value": {
-            "ja": "抹茶アイス",
-            "en": "Matcha ice cream",
-            "zh-hans": "抹茶冰淇淋",
-            "zh-hant": "抹茶冰淇淋",
-            "ko": "말차 아이스크림"
+            "ja": "〆｜うどん または 雑炊",
+            "en": "Finish | Udon or zosui rice porridge",
+            "zh-hans": "收尾｜乌冬面或杂烩粥",
+            "zh-hant": "收尾｜烏龍麵或雜炊粥",
+            "ko": "마무리 | 우동 또는 죽(조스이)"
+          }
+        },
+        {
+          "label": {
+            "ja": "06",
+            "en": "06",
+            "zh-hans": "06",
+            "zh-hant": "06",
+            "ko": "06"
+          },
+          "value": {
+            "ja": "甘味",
+            "en": "Dessert (Japanese-style sweet)",
+            "zh-hans": "日式甜品",
+            "zh-hant": "日式甜點",
+            "ko": "일본식 디저트"
           }
         }
       ],
       "upgrade": {
-        "ja": "＋2,000円で、手毬寿司・飛騨豚・季節のお野菜が食べ放題になります。",
-        "en": "Add ¥2,000 to make the temari sushi, Hida pork and seasonal vegetables all-you-can-eat.",
-        "zh-hans": "加2,000日元，手鞠寿司、飞驒猪肉及时令蔬菜即可无限畅吃。",
-        "zh-hant": "加2,000日圓，手毬壽司、飛驒豬肉及時令蔬菜即可吃到飽。",
-        "ko": "2,000엔을 추가하시면 테마리 스시, 히다 돼지고기, 제철 채소를 무제한으로 즐기실 수 있습니다."
+        "ja": "＋2,000円で「飛驒豚 すき焼き・しゃぶしゃぶ食べ放題コース」に変更できます。",
+        "en": "Add ¥2,000 to switch to the Hida Pork Sukiyaki & Shabu-shabu All-You-Can-Eat Course.",
+        "zh-hans": "加2,000日元即可升级为「飞驒猪 寿喜烧・涮涮锅无限畅吃套餐」。",
+        "zh-hant": "加2,000日圓即可升級為「飛驒豬 壽喜燒・涮涮鍋吃到飽套餐」。",
+        "ko": "2,000엔을 추가하면 '히다 돼지고기 스키야키·샤부샤부 무제한 코스'로 변경할 수 있습니다."
       }
     }
   ]

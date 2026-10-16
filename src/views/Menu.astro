@@ -4,6 +4,7 @@ import PageHead from '../components/PageHead.astro';
 import CourseRow from '../components/CourseRow.astro';
 import menu from '../data/menu.json';
 import drinks from '../data/drinks.json';
+import alacarte from '../data/alacarte.json';
 import { t, pick, yen, withBase, type Lang } from '../lib/i18n';
 const { lang } = Astro.props as { lang: Lang };
 const d = t(lang);
@@ -21,6 +22,7 @@ const groups = order
       <div class="filter menu-tabs" data-filter hidden role="group" aria-label={d.menu.title}>
         <button type="button" data-value="all" aria-pressed="true">{d.ui.all}</button>
         {groups.map((g) => <button type="button" data-value={g.id} aria-pressed="false">{labels[g.id]}<span class="tab-count">{g.items.length}</span></button>)}
+        <button type="button" data-value="alacarte" aria-pressed="false">{labels.alacarte}</button>
         <button type="button" data-value="drink" aria-pressed="false">{labels.drink}</button>
       </div>
       {groups.map((g) => (
@@ -34,6 +36,24 @@ const groups = order
           </ul>
         </section>
       ))}
+      <section class="menu-group" id="alacarte" data-cat="alacarte" aria-labelledby="alacarte-title">
+        <div class="menu-group-head">
+          <h2 id="alacarte-title">{labels.alacarte}</h2>
+          <p>{groupText.alacarte}</p>
+        </div>
+        <div class="alacarte-photos">
+          {alacarte.images.map(([file, alt]) => <img src={withBase('images/' + file)} alt={alt} width="800" height="600" loading="lazy" decoding="async" />)}
+        </div>
+        <div class="alacarte-grid">
+          {alacarte.sections.map((sec: any) => (
+            <div class="alacarte-block">
+              <h3>{pick(sec.title, lang)}</h3>
+              {sec.note && <p class="alacarte-note">{pick(sec.note, lang)}</p>}
+              <ul>{sec.items.map((it: any) => <li><span>{pick(it.name, lang)}</span><span>{yen(it.price)}</span></li>)}</ul>
+            </div>
+          ))}
+        </div>
+      </section>
       <section class="menu-group" id="drink" data-cat="drink" aria-labelledby="drink-title">
         <div class="menu-group-head">
           <h2 id="drink-title">{(d as any).drink.title}</h2>
