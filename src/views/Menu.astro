@@ -73,6 +73,18 @@ const groups = order
         <div class="drink-highlights">
           {drinks.highlights.map((h: any) => <div>{h.image && <img src={withBase('images/' + h.image)} alt={pick(h.title, lang)} width="1200" height="900" loading="lazy" decoding="async" />}<div class="dh-body"><h3>{pick(h.title, lang)}</h3><p>{pick(h.body, lang)}</p></div></div>)}
         </div>
+        <h3 class="drink-plans-title">{(d as any).drink.listTitle}</h3>
+        <p class="muted drink-list-note">{(d as any).drink.listNote}</p>
+        <div class="alacarte-grid drink-list">
+          {(drinks as any).list.map((c: any) => (
+            <div class="alacarte-block">
+              <h3>{pick(c.title, lang)}</h3>
+              <p class="drink-tag">{pick((drinks as any).plans.find((pl: any) => pl.id === c.plan).name, lang)} {(d as any).drink.planTag}</p>
+              {c.note && <p class="alacarte-note">{pick(c.note, lang)}</p>}
+              <ul>{c.items.map((it: any) => <li><span>{pick(it.name, lang)}</span><span>{yen(it.price)}{it.from ? '〜' : ''}</span></li>)}</ul>
+            </div>
+          ))}
+        </div>
         <h3 class="drink-plans-title">{(d as any).drink.plansTitle}</h3>
         <ul class="course-list drink-plans">
           {drinks.plans.map((pl: any) => (
@@ -85,7 +97,6 @@ const groups = order
             </li>
           ))}
         </ul>
-        <p class="more-link"><a class="btn btn-ink" href={drinks.moreUrl} target="_blank" rel="noopener">{(d as any).drink.more}</a></p>
       </section>
       <p class="muted" style="margin-top:1.5rem">{d.menu.note}</p>
     </div>

@@ -380,8 +380,10 @@
     "title": "飲品",
     "lead": "精選自日本各地的清酒及地酒、威士忌，以及沙瓦、Highball等，備有眾多與和牛相配的酒類。",
     "plansTitle": "喝到飽套餐",
-    "more": "完整飲品菜單請見Hotpepper Gourmet（日文）",
-    "taxNote": "價格含稅。"
+    "taxNote": "價格含稅。",
+    "listTitle": "單點飲品",
+    "listNote": "單點飲品價格均含稅。",
+    "planTag": "適用"
   },
   "welcome": {
     "title": "致海外客人",

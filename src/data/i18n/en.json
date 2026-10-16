@@ -380,8 +380,10 @@
     "title": "Drinks",
     "lead": "Sake from across Japan, including regional brews, Japanese whisky, sours and highballs. All chosen to go well with Wagyu.",
     "plansTitle": "All-you-can-drink",
-    "more": "Full drink list on Hotpepper Gourmet (Japanese)",
-    "taxNote": "Prices include tax."
+    "taxNote": "Prices include tax.",
+    "listTitle": "Drinks by the glass",
+    "listNote": "All drink prices include tax.",
+    "planTag": "included"
   },
   "welcome": {
     "title": "Welcome, international guests",

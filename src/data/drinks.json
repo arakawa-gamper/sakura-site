@@ -1,6 +1,5 @@
 {
-  "_説明": "夜のドリンク・飲み放題です。price は税込。",
-  "moreUrl": "https://www.hotpepper.jp/strJ004509859/drink/",
+  "_説明": "夜のドリンク・飲み放題・単品ドリンク一覧です。price は税込。list の plan は対象の飲み放題（standard / premium）。from: true は「〜」表示。",
   "plans": [
     {
       "id": "standard",
@@ -100,6 +99,813 @@
       },
       "image": "drink-highball.jpg",
       "alt": "ハイボールとサワー"
+    }
+  ],
+  "list": [
+    {
+      "id": "beer",
+      "plan": "standard",
+      "title": {
+        "ja": "ビール",
+        "en": "Beer",
+        "zh-hans": "啤酒",
+        "zh-hant": "啤酒",
+        "ko": "맥주"
+      },
+      "items": [
+        {
+          "name": {
+            "ja": "サントリー生ビール（中ジョッキ）",
+            "en": "Suntory draft beer (medium mug)",
+            "zh-hans": "三得利生啤（中杯）",
+            "zh-hant": "三得利生啤（中杯）",
+            "ko": "산토리 생맥주(중간 잔)"
+          },
+          "price": 600
+        },
+        {
+          "name": {
+            "ja": "サントリー生ビール（ピッチャー）",
+            "en": "Suntory draft beer (pitcher)",
+            "zh-hans": "三得利生啤（扎壶）",
+            "zh-hant": "三得利生啤（啤酒壺）",
+            "ko": "산토리 생맥주(피처)"
+          },
+          "price": 2400
+        },
+        {
+          "name": {
+            "ja": "オールフリー（ノンアルコールビール）",
+            "en": "All-Free (non-alcoholic beer)",
+            "zh-hans": "All-Free（无醇啤酒）",
+            "zh-hant": "All-Free（無酒精啤酒）",
+            "ko": "올프리(무알코올 맥주)"
+          },
+          "price": 450
+        }
+      ]
+    },
+    {
+      "id": "whisky",
+      "plan": "standard",
+      "title": {
+        "ja": "ウイスキー",
+        "en": "Whisky",
+        "zh-hans": "威士忌",
+        "zh-hant": "威士忌",
+        "ko": "위스키"
+      },
+      "items": [
+        {
+          "name": {
+            "ja": "サントリー 角（ソーダ割り／ロック）",
+            "en": "Suntory Kakubin (highball / on the rocks)",
+            "zh-hans": "三得利 角瓶（兑苏打水／加冰）",
+            "zh-hant": "三得利 角瓶（加蘇打水／加冰）",
+            "ko": "산토리 가쿠(하이볼/온더록)"
+          },
+          "price": 500
+        },
+        {
+          "name": {
+            "ja": "コーラハイボール",
+            "en": "Coke highball",
+            "zh-hans": "可乐嗨棒",
+            "zh-hant": "可樂Highball",
+            "ko": "콜라 하이볼"
+          },
+          "price": 500
+        },
+        {
+          "name": {
+            "ja": "ジンジャーハイボール",
+            "en": "Ginger highball",
+            "zh-hans": "姜汁嗨棒",
+            "zh-hant": "薑汁Highball",
+            "ko": "진저 하이볼"
+          },
+          "price": 500
+        },
+        {
+          "name": {
+            "ja": "瀬戸内レモンハイボール",
+            "en": "Setouchi lemon highball",
+            "zh-hans": "濑户内柠檬嗨棒",
+            "zh-hant": "瀨戶內檸檬Highball",
+            "ko": "세토우치 레몬 하이볼"
+          },
+          "price": 600
+        }
+      ]
+    },
+    {
+      "id": "shochu",
+      "plan": "standard",
+      "title": {
+        "ja": "焼酎",
+        "en": "Shochu",
+        "zh-hans": "烧酒",
+        "zh-hant": "燒酎",
+        "ko": "소주"
+      },
+      "note": {
+        "ja": "割り方：ロック／水割り／ソーダ割り／お湯割り",
+        "en": "Served on the rocks, with water, with soda or with hot water.",
+        "zh-hans": "饮法：加冰／兑水／兑苏打水／兑热水",
+        "zh-hant": "喝法：加冰／加水／加蘇打水／加熱水",
+        "ko": "마시는 법: 온더록 / 물 / 탄산수 / 따뜻한 물"
+      },
+      "items": [
+        {
+          "name": {
+            "ja": "〈芋〉薩州 赤兎馬（鹿児島）",
+            "en": "Satsushu Sekitoba, sweet potato (Kagoshima)",
+            "zh-hans": "〈芋〉萨州 赤兔马（鹿儿岛）",
+            "zh-hant": "〈地瓜〉薩州 赤兔馬（鹿兒島）",
+            "ko": "〈고구마〉 삿슈 세키토바(가고시마)"
+          },
+          "price": 600
+        },
+        {
+          "name": {
+            "ja": "〈麦〉銀座のすずめ 琥珀（宮崎）",
+            "en": "Ginza no Suzume Kohaku, barley (Miyazaki)",
+            "zh-hans": "〈麦〉银座之雀 琥珀（宫崎）",
+            "zh-hant": "〈麥〉銀座之雀 琥珀（宮崎）",
+            "ko": "〈보리〉 긴자노스즈메 고하쿠(미야자키)"
+          },
+          "price": 600
+        },
+        {
+          "name": {
+            "ja": "〈米〉杉樽焼酎 森のすみか（岐阜）",
+            "en": "Mori no Sumika cedar-cask shochu, rice (Gifu)",
+            "zh-hans": "〈米〉杉木桶烧酒 森之栖（岐阜）",
+            "zh-hant": "〈米〉杉木桶燒酎 森之棲（岐阜）",
+            "ko": "〈쌀〉 삼나무통 소주 모리노스미카(기후)"
+          },
+          "price": 600
+        },
+        {
+          "name": {
+            "ja": "ウーロンハイ",
+            "en": "Oolong-hai (shochu with oolong tea)",
+            "zh-hans": "乌龙茶兑烧酒",
+            "zh-hant": "烏龍茶燒酎",
+            "ko": "우롱하이"
+          },
+          "price": 500
+        },
+        {
+          "name": {
+            "ja": "緑茶ハイ",
+            "en": "Green tea hai (shochu with green tea)",
+            "zh-hans": "绿茶兑烧酒",
+            "zh-hant": "綠茶燒酎",
+            "ko": "녹차하이"
+          },
+          "price": 500
+        },
+        {
+          "name": {
+            "ja": "黒烏龍茶ハイ",
+            "en": "Black oolong hai (shochu with black oolong tea)",
+            "zh-hans": "黑乌龙茶兑烧酒",
+            "zh-hant": "黑烏龍茶燒酎",
+            "ko": "흑우롱차하이"
+          },
+          "price": 500
+        }
+      ]
+    },
+    {
+      "id": "sour",
+      "plan": "standard",
+      "title": {
+        "ja": "サワー",
+        "en": "Sours",
+        "zh-hans": "沙瓦",
+        "zh-hant": "沙瓦",
+        "ko": "사와"
+      },
+      "items": [
+        {
+          "name": {
+            "ja": "こだわり酒場のレモンサワー",
+            "en": "Kodawari Sakaba lemon sour",
+            "zh-hans": "「讲究酒场」柠檬沙瓦",
+            "zh-hant": "「講究酒場」檸檬沙瓦",
+            "ko": "고다와리사카바 레몬사와"
+          },
+          "price": 500
+        },
+        {
+          "name": {
+            "ja": "瀬戸内レモンサワー",
+            "en": "Setouchi lemon sour",
+            "zh-hans": "濑户内柠檬沙瓦",
+            "zh-hant": "瀨戶內檸檬沙瓦",
+            "ko": "세토우치 레몬사와"
+          },
+          "price": 600
+        },
+        {
+          "name": {
+            "ja": "ライムサワー",
+            "en": "Lime sour",
+            "zh-hans": "青柠沙瓦",
+            "zh-hant": "萊姆沙瓦",
+            "ko": "라임사와"
+          },
+          "price": 500
+        },
+        {
+          "name": {
+            "ja": "カルピスサワー",
+            "en": "Calpis sour",
+            "zh-hans": "可尔必思沙瓦",
+            "zh-hant": "可爾必思沙瓦",
+            "ko": "칼피스사와"
+          },
+          "price": 500
+        }
+      ]
+    },
+    {
+      "id": "sake",
+      "plan": "standard",
+      "title": {
+        "ja": "日本酒",
+        "en": "Sake",
+        "zh-hans": "日本酒",
+        "zh-hant": "日本酒",
+        "ko": "사케"
+      },
+      "items": [
+        {
+          "name": {
+            "ja": "半田郷 純米吟醸（愛知）冷／燗",
+            "en": "Handagou Junmai Ginjo (Aichi), chilled or warm",
+            "zh-hans": "半田乡 纯米吟酿（爱知）冷饮／温饮",
+            "zh-hant": "半田鄉 純米吟釀（愛知）冷飲／溫飲",
+            "ko": "한다고 준마이긴조(아이치) 차갑게/따뜻하게"
+          },
+          "price": 800
+        },
+        {
+          "name": {
+            "ja": "白川郷 純米にごり酒（岐阜）",
+            "en": "Shirakawago Junmai Nigori, cloudy sake (Gifu)",
+            "zh-hans": "白川乡 纯米浊酒（岐阜）",
+            "zh-hant": "白川鄉 純米濁酒（岐阜）",
+            "ko": "시라카와고 준마이 니고리자케(기후)"
+          },
+          "price": 800
+        }
+      ]
+    },
+    {
+      "id": "cocktail",
+      "plan": "standard",
+      "title": {
+        "ja": "カクテル",
+        "en": "Cocktails",
+        "zh-hans": "鸡尾酒",
+        "zh-hant": "雞尾酒",
+        "ko": "칵테일"
+      },
+      "items": [
+        {
+          "name": {
+            "ja": "Sakura〈桜〉フィズ",
+            "en": "Sakura fizz (cherry blossom)",
+            "zh-hans": "Sakura〈樱〉菲士",
+            "zh-hant": "Sakura〈櫻〉費士",
+            "ko": "Sakura〈벚꽃〉 피즈"
+          },
+          "price": 700
+        },
+        {
+          "name": {
+            "ja": "翠ジンソーダ",
+            "en": "Sui gin & soda",
+            "zh-hans": "翠金酒苏打",
+            "zh-hant": "翠琴酒蘇打",
+            "ko": "스이 진소다"
+          },
+          "price": 600
+        },
+        {
+          "name": {
+            "ja": "翠ジントニック",
+            "en": "Sui gin & tonic",
+            "zh-hans": "翠金汤力",
+            "zh-hant": "翠琴通寧",
+            "ko": "스이 진토닉"
+          },
+          "price": 600
+        },
+        {
+          "name": {
+            "ja": "カシスオレンジ",
+            "en": "Cassis orange",
+            "zh-hans": "黑加仑橙汁",
+            "zh-hant": "黑醋栗柳橙",
+            "ko": "카시스 오렌지"
+          },
+          "price": 600
+        },
+        {
+          "name": {
+            "ja": "カシスグレープフルーツ",
+            "en": "Cassis grapefruit",
+            "zh-hans": "黑加仑西柚",
+            "zh-hant": "黑醋栗葡萄柚",
+            "ko": "카시스 자몽"
+          },
+          "price": 600
+        },
+        {
+          "name": {
+            "ja": "山ぶどうカシス",
+            "en": "Wild grape & cassis",
+            "zh-hans": "山葡萄黑加仑",
+            "zh-hant": "山葡萄黑醋栗",
+            "ko": "머루 카시스"
+          },
+          "price": 600
+        },
+        {
+          "name": {
+            "ja": "ファジーネーブル",
+            "en": "Fuzzy navel",
+            "zh-hans": "桃子橙汁（Fuzzy Navel）",
+            "zh-hant": "水蜜桃柳橙（Fuzzy Navel）",
+            "ko": "퍼지 네이블"
+          },
+          "price": 600
+        },
+        {
+          "name": {
+            "ja": "ピーチウーロン",
+            "en": "Peach oolong",
+            "zh-hans": "蜜桃乌龙",
+            "zh-hant": "水蜜桃烏龍",
+            "ko": "피치 우롱"
+          },
+          "price": 600
+        },
+        {
+          "name": {
+            "ja": "ライチオレンジ",
+            "en": "Lychee orange",
+            "zh-hans": "荔枝橙汁",
+            "zh-hant": "荔枝柳橙",
+            "ko": "리치 오렌지"
+          },
+          "price": 600
+        },
+        {
+          "name": {
+            "ja": "ライチモーニ",
+            "en": "Lychee Moni",
+            "zh-hans": "荔枝Moni",
+            "zh-hant": "荔枝Moni",
+            "ko": "리치 모니"
+          },
+          "price": 600
+        }
+      ]
+    },
+    {
+      "id": "fruit",
+      "plan": "standard",
+      "title": {
+        "ja": "果実酒",
+        "en": "Fruit liqueurs",
+        "zh-hans": "果酒",
+        "zh-hant": "果酒",
+        "ko": "과실주"
+      },
+      "note": {
+        "ja": "割り方：ロック／水割り／ソーダ割り／お湯割り",
+        "en": "Served on the rocks, with water, with soda or with hot water.",
+        "zh-hans": "饮法：加冰／兑水／兑苏打水／兑热水",
+        "zh-hant": "喝法：加冰／加水／加蘇打水／加熱水",
+        "ko": "마시는 법: 온더록 / 물 / 탄산수 / 따뜻한 물"
+      },
+      "items": [
+        {
+          "name": {
+            "ja": "和三盆梅酒",
+            "en": "Wasanbon sugar umeshu (plum liqueur)",
+            "zh-hans": "和三盆梅酒",
+            "zh-hant": "和三盆梅酒",
+            "ko": "와산본 우메슈(매실주)"
+          },
+          "price": 600
+        },
+        {
+          "name": {
+            "ja": "京柚子酒",
+            "en": "Kyoto yuzu liqueur",
+            "zh-hans": "京柚子酒",
+            "zh-hant": "京柚子酒",
+            "ko": "교유즈슈(유자술)"
+          },
+          "price": 600
+        },
+        {
+          "name": {
+            "ja": "にごり杏露酒",
+            "en": "Cloudy apricot liqueur (Shanlu-chu)",
+            "zh-hans": "浊杏露酒",
+            "zh-hant": "濁杏露酒",
+            "ko": "니고리 싱루주(살구술)"
+          },
+          "price": 600
+        }
+      ]
+    },
+    {
+      "id": "wine",
+      "plan": "standard",
+      "title": {
+        "ja": "ワイン",
+        "en": "Wine",
+        "zh-hans": "葡萄酒",
+        "zh-hant": "葡萄酒",
+        "ko": "와인"
+      },
+      "note": {
+        "ja": "SUNTORY FROM FARM",
+        "en": "SUNTORY FROM FARM",
+        "zh-hans": "SUNTORY FROM FARM",
+        "zh-hant": "SUNTORY FROM FARM",
+        "ko": "SUNTORY FROM FARM"
+      },
+      "items": [
+        {
+          "name": {
+            "ja": "〈日本の赤〉マスカット・ベーリーA（グラス）",
+            "en": "Japanese red: Muscat Bailey A (glass)",
+            "zh-hans": "〈日本红葡萄酒〉麝香贝利A（杯）",
+            "zh-hant": "〈日本紅酒〉麝香貝利A（杯）",
+            "ko": "〈일본 레드〉 머스캣 베일리 A(글라스)"
+          },
+          "price": 700
+        },
+        {
+          "name": {
+            "ja": "〈日本の白〉甲州（グラス）",
+            "en": "Japanese white: Koshu (glass)",
+            "zh-hans": "〈日本白葡萄酒〉甲州（杯）",
+            "zh-hant": "〈日本白酒〉甲州（杯）",
+            "ko": "〈일본 화이트〉 고슈(글라스)"
+          },
+          "price": 700
+        }
+      ]
+    },
+    {
+      "id": "soft",
+      "plan": "standard",
+      "title": {
+        "ja": "ソフトドリンク",
+        "en": "Soft drinks",
+        "zh-hans": "软饮",
+        "zh-hant": "無酒精飲料",
+        "ko": "소프트드링크"
+      },
+      "items": [
+        {
+          "name": {
+            "ja": "ウーロン茶（アイス／ホット）",
+            "en": "Oolong tea (iced / hot)",
+            "zh-hans": "乌龙茶（冰／热）",
+            "zh-hant": "烏龍茶（冰／熱）",
+            "ko": "우롱차(아이스/핫)"
+          },
+          "price": 350
+        },
+        {
+          "name": {
+            "ja": "緑茶（アイス／ホット）",
+            "en": "Green tea (iced / hot)",
+            "zh-hans": "绿茶（冰／热）",
+            "zh-hant": "綠茶（冰／熱）",
+            "ko": "녹차(아이스/핫)"
+          },
+          "price": 350
+        },
+        {
+          "name": {
+            "ja": "黒烏龍茶（アイス／ホット）",
+            "en": "Black oolong tea (iced / hot)",
+            "zh-hans": "黑乌龙茶（冰／热）",
+            "zh-hant": "黑烏龍茶（冰／熱）",
+            "ko": "흑우롱차(아이스/핫)"
+          },
+          "price": 350
+        },
+        {
+          "name": {
+            "ja": "コカ・コーラゼロ",
+            "en": "Coca-Cola Zero",
+            "zh-hans": "零度可口可乐",
+            "zh-hant": "可口可樂Zero",
+            "ko": "코카콜라 제로"
+          },
+          "price": 350
+        },
+        {
+          "name": {
+            "ja": "ジンジャーエール",
+            "en": "Ginger ale",
+            "zh-hans": "姜汁汽水",
+            "zh-hant": "薑汁汽水",
+            "ko": "진저에일"
+          },
+          "price": 350
+        },
+        {
+          "name": {
+            "ja": "カルピス",
+            "en": "Calpis",
+            "zh-hans": "可尔必思",
+            "zh-hant": "可爾必思",
+            "ko": "칼피스"
+          },
+          "price": 350
+        },
+        {
+          "name": {
+            "ja": "オレンジジュース",
+            "en": "Orange juice",
+            "zh-hans": "橙汁",
+            "zh-hant": "柳橙汁",
+            "ko": "오렌지 주스"
+          },
+          "price": 350
+        },
+        {
+          "name": {
+            "ja": "グレープフルーツジュース",
+            "en": "Grapefruit juice",
+            "zh-hans": "西柚汁",
+            "zh-hant": "葡萄柚汁",
+            "ko": "자몽 주스"
+          },
+          "price": 350
+        },
+        {
+          "name": {
+            "ja": "山ぶどうジュース",
+            "en": "Wild grape juice",
+            "zh-hans": "山葡萄汁",
+            "zh-hant": "山葡萄汁",
+            "ko": "머루 주스"
+          },
+          "price": 350
+        },
+        {
+          "name": {
+            "ja": "郡上八幡の天然水",
+            "en": "Gujo Hachiman natural mineral water",
+            "zh-hans": "郡上八幡天然水",
+            "zh-hant": "郡上八幡天然水",
+            "ko": "구조하치만 천연수"
+          },
+          "price": 450
+        },
+        {
+          "name": {
+            "ja": "名古屋サイダー",
+            "en": "Nagoya cider (soda)",
+            "zh-hans": "名古屋汽水",
+            "zh-hant": "名古屋汽水",
+            "ko": "나고야 사이다"
+          },
+          "price": 450
+        }
+      ]
+    },
+    {
+      "id": "craftbeer",
+      "plan": "premium",
+      "title": {
+        "ja": "クラフトビール",
+        "en": "Japanese craft beer",
+        "zh-hans": "日本精酿啤酒",
+        "zh-hant": "日本精釀啤酒",
+        "ko": "일본 크래프트 맥주"
+      },
+      "note": {
+        "ja": "季節ごとのクラフトビールをご用意しています。銘柄は時期により替わります。",
+        "en": "Our craft beers change with the seasons.",
+        "zh-hans": "供应季节精酿啤酒，品牌依时期更换。",
+        "zh-hant": "供應季節精釀啤酒，品牌依時期更換。",
+        "ko": "계절마다 크래프트 맥주를 준비하며, 종류는 시기에 따라 바뀝니다."
+      },
+      "items": [
+        {
+          "name": {
+            "ja": "SPRING VALLEY 豊潤〈496〉（グラス）",
+            "en": "Spring Valley Hojun 496, lager (glass)",
+            "zh-hans": "SPRING VALLEY 丰润〈496〉拉格（杯）",
+            "zh-hant": "SPRING VALLEY 豐潤〈496〉拉格（杯）",
+            "ko": "SPRING VALLEY 호준〈496〉 라거(글라스)"
+          },
+          "price": 800
+        },
+        {
+          "name": {
+            "ja": "SPRING VALLEY Afterdark（グラス）",
+            "en": "Spring Valley Afterdark, black lager (glass)",
+            "zh-hans": "SPRING VALLEY Afterdark 黑拉格（杯）",
+            "zh-hant": "SPRING VALLEY Afterdark 黑拉格（杯）",
+            "ko": "SPRING VALLEY Afterdark 블랙 라거(글라스)"
+          },
+          "price": 800
+        },
+        {
+          "name": {
+            "ja": "SPRING VALLEY シルクエール〈白〉（グラス）",
+            "en": "Spring Valley Silk Ale, white ale (glass)",
+            "zh-hans": "SPRING VALLEY 丝绸艾尔〈白〉（杯）",
+            "zh-hant": "SPRING VALLEY 絲綢艾爾〈白〉（杯）",
+            "ko": "SPRING VALLEY 실크 에일〈白〉(글라스)"
+          },
+          "price": 800
+        },
+        {
+          "name": {
+            "ja": "SPRING VALLEY JAZZBERRY（グラス）",
+            "en": "Spring Valley Jazzberry, raspberry fruit beer (glass)",
+            "zh-hans": "SPRING VALLEY JAZZBERRY 覆盆子果味啤酒（杯）",
+            "zh-hant": "SPRING VALLEY JAZZBERRY 覆盆莓果味啤酒（杯）",
+            "ko": "SPRING VALLEY JAZZBERRY 라즈베리 과일 맥주(글라스)"
+          },
+          "price": 800
+        }
+      ]
+    },
+    {
+      "id": "jizake",
+      "plan": "premium",
+      "title": {
+        "ja": "地酒",
+        "en": "Regional sake",
+        "zh-hans": "地酒",
+        "zh-hant": "地酒",
+        "ko": "지역 사케"
+      },
+      "items": [
+        {
+          "name": {
+            "ja": "獺祭 純米大吟醸45（山口）",
+            "en": "Dassai Junmai Daiginjo 45 (Yamaguchi)",
+            "zh-hans": "獭祭 纯米大吟酿45（山口）",
+            "zh-hant": "獺祭 純米大吟釀45（山口）",
+            "ko": "닷사이 준마이다이긴조 45(야마구치)"
+          },
+          "price": 1200
+        },
+        {
+          "name": {
+            "ja": "蓬莱泉 特別純米 可。（愛知）",
+            "en": "Houraisen Tokubetsu Junmai 'Ka' (Aichi)",
+            "zh-hans": "蓬莱泉 特别纯米 可。（爱知）",
+            "zh-hant": "蓬萊泉 特別純米 可。（愛知）",
+            "ko": "호라이센 도쿠베쓰 준마이 '가'(아이치)"
+          },
+          "price": 900
+        },
+        {
+          "name": {
+            "ja": "季節の地酒",
+            "en": "Seasonal regional sake",
+            "zh-hans": "季节地酒",
+            "zh-hant": "季節地酒",
+            "ko": "계절 지역 사케"
+          },
+          "price": 900,
+          "from": true
+        }
+      ]
+    },
+    {
+      "id": "premiumfruit",
+      "plan": "premium",
+      "title": {
+        "ja": "プレミアム果実酒",
+        "en": "Premium fruit liqueurs",
+        "zh-hans": "高级果酒",
+        "zh-hant": "高級果酒",
+        "ko": "프리미엄 과실주"
+      },
+      "items": [
+        {
+          "name": {
+            "ja": "魅惑のいちご酒（ロック）",
+            "en": "Miwaku strawberry liqueur (on the rocks)",
+            "zh-hans": "魅惑草莓酒（加冰）",
+            "zh-hant": "魅惑草莓酒（加冰）",
+            "ko": "미와쿠 딸기술(온더록)"
+          },
+          "price": 900
+        },
+        {
+          "name": {
+            "ja": "魅惑のみかん酒（ロック）",
+            "en": "Miwaku mandarin liqueur (on the rocks)",
+            "zh-hans": "魅惑蜜柑酒（加冰）",
+            "zh-hant": "魅惑橘子酒（加冰）",
+            "ko": "미와쿠 귤술(온더록)"
+          },
+          "price": 900
+        },
+        {
+          "name": {
+            "ja": "和の心 抹茶のお酒（ロック）",
+            "en": "Wa no Kokoro matcha liqueur (on the rocks)",
+            "zh-hans": "和之心 抹茶酒（加冰）",
+            "zh-hant": "和之心 抹茶酒（加冰）",
+            "ko": "와노코코로 말차술(온더록)"
+          },
+          "price": 900
+        },
+        {
+          "name": {
+            "ja": "太陽の雫 檸檬（ロック／ソーダ割り）",
+            "en": "Taiyo no Shizuku lemon liqueur (on the rocks / with soda)",
+            "zh-hans": "太阳之滴 柠檬酒（加冰／兑苏打水）",
+            "zh-hant": "太陽之滴 檸檬酒（加冰／加蘇打水）",
+            "ko": "다이요노시즈쿠 레몬술(온더록/탄산수)"
+          },
+          "price": 900
+        },
+        {
+          "name": {
+            "ja": "山崎蒸溜所貯蔵梅酒ブレンド Superior（ロック／ソーダ割り）",
+            "en": "Yamazaki Distillery Umeshu Blend Superior (on the rocks / with soda)",
+            "zh-hans": "山崎蒸馏所贮藏梅酒 Blend Superior（加冰／兑苏打水）",
+            "zh-hant": "山崎蒸餾所貯藏梅酒 Blend Superior（加冰／加蘇打水）",
+            "ko": "야마자키 증류소 저장 우메슈 블렌드 Superior(온더록/탄산수)"
+          },
+          "price": 900
+        }
+      ]
+    },
+    {
+      "id": "premiumliquor",
+      "plan": "premium",
+      "title": {
+        "ja": "プレミアムリキュール",
+        "en": "Premium spirits",
+        "zh-hans": "高级烈酒",
+        "zh-hant": "高級烈酒",
+        "ko": "프리미엄 스피릿"
+      },
+      "note": {
+        "ja": "ロック／ソーダ割り",
+        "en": "On the rocks or with soda",
+        "zh-hans": "加冰／兑苏打水",
+        "zh-hant": "加冰／加蘇打水",
+        "ko": "온더록 / 탄산수"
+      },
+      "items": [
+        {
+          "name": {
+            "ja": "〈クラフトジン〉ウォータードラゴン スピリッツ（静岡）",
+            "en": "Craft gin: Water Dragon Spirits (Shizuoka)",
+            "zh-hans": "〈精酿金酒〉Water Dragon Spirits（静冈）",
+            "zh-hant": "〈精釀琴酒〉Water Dragon Spirits（靜岡）",
+            "ko": "〈크래프트 진〉 워터 드래곤 스피리츠(시즈오카)"
+          },
+          "price": 900
+        },
+        {
+          "name": {
+            "ja": "〈ジャパニーズブレンデッドウイスキー〉碧州（愛知）",
+            "en": "Japanese blended whisky: Hekishu (Aichi)",
+            "zh-hans": "〈日本调和威士忌〉碧州（爱知）",
+            "zh-hant": "〈日本調和威士忌〉碧州（愛知）",
+            "ko": "〈재패니즈 블렌디드 위스키〉 헤키슈(아이치)"
+          },
+          "price": 800
+        },
+        {
+          "name": {
+            "ja": "〈クラフトスピリッツ〉AKAYANE 山椒スピリッツ（鹿児島）",
+            "en": "Craft spirits: AKAYANE Sansho Spirits (Kagoshima)",
+            "zh-hans": "〈精酿烈酒〉AKAYANE 山椒烈酒（鹿儿岛）",
+            "zh-hant": "〈精釀烈酒〉AKAYANE 山椒烈酒（鹿兒島）",
+            "ko": "〈크래프트 스피릿〉 AKAYANE 산초 스피릿(가고시마)"
+          },
+          "price": 1000
+        }
+      ]
     }
   ]
 }
